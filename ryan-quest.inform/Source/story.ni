@@ -61,14 +61,15 @@ Instead of buying something free:
 Instead of buying the money:
 	say "The money belongs to you, and you buy things with it."
 	
-Part 3 - Getting Help
+Part 4 - Getting Help
 
-Table 1 - Commands
+Table of Commands
 Command	Short form	Description
 "look"	"l" 	"Describes the room you're in, and the things you can perceive."
 "examine" 	"x" 	"Looks at a person or thing more closely to gain information."
 "take" 	"take" 	"Pick something up to take with you."
 "inventory"	"i"	"Check the items you're carrying with you."
+"wait"	"r (for rest)"	"Wait/rest for one turn."
 
 Asking for help is an action out of world. Understand "advice" or "help" or "hint" or "hints" or "please help" or "I need help" or "help me please" as asking for help.
 
@@ -79,11 +80,13 @@ Carry out asking for help:
 		say "[bold type][command entry][roman type] - [short form entry] - [description entry]";
 		say line break.
 
-Part 4 - Bald Eagle
+Part 5 - Bald Eagle
 
 Include Rideable Vehicles by Graham Nelson.
 
-In Limbo is a rideable animal called the bald eagle. In Limbo is an animal called the friendly bird.
+A bird is a kind of rideable animal. A bird has a text called last food.
+
+In Limbo is a bird called the bald eagle. The bald eagle has last food "Nothing". In Limbo is a bird called the friendly bird. The friendly bird has last food "Nothing".
 
 Understand the command "feed" as something new.
 
@@ -91,17 +94,35 @@ Feeding it to is an action applying to one carried thing and one thing.
 
 Understand "feed [something] to [something]" as feeding it to.
 
+Table of Foods
+name
+pile of herring
+mound of herring
+steak
+ 
+
 Check feeding something (called the food) to something (called the eater):
 	if the eater is not a person, say "You can't feed an inanimate object!" instead;
-	if the eater is not the wretched bird, say "[The eater] [are] not willing to be fed by [us]." instead;
-	if the printed name of the food matches the text "panties", say "Unlike [us], the bird is entirely unmotivated by sexy underwear." instead;
-	if the player's command does not include "herring", say "The bird turns its head away from [the food]." instead.
-	
+	if the eater is not a bird, say "[The eater] [are] not willing to be fed by [us]." instead;
+	if the eater is the bald eagle, say "[The eater] [are] perfectly sated." instead;
+	if the printed name of the food matches the text "panties", say "Unlike [us], [the eater] [are] entirely unmotivated by sexy underwear." instead;
+	if the food is not in L:
+			say "[The eater] turns its head away from [the food]." instead.
+
 Carry out feeding something (called the food) to something (called the eater):
 	now the food is nowhere;
-	now the wretched bird is nowhere;
-	now the friendly bird is in the cemetery;
-	increase score by 2.
+	now the last food of the eater is the printed name of the food;
+	if the eater is the wretched bird:
+		now the wretched bird is nowhere;
+		now the friendly bird is in the cemetery;
+		increase score by 2;
+	else if the eater is the friendly bird and the location is the cemetery:
+		now the friendly bird is in the path on the gnarled bush;
+		increase score by 2;
+	else if the eater is the friendly bird and the location is the path:
+		now the friendly bird is nowhere;
+		now the bald eagle is in the path on the bush;
+		increase score by 3.
 
 Report feeding something (called the food) to something (called the eater):
 	say "The bird regards you warily, then opens its beak and snaps up [the food]. It swallows in one gulp.
@@ -110,9 +131,9 @@ Report feeding something (called the food) to something (called the eater):
 	
 	You feel strangely proud.".
 	
-Test bird with "test apt / test leave / buy pile of herring / feed herring to vendor / east / look / feed panties to bird / feed herring to bird"
+Part 6 - Other Stuff
 
-Part 5 - Other Stuff
+Understand "r" as waiting. [Mnemonic for "rest".]
 
 [concealment]
 [Rule for deciding if an item is invisible:
@@ -124,7 +145,7 @@ Part 5 - Other Stuff
 Instead of drinking something (called the drink):
 	silently try eating the drink.
 
-The carrying capacity of the player is 4. [One for the backpack, one for the wallet, and one for each hand.]
+The carrying capacity of the player is 3. [One for the backpack and one for each hand.]
 
 The sanity-check rules are a rulebook.
 
@@ -222,15 +243,29 @@ After taking the panties for the first time:
 	say "Nice.";
 	increase score by 1.
 
-Test apt with "x fridge / open fridge / x bottle / open bottle / x Dankdrinke / drink Dankdrinke / x sheets / x panties / x rug / take panties"
+Test pack with "get pack".
 
-Test leave with "get pack / go south"
+Test apt with "x fridge / open fridge / x bottle / open bottle / x Dankdrinke / drink Dankdrinke / x sheets / x panties / x rug / take panties".
 
-test train with "test apt / test leave / w / w / wait / wait / wait / wait / wait / wait / wait / wait / wait / wait / wait"
+Test leave with "go south".
 
-test metro with "test train / enter train / wait / wait / wait / wait / wait / wait / wait / wait / wait / wait / exit"
+Test vendor with "buy pile / buy mound".
 
-Test platform with "test apt / test leave / w"
+Test bird-a with "e / feed pile to bird".
+
+Test docktoplatform with "w / w".
+
+Test uptodock with "test pack / test apt / test leave / test vendor / test bird-a".
+
+Test wait-a with "take paper kroner / r / r / r".
+
+Test etrain with "enter train".
+
+Test xtrain with "exit train".
+
+Test wait-b with "r / r / r / r / r".
+
+Test ceme with "test wait-a / test etrain / test wait-b / test xtrain / w".
 
 Part 2 - Outdoors in Hellerup
 
@@ -267,7 +302,7 @@ Instead of entering the rowboat, say "It's much too slippery for a landlubber li
 
 In the rowboat is a supporter called the herring crate.
 
-On top of the herring crate is an animal called a wretched bird. The description of the bird is "The species is impossible to identify, but its plumage is wilted, its beak is crooked, and its eyes are dull."
+On top of the herring crate is a bird called a wretched bird. The wretched bird has last food "Nothing". The description of the bird is "The species is impossible to identify, but its plumage is wilted, its beak is crooked, and its eyes are dull."
 
 Chapter 3 - Hellerup Train Platform
 
@@ -336,11 +371,13 @@ Chapter 1 - Copenhagen Metro Station
 
 In Copenhagen is a room called Copenhagen Metro Station. The description of the metro station is "This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
 
-	Stairs lead southward and upward to the IIT Campus exit. Christiana is northwest of here. The Aarenhus Cemetery is west of here.
+	Stairs lead southward and upward to the IIT Campus exit. Christiana is northwest of here: this much you know.
 	
-	A small, unmarked door stands in the southeast corner of the station."
+	A small door stands in the southeast corner of the station near a fake tree."
 
 South of the metro station is a room called IIT Campus. IIT Campus is up from the metro station.
+
+A thing called the fake tree is here. Understand "fake" as the fake tree. The fake tree is scenery which is pushable between rooms.
 
 Northwest of the Metro Station is a room called Christiana Main Street.
 
@@ -371,7 +408,7 @@ Chapter 3 - IIT Campus
 
 The description of IIT Campus is "The campus is pretty sleepy in the summer. A construction crew works below the bell tower, but [if Ana is in IIT Campus]the only student you see is Ana.[otherwise]no students are to be seen[end if]."
 
-A girl named Ana is in the IIT Campus. The description of Ana is "A Czech girl who was your TA for Introductory Programming. You haven't seen her since she spent the night last Friday."
+A girl named Ana is in the IIT Campus. The description of Ana is "A Czech girl. Starting next week, she's your TA for Introductory Programming.You haven't seen her since she spent the night last Friday."
 
 Chapter 4 - Christiana
 
@@ -381,6 +418,8 @@ A pusher is a merchant in Christiana Main Street.
 
 Chapter 5 - The Path
 
-The description of the path is "This odd little path runs out of the metro station and toward an isolated hill overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.[if the friendly bird is in the location]The bird you saw before is perched on this bush.[otherwise][end if]"
+The description of the path is "This odd little path runs out of the metro station and toward an isolated hill overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush."
+
+A gnarled bush is scenery in the path. The gnarled bush is a supporter.
 
 South of the path is a room called The Hill.
