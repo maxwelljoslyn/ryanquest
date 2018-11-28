@@ -1,0 +1,1373 @@
+>fry bread
+That's not a verb I recognize.
+
+>put bread in backpack
+(first taking the loaf of bread)
+You put the loaf of bread into the backpack.
+
+>put dwarf banana tree in backpack
+(first taking the dwarf banana tree)
+You put the dwarf banana tree into the backpack.
+
+>open fridge
+You open the fridge, revealing a piece of cheese, a steak and a glass bottle.
+
+>put all in backpack
+wallet: Done.
+
+>i
+You are carrying nothing.
+
+>x pack
+Adorned with the seal of Reed College, your undergraduate alma mater.
+
+In the backpack are a wallet, a dwarf banana tree and a loaf of bread.
+
+>put cheese in backpack. put steak in backpack.
+(first taking the piece of cheese)
+You put the piece of cheese into the backpack.
+
+(first taking the steak)
+You put the steak into the backpack.
+
+>put backpack in fridge
+(first taking the backpack)
+You put the backpack into the fridge.
+
+>sniff panties
+You smell nothing unexpected.
+
+>wear panties
+(first taking the pair of Central European panties)
+Nice.
+
+You can't wear that!
+
+>why not?
+That's not a verb I recognize.
+
+>put bedsheets in backpack
+(first taking bedsheets)
+You put bedsheets into the backpack.
+
+>take backpack
+Taken.
+
+>open door
+You open the apartment door.
+
+>open window
+It isn't something you can open.
+
+>leave apartment
+I only understood you as far as wanting to leave.
+
+>go through door
+
+Hellerup Strandvejen
+The main street of Hellerup is bordered on its north side by brightly-painted row houses, such as the one containing your apartment. At the east end is a dock, and if you go west you can catch a train.
+
+You can see an apartment door, a street vendor and a wheelbarrow (in which are a pile of herring and a mound of herring) here.
+
+>talk to street vendor
+That's not a verb I recognize.
+
+>find jesus
+That's not a verb I recognize.
+
+>say jesus
+(to the street vendor)
+There is no reply.
+
+>go to street vendor
+You can't see any such thing.
+
+>talk to street vendor
+That's not a verb I recognize.
+
+>speak with street vendor
+(to the street vendor)
+There is no reply.
+
+The vendor calls out, "Today I have a pile of herring and a mound of herring! Fresh!"
+
+>how much is the pile?
+That's not a verb I recognize.
+
+>Walk
+You'll have to say which compass direction to go in.
+
+>Go North
+
+Apartment
+Your apartment is a cheery little box. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+You can also see an apartment door, a fridge (in which is a glass bottle (closed) (in which is some Dankdrinke)) and the bed here.
+
+>go through door
+
+Hellerup Strandvejen
+The main street of Hellerup is bordered on its north side by brightly-painted row houses, such as the one containing your apartment. At the east end is a dock, and if you go west you can catch a train.
+
+You can see an apartment door, a street vendor and a wheelbarrow (in which are a pile of herring and a mound of herring) here.
+
+>go South
+You can't go that way.
+
+>go West
+
+Train Platform
+The open-air train platform has a line that runs to Copenhagen every 10 minutes. There are no tickets: just line up and wait for the next train to come.
+
+You can see a paper kroner here.
+
+>eat paper Kroner
+That's definitely not edible.
+
+>pick up paper kroner
+You gain 1 kroner.
+
+The C-Train arrives.
+
+>board C-Train
+That's not a verb I recognize.
+
+>enter C-Train
+You get into the C-Train.
+
+>sit down
+I didn't understand that sentence.
+
+>find chair
+That's not a verb I recognize.
+
+>look
+Train Platform (in the C-Train)
+The open-air train platform has a line that runs to Copenhagen every 10 minutes. There are no tickets: just line up and wait for the next train to come.
+
+>look at C-Train
+This train is made of 7 round glass pods. Each pod contains a sofa.
+
+>sit on sofa
+You can't see any such thing.
+
+>go to sofa
+You can't see any such thing.
+
+>sit
+What do you want to sit on?
+
+>sit on ground
+You can't see any such thing.
+
+>sit on train
+But you're already in the C-Train.
+
+>put c-train in backpack
+(first taking the C-Train)
+You would have to get out of the C-Train first.
+
+The C-Train departs, taking you into a tunnel.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+You arrive in Copenhagen.
+
+>get off train
+But you aren't on the C-Train at the moment.
+
+>put C-Train into backpack
+(first taking the C-Train)
+You would have to get out of the C-Train first.
+
+>exit C-Train
+I only understood you as far as wanting to exit.
+
+>exit
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+Stairs lead southward and upward to the IIT Campus exit. Christiana is northwest of here: this much you know.
+
+The Danes are very efficient: you can also take a direct route west from here to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (empty) and the fake tree (closed) here.
+
+>put C-Train into backpack
+(first taking the C-Train)
+You put the C-Train into the backpack.
+
+>go northwest
+
+Christiana Main Street
+This street is lined with drug pushers, filled with tourists, dotted with hippies, and sprinkled with musicians.
+
+You can see a pusher here.
+
+The pusher eyes your pair of Central European panties.
+
+>flaunt panties
+That's not a verb I recognize.
+
+>put pusher into backpack
+(first taking the pusher)
+You can't take a living thing!
+
+The pusher eyes your pair of Central European panties.
+
+>"hey stranger"
+That's not a verb I recognize.
+
+>talk to pusher
+That's not a verb I recognize.
+
+>speak at pusher
+(to the pusher)
+There is no reply.
+
+The pusher eyes your pair of Central European panties.
+
+>speak pusher
+(to the pusher)
+There is no reply.
+
+The pusher eyes your pair of Central European panties.
+
+>look
+Christiana Main Street
+This street is lined with drug pushers, filled with tourists, dotted with hippies, and sprinkled with musicians.
+
+You can see a pusher here.
+
+The pusher eyes your pair of Central European panties.
+
+>examine pusher
+You see nothing special about the pusher.
+
+The pusher eyes your backpack.
+
+>examine panties
+Pink and frilly. You should probably return those.
+
+The pusher eyes your backpack.
+
+>unleash C-Train upon pusher
+That's not a verb I recognize.
+
+>run northwest
+You can't go that way.
+
+The pusher eyes your pair of Central European panties.
+
+>run west
+You can't go that way.
+
+The pusher eyes your pair of Central European panties.
+
+>run southeast
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+Stairs lead southward and upward to the IIT Campus exit. Christiana is northwest of here: this much you know.
+
+The Danes are very efficient: you can also take a direct route west from here to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see the fake tree (closed) here.
+
+>go west
+
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade, and white flowers bloom here and there.
+
+You can see several flowers here.
+
+>eat flower
+That's definitely not edible.
+
+>put tomb in backpack
+You can't see any such thing.
+
+>put tombs in backpack
+(first taking the marble tombs)
+They're hardly portable.
+
+>put shade in backpack
+You can't see any such thing.
+
+>pick flowers
+I didn't understand that sentence.
+
+>take flowers
+flower: You pluck a flower from where it grows.
+flower: You pluck a flower from where it grows.
+flower: You pluck a flower from where it grows.
+flower: You pluck a flower from where it grows.
+flower: You pluck a flower from where it grows.
+flower: You pluck a flower from where it grows.
+flower: You pluck a flower from where it grows.
+flower: You pluck a flower from where it grows.
+flower: You pluck a flower from where it grows.
+flower: You pluck a flower from where it grows.
+
+>eat flower
+That's definitely not edible.
+
+>take trees
+They're hardly portable.
+
+>ex flower
+That's not a verb I recognize.
+
+>examine flowers
+You can't use multiple objects with that verb.
+
+>x flower
+Slender and delicate.
+
+>go north
+You can't go that way.
+
+>go west
+You can't go that way.
+
+>go east
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+Stairs lead southward and upward to the IIT Campus exit. Christiana is northwest of here: this much you know.
+
+The Danes are very efficient: you can also take a direct route west from here to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (empty) and the fake tree (closed) here.
+
+>go southeast
+(first opening the small door)
+
+The Path
+This odd little path runs out of the metro station and toward an isolated hill overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+>take bush
+That's hardly portable.
+
+>i
+You are carrying:
+  ten flowers
+  a backpack (open)
+    bedsheets
+    a steak
+    a piece of cheese
+    a wallet
+      6 kroner
+      1 Uncle Sam
+    a dwarf banana tree
+    a loaf of bread
+  a pair of Central European panties
+
+>take train
+You can't see any such thing.
+
+>so northwest
+That's not a verb I recognize.
+
+>go northwest
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+Stairs lead southward and upward to the IIT Campus exit. Christiana is northwest of here: this much you know.
+
+The Danes are very efficient: you can also take a direct route west from here to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see the fake tree (closed) here.
+
+>go south
+
+IIT Campus
+The campus is pretty sleepy in the summer. A construction crew works below the bell tower, but the only student you see is Ana.
+
+You can see Ana and a stone bench here.
+
+>smell ana
+You smell nothing unexpected.
+
+>touch ana's face
+You can't see any such thing.
+
+>blow on ana
+That's not a verb I recognize.
+
+>sex minigame
+That's not a verb I recognize.
+
+>scream loudly
+That's not a verb I recognize.
+
+>slap ana
+That's not a verb I recognize.
+
+>give ana flowers
+You can't use multiple objects with that verb.
+
+>give ana flower
+Ana sighs and kisses your cheek. She strolls over to the bench, and sits down to gaze at the flower.
+
+[Your score has just gone up by one point.]
+
+>speak ana
+(to Ana)
+There is no reply.
+
+>take ana
+Sadly, that will have to wait for later.
+
+>take ana as your own
+I only understood you as far as wanting to take Ana.
+
+>are you alive?
+That's not a verb I recognize.
+
+>give flower ana
+You can only do that to something animate.
+
+>give flower to ana
+Ana giggles.
+
+>giggle
+That's not a verb I recognize.
+
+>give flower to ana
+Ana grins.
+
+>give flower to ana
+Ana blushes.
+
+>go south
+You can't go that way.
+
+>speak construction crew
+(to Ana)
+There is no reply.
+
+>look
+IIT Campus
+The campus is pretty sleepy in the summer. A construction crew works below the bell tower, but no students are to be seen.
+
+You can see a stone bench (on which is Ana) here.
+
+>go to bell tower
+You can't see any such thing.
+
+>speak construction crew
+(to Ana)
+There is no reply.
+
+>go south
+You can't go that way.
+
+>go north
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+Stairs lead southward and upward to the IIT Campus exit. Christiana is northwest of here: this much you know.
+
+The Danes are very efficient: you can also take a direct route west from here to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (empty) and the fake tree (closed) here.
+
+>go west
+
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade, and white flowers bloom here and there.
+
+>take flowers
+What do you want to take those things from?
+
+>take flower
+You've already picked all the good ones.
+
+>relax
+That's not a verb I recognize.
+
+>sit under shade
+I didn't understand that sentence.
+
+>sit tree
+I didn't understand that sentence.
+
+>go to tree
+You can't see any such thing.
+
+>go east
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+Stairs lead southward and upward to the IIT Campus exit. Christiana is northwest of here: this much you know.
+
+The Danes are very efficient: you can also take a direct route west from here to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (empty) and the fake tree (closed) here.
+
+The C-Train departs without you.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+>wai
+That's not a verb I recognize.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>
+I beg your pardon?
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+The C-Train arrives.
+
+>r
+Time passes.
+
+>go to C-Train
+You can't see any such thing.
+
+>enter C-Train
+You get into the C-Train.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>
+I beg your pardon?
+
+>
+I beg your pardon?
+
+>
+I beg your pardon?
+
+>r
+Time passes.
+
+The C-Train departs, taking you into a tunnel.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+You arrive in Hellerup.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+The C-Train departs, taking you into a tunnel.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+You arrive in Copenhagen.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+The C-Train departs, taking you into a tunnel.
+
+>r
+Time passes.
+
+>exit
+You can't get out while the train is moving.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+You arrive in Hellerup.
+
+>exit
+Train Platform
+The open-air train platform has a line that runs to Copenhagen every 10 minutes. There are no tickets: just line up and wait for the next train to come.
+
+You can see a C-Train (empty) here.
+
+>take C-Train
+(putting the pair of Central European panties into the backpack to make room)
+You're carrying too many things already.
+
+>put C-Train in backpack
+(first taking the C-Train)
+(putting the flower into the backpack to make room)
+You're carrying too many things already.
+
+>go north
+You can't go that way.
+
+>go east
+
+Hellerup Strandvejen
+The main street of Hellerup is bordered on its north side by brightly-painted row houses, such as the one containing your apartment. At the east end is a dock, and if you go west you can catch a train.
+
+You can see an apartment door, a street vendor and a wheelbarrow (in which are a pile of herring and a mound of herring) here.
+
+The vendor calls out, "Today I have a pile of herring and a mound of herring! Fresh!"
+
+>go east
+
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate, atop which sits a bird.
+
+>enter rowboat
+It's much too slippery for a landlubber like you to get in.
+
+>untie rowboat
+That's not a verb I recognize.
+
+>take crate
+That's fixed in place.
+
+>open crate
+It isn't something you can open.
+
+>take bird
+You can't take a living thing!
+
+>eat bird
+That's definitely not edible.
+
+>kill bird
+Violence isn't the answer to this one.
+
+>x bird
+The species is impossible to identify, but its plumage is wilted, its beak is crooked, and its eyes are dull.
+
+>fish
+That's not a verb I recognize.
+
+>x boat
+This rowboat is sad but serviceable.
+
+In the rowboat is the herring crate.
+
+>take herring crate
+That's fixed in place.
+
+>take herring
+That's fixed in place.
+
+>east
+You can't go that way.
+
+>go west
+
+Hellerup Strandvejen
+The main street of Hellerup is bordered on its north side by brightly-painted row houses, such as the one containing your apartment. At the east end is a dock, and if you go west you can catch a train.
+
+You can see an apartment door, a street vendor and a wheelbarrow (in which are a pile of herring and a mound of herring) here.
+
+>steal fish
+That's not a verb I recognize.
+
+>take herring
+Which do you mean, the fistful of herring, the pile of herring or the mound of herring?
+
+>pile
+That costs money.
+
+The vendor calls out, "Today I have a pile of herring and a mound of herring! Fresh!"
+
+>take anyways
+You can't see any such thing.
+
+>steal pile
+That's not a verb I recognize.
+
+>kill vendor
+Violence isn't the answer to this one.
+
+>sell flowers
+That's not a verb I recognize.
+
+>sell flower
+That's not a verb I recognize.
+
+>eat steak
+(first taking the steak)
+(putting the flower into the backpack to make room)
+You're carrying too many things already.
+
+The vendor calls out, "Today I have a pile of herring and a mound of herring! Fresh!"
+
+>hold steak
+(putting the flower into the backpack to make room)
+You're carrying too many things already.
+
+>hold C-Train
+You can't see any such thing.
+
+>i
+You are carrying:
+  three flowers
+  a backpack (open)
+    three flowers
+    a pair of Central European panties
+    bedsheets
+    a steak
+    a piece of cheese
+    a wallet
+      6 kroner
+      1 Uncle Sam
+    a dwarf banana tree
+    a loaf of bread
+
+>eat bread
+(first taking the loaf of bread)
+(putting the flower into the backpack to make room)
+You're carrying too many things already.
+
+The vendor calls out, "Today I have a pile of herring and a mound of herring! Fresh!"
+
+>i
+You are carrying:
+  two flowers
+  a backpack (open)
+    four flowers
+    a pair of Central European panties
+    bedsheets
+    a steak
+    a piece of cheese
+    a wallet
+      6 kroner
+      1 Uncle Sam
+    a dwarf banana tree
+    a loaf of bread
+
+The vendor calls out, "Today I have a pile of herring and a mound of herring! Fresh!"
+
+>drop bedsheets
+You haven't got that.
+
+>exit bedsheets
+I only understood you as far as wanting to exit.
+
+>make the bedsheets go away
+That's not a verb I recognize.
+
+>i
+You are carrying:
+  two flowers
+  a backpack (open)
+    four flowers
+    a pair of Central European panties
+    bedsheets
+    a steak
+    a piece of cheese
+    a wallet
+      6 kroner
+      1 Uncle Sam
+    a dwarf banana tree
+    a loaf of bread
+
+>
+I beg your pardon?
+
+>drop sheets
+You haven't got that.
+
+>
+I beg your pardon?
+
+>drop flower. drop flower
+Dropped.
+
+Dropped.
+
+The vendor calls out, "Today I have a pile of herring and a mound of herring! Fresh!"
+
+>i
+You are carrying:
+  a backpack (open)
+    four flowers
+    a pair of Central European panties
+    bedsheets
+    a steak
+    a piece of cheese
+    a wallet
+      6 kroner
+      1 Uncle Sam
+    a dwarf banana tree
+    a loaf of bread
+
+>eat bread
+(first taking the loaf of bread)
+You eat the loaf of bread. Not bad.
+
+>eat cheese
+(first taking the piece of cheese)
+You eat the piece of cheese. Not bad.
+
+The vendor calls out, "Today I have a pile of herring and a mound of herring! Fresh!"
+
+>eat four flowers
+You can't use multiple objects with that verb.
+
+>eat bedsheets
+That's definitely not edible.
+
+The vendor calls out, "Today I have a pile of herring and a mound of herring! Fresh!"
+
+>eat steak
+(first taking the steak)
+You eat the steak. Not bad.
+
+The vendor calls out, "Today I have a pile of herring and a mound of herring! Fresh!"
+
+>x herring
+Which do you mean, the fistful of herring, the pile of herring or the mound of herring?
+
+>moun
+You can't see any such thing.
+
+>mound
+That's not a verb I recognize.
+
+>x mound
+Moist and fresh.
+
+It costs 2 kroner.
+
+The vendor calls out, "Today I have a pile of herring and a mound of herring! Fresh!"
+
+>uy
+That's not a verb I recognize.
+
+>buy mound
+You pay 2 kroner for the mound of herring, leaving yourself with 4 kroner.
+
+The vendor calls out, "Today I have a pile of herring! Fresh!"
+
+>eat mound
+You eat the mound of herring. Not bad.
+
+>north
+
+Apartment
+Your apartment is a cheery little box. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+You can also see an apartment door, a fridge (in which is a glass bottle (closed) (in which is some Dankdrinke)) and the bed here.
+
+>open glass botle
+I only understood you as far as wanting to open the glass bottle.
+
+>drink dankdrinke
+You open the glass bottle.
+
+(first taking the Dankdrinke)
+Your throat is filled with ergonomitivity.
+
+[Your score has just gone up by one point.]
+
+>break bottle
+Violence isn't the answer to this one.
+
+>go to sleep
+You can't see any such thing.
+
+>go to bed
+You can't see any such thing.
+
+>sleep
+You aren't feeling especially drowsy.
+
+>stop breathing
+That's not a verb I recognize.
+
+>kill self
+Violence isn't the answer to this one.
+
+>open window
+It isn't something you can open.
+
+>break window
+Violence isn't the answer to this one.
+
+>put rug in backpack
+(first taking the rug)
+You couldn't possibly take that! It belongs to your landlady.
+
+>exit
+But you aren't in anything at the moment.
+
+>go through door
+
+Hellerup Strandvejen
+The main street of Hellerup is bordered on its north side by brightly-painted row houses, such as the one containing your apartment. At the east end is a dock, and if you go west you can catch a train.
+
+You can see an apartment door, a couple of flowers, a street vendor and a wheelbarrow (in which is a pile of herring) here.
+
+>take wheelbarrow
+Taken.
+
+>take flowers
+flower: Taken.
+flower: (putting the wheelbarrow into the backpack to make room)
+Taken.
+
+The vendor calls out, "Today I have a pile of herring! Fresh!"
+
+>take pile
+That costs money.
+
+>i
+You are carrying:
+  two flowers
+  a backpack (open)
+    a wheelbarrow
+      a pile of herring
+    four flowers
+    a pair of Central European panties
+    bedsheets
+    a wallet
+      4 kroner
+      1 Uncle Sam
+    a dwarf banana tree
+
+>go north
+
+Apartment
+Your apartment is a cheery little box. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+You can also see an apartment door, a fridge (in which is a glass bottle (empty)) and the bed here.
+
+>fry pile
+That's not a verb I recognize.
+
+>cook pile
+That's not a verb I recognize.
+
+>eat pile
+(first taking the pile of herring)
+That costs money.
+
+>buy pile
+You pay 1 kroner for the pile of herring, leaving yourself with 3 kroner.
+
+>eat pile
+You eat the pile of herring. Not bad.
+
+>drop wheelbarrow
+You haven't got that.
+
+>i
+You are carrying:
+  two flowers
+  a backpack (open)
+    a wheelbarrow
+    four flowers
+    a pair of Central European panties
+    bedsheets
+    a wallet
+      3 kroner
+      1 Uncle Sam
+    a dwarf banana tree
+
+>x flowers
+You can't use multiple objects with that verb.
+
+>x flower
+Somewhat wilted.
+
+>drop flower
+Dropped.
+
+>ddrop flower
+That's not a verb I recognize.
+
+>drop flower
+Dropped.
+
+>i
+You are carrying:
+  a backpack (open)
+    a wheelbarrow
+    four flowers
+    a pair of Central European panties
+    bedsheets
+    a wallet
+      3 kroner
+      1 Uncle Sam
+    a dwarf banana tree
+
+>drop barrow
+You can't see any such thing.
+
+>drop wheelbarrow
+You haven't got that.
+
+>i
+You are carrying:
+  a backpack (open)
+    a wheelbarrow
+    four flowers
+    a pair of Central European panties
+    bedsheets
+    a wallet
+      3 kroner
+      1 Uncle Sam
+    a dwarf banana tree
+
+>take wheelbarrow
+Taken.
+
+>drop wheelbarrow
+Dropped.
+
+>go through door
+
+Hellerup Strandvejen
+The main street of Hellerup is bordered on its north side by brightly-painted row houses, such as the one containing your apartment. At the east end is a dock, and if you go west you can catch a train.
+
+You can see an apartment door and a street vendor here.
+
+>drop wallet
+You haven't got that.
+
+>x wallet
+In the wallet are 3 kroner and 1 Uncle Sam.
+
+>eat kroner
+You can't see any such thing.
+
+>drop kroner
+You can't see any such thing.
+
+>drop money
+You haven't got that.
+
+>take money
+No need to do anything with that until you want to buy something.
+
+>smell money
+You smell nothing unexpected.
+
+>
+I beg your pardon?
+
+>west
+
+Train Platform
+The open-air train platform has a line that runs to Copenhagen every 10 minutes. There are no tickets: just line up and wait for the next train to come.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+The C-Train arrives.
+
+>take C-train
+Taken.
+
+>enter C-Train
+You can only get into something free-standing.
+
+>drop c-train
+Dropped.
+
+>enter c-train
+You get into the C-Train.
+
+>
+I beg your pardon?
+
+>r
+Time passes.
+
+The C-Train departs, taking you into a tunnel.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+You arrive in Copenhagen.
+
+>take c-train
+You would have to get out of the C-Train first.
+
+>exit
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+Stairs lead southward and upward to the IIT Campus exit. Christiana is northwest of here: this much you know.
+
+The Danes are very efficient: you can also take a direct route west from here to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (empty) and the fake tree (closed) here.
+
+>take C-train
+Taken.
+
+>take fake tree
+Taken.
+
+>southeast
+
+The Path
+This odd little path runs out of the metro station and toward an isolated hill overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+>i
+You are carrying:
+  the fake tree (closed and locked)
+  a backpack (open)
+    four flowers
+    a pair of Central European panties
+    bedsheets
+    a wallet
+      3 kroner
+      1 Uncle Sam
+    a dwarf banana tree
+
+>unlock fake tree
+What do you want to unlock the fake tree with?
+
+>flower
+(first taking the flower)
+That doesn't seem to fit the lock.
+
+>unlock fake tree
+What do you want to unlock the fake tree with?
+
+>finger
+You can't see any such thing.
+
+>C-train
+That's not a verb I recognize.
+
+>unlock fake tree
+What do you want to unlock the fake tree with?
+
+>money
+(first taking 3 kroner)
+No need to do anything with that until you want to buy something.
+
+>southeas
+That's not a verb I recognize.
+
+>southeast
+You can't go that way.
+
+>east
+You can't go that way.
+
+>south
+You can't go that way.
+
+>burn grass
+You can't see any such thing.
+
+>grass
+That's not a verb I recognize.
+
+>x grass
+You can't see any such thing.
+
+>x green grass
+You can't see any such thing.
+
+>look
+The Path
+This odd little path runs out of the metro station and toward an isolated hill overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+>x ground
+You can't see any such thing.
+
+>x bush
+You see nothing special about the gnarled bush.
+
+>burn bush
+This dangerous act would achieve little.
+
+>i dont care
+I only understood you as far as wanting to take inventory.
+
+>take bush
+That's hardly portable.
+
+>sit on bush
+That's not something you can sit down on.
+
+>eat bush
+That's definitely not edible.
+
+>punch bush
+Violence isn't the answer to this one.
+
+>enter bush
+That's not something you can enter.
+
+>get on bush
+That's not something you can enter.
+
+>erase bush
+That's not a verb I recognize.
+
+>kill bush
+Violence isn't the answer to this one.
+
+>make bush suffer horribly
+That's not a verb I recognize.

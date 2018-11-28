@@ -1,0 +1,960 @@
+
+It is the Year of Our Lord MMXVIII. You have arrived in the Danish city of Copenhagen to pursue a master's degree. You found an apartment for let in the suburb of Hellerup, and promptly moved in. The place isn't much, but for the next two years it's home. 
+
+
+
+PREPARE YOUR SPIRIT FOR . . .
+
+
+
+
+RYAN QUEST 2
+An Interactive Fiction by Maxwell Joslyn
+Release 1 / Serial number 181124 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Apartment
+Your apartment is a cheery little box. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+On the shelves is a loaf of bread.
+
+You can also see an apartment door, a backpack (empty), a dwarf banana tree, a fridge (closed) and the bed (on which are bedsheets and a pair of Central European panties) here.
+
+>eat bread
+(first taking the loaf of bread)
+You eat the loaf of bread. Not bad.
+
+>pick up rug
+You couldn't possibly take that! It belongs to your landlady.
+
+>pick banana
+I didn't understand that sentence.
+
+>take banana
+>i
+You are carrying:
+  a dwarf banana tree
+  a wallet
+    5 kroner
+    1 Uncle Sam
+
+>leave apartment
+I only understood you as far as wanting to leave.
+
+>open window
+It isn't something you can open.
+
+>break window
+Violence isn't the answer to this one.
+
+>check email
+You can't see any such thing.
+
+>check door
+Just looking at this door makes you eager to start each day.
+
+>start day
+That's not a verb I recognize.
+
+>exit apartment
+I only understood you as far as wanting to exit.
+
+>exit door
+I only understood you as far as wanting to exit.
+
+>go south
+(first opening the apartment door)
+You can't go to school without your backpack.
+
+>take backpack
+Taken.
+
+>go south
+(first opening the apartment door)
+
+Hellerup Strandvejen
+The main street of Hellerup is bordered on its north side by brightly-painted row houses, such as the one containing your apartment. At the east end is a dock, and if you go west you can catch a train.
+
+You can see an apartment door, a street vendor and a wheelbarrow (in which are a pile of herring and a mound of herring) here.
+
+>ivestigate wheelbarrow
+That's not a verb I recognize.
+
+>x wheelbarrow
+Rusty but serviceable. It contains a pile of herring and a mound of herring.
+
+In the wheelbarrow are a pile of herring and a mound of herring.
+
+>eat herring
+Which do you mean, the fistful of herring, the pile of herring or the mound of herring?
+
+>mound
+(first taking the mound of herring)
+That costs money.
+
+>buy mound of herring
+You pay 2 kroner for the mound of herring, leaving yourself with 3 kroner.
+
+The vendor calls out, "Today I have a pile of herring! Fresh!"
+
+>buy pile
+You pay 1 kroner for the pile of herring, leaving yourself with 2 kroner.
+
+>buy fistful
+That doesn't cost any money.
+That seems to belong to the street vendor.
+
+
+>go east
+
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate, atop which sits a bird.
+
+>trap bird with herring
+That's not a verb I recognize.
+
+>bait bird with herring
+That's not a verb I recognize.
+
+>catch bird
+That's not a verb I recognize.
+
+>kill bird
+Violence isn't the answer to this one.
+
+>seduce bird
+That's not a verb I recognize.
+
+>x bird
+The species is impossible to identify, but its plumage is wilted, its beak is crooked, and its eyes are dull.
+
+>kiss bird
+The wretched bird might not like that.
+
+>grab bird
+That's not a verb I recognize.
+
+>take bird
+You can't take a living thing!
+
+>release bird
+That's not a verb I recognize.
+
+>fish
+That's not a verb I recognize.
+
+>get in rowboat
+It's much too slippery for a landlubber like you to get in.
+
+>buy boots
+You can't see any such thing.
+
+>take rope
+That's hardly portable.
+
+>trade bird
+That's not a verb I recognize.
+
+>x crate
+On the herring crate is a wretched bird.
+
+>x crate
+On the herring crate is a wretched bird.
+
+>lure bird
+That's not a verb I recognize.
+
+>trap bird
+That's not a verb I recognize.
+
+>scare bird
+That's not a verb I recognize.
+
+>hit bird
+Violence isn't the answer to this one.
+
+>charm bird
+That's not a verb I recognize.
+
+>give bird pile of herring
+The wretched bird does not desire a pile of herring.
+
+>give bird one herring
+(the pile of herring)
+The wretched bird does not desire a pile of herring.
+
+>give bird a mound of herring
+The wretched bird does not desire a mound of herring.
+
+>give bird a fist full of herring
+You can't see any such thing.
+
+>feed bird herring
+I didn't understand that sentence.
+
+>feed herring to bird
+Which do you mean, the herring crate, the pile of herring or the mound of herring?
+
+>crate
+(first taking the herring crate)
+That's fixed in place.
+
+>pile
+That's not a verb I recognize.
+
+>feed herring to bird
+Which do you mean, the herring crate, the pile of herring or the mound of herring?
+
+>pile
+The wretched bird regards you warily, then opens its beak and snaps up the pile of herring. It swallows in one gulp.
+
+You see a flash of brilliance in its black, beady eyes. Then it caws, and flies off in the direction of Copenhagen.
+
+You feel strangely proud.
+
+[Your score has just gone up by one point.]
+
+>i
+You are carrying:
+  a mound of herring
+  a backpack (open but empty)
+  a dwarf banana tree
+  a wallet
+    2 kroner
+    1 Uncle Sam
+
+>go west
+
+Hellerup Strandvejen
+The main street of Hellerup is bordered on its north side by brightly-painted row houses, such as the one containing your apartment. At the east end is a dock, and if you go west you can catch a train.
+
+You can see an apartment door, a street vendor and a wheelbarrow (empty) here.
+
+>talk to vendor
+That's not a verb I recognize.
+
+>spreak with vendor
+That's not a verb I recognize.
+
+>kiss vendor
+The street vendor might not like that.
+
+The vendor grins cheerfully.
+
+>tongue kiss vendor
+That's not a verb I recognize.
+
+>lick vendor
+That's not a verb I recognize.
+
+>rob vendor
+That's not a verb I recognize.
+
+>x  vendor
+A friendly purveyor of herring, and perhaps more. He wears a long coat, a fingerless glove, a pair of trousers and a pair of sneakers.
+
+The vendor taps his foot.
+
+>tap foot
+That's not a verb I recognize.
+
+>dance
+That's not a verb I recognize.
+
+>the ryan dance
+That's not a verb I recognize.
+
+>go west
+
+Train Platform
+The open-air train platform has a line that runs to Copenhagen every 10 minutes. There are no tickets: just line up and wait for the next train to come.
+
+You can see a paper kroner here.
+
+>take kroner
+You gain 1 kroner.
+
+>take kroner
+You can't see any such thing.
+
+>get in line
+You can't see any such thing.
+
+>board train
+That's not a verb I recognize.
+
+>wait 10 minutes
+I only understood you as far as wanting to wait.
+
+>wait for train
+I only understood you as far as wanting to wait.
+
+>wait
+Time passes.
+
+>board train
+That's not a verb I recognize.
+
+>sit on floor
+You can't see any such thing.
+
+>sit on ench
+You can't see any such thing.
+
+>talk to stranger
+That's not a verb I recognize.
+
+>sit on bench
+You can't see any such thing.
+
+>stand on tracks
+You can't see any such thing.
+
+>look around
+You can't see any such thing.
+
+>x train station
+You can't see any such thing.
+
+>wait
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+>r
+Time passes.
+
+The C-Train arrives.
+
+>x traib
+You can't see any such thing.
+
+>enter
+You get into the C-Train.
+
+>l
+Train Platform (in the C-Train)
+The open-air train platform has a line that runs to Copenhagen every 10 minutes. There are no tickets: just line up and wait for the next train to come.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+The C-Train departs, taking you into a tunnel.
+
+>x
+What do you want to examine?
+
+>x tunnel
+You can't see any such thing.
+
+>x train
+This train is made of 7 round glass pods. Each pod contains a sofa.
+
+>go to bar
+You can't see any such thing.
+
+>explore train
+That's not a verb I recognize.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+You arrive in Copenhagen.
+
+>exit train
+I only understood you as far as wanting to exit.
+
+>exit
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+Stairs lead southward and upward to the IIT Campus exit. Christiana is northwest of here: this much you know.
+
+The Danes are very efficient: you can also take a direct route west from here to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (empty) and the fake tree (closed) here.
+
+>x fake tree
+You see nothing special about the fake tree.
+
+>open fake tree
+To your surprise, this tree is actually a door!
+
+It seems to be locked.
+
+>pick lock
+I didn't understand that sentence.
+
+>go to christiana
+You can't see any such thing.
+
+>go northwest
+
+Christiana Main Street
+This street is lined with drug pushers, filled with tourists, dotted with hippies, and sprinkled with musicians.
+
+You can see a pusher here.
+
+The pusher eyes your backpack.
+
+>buy drugs
+You can't see any such thing.
+
+>talk to pusher
+That's not a verb I recognize.
+
+>approach pusher
+That's not a verb I recognize.
+
+>x pusher
+You see nothing special about the pusher.
+
+The pusher eyes your wallet.
+
+>feed pusher herring
+I didn't understand that sentence.
+
+>attack pusher
+Violence isn't the answer to this one.
+
+The pusher eyes your backpack.
+
+>open backpack
+That's already open.
+
+The pusher eyes your backpack.
+
+>give wallet to pusher
+The pusher does not desire a wallet.
+
+The pusher eyes your mound of herring.
+
+>give pusher mound of herring
+The pusher does not desire a mound of herring.
+
+The pusher eyes your dwarf banana tree.
+
+>give pusher dwarf banana tree
+The pusher does not desire a dwarf banana tree.
+
+The pusher eyes your backpack.
+
+>kiss pusher
+The pusher might not like that.
+
+The pusher eyes your dwarf banana tree.
+
+>talk to pusher
+That's not a verb I recognize.
+
+>i
+You are carrying:
+  a mound of herring
+  a backpack (open but empty)
+  a dwarf banana tree
+  a wallet
+    3 kroner
+    1 Uncle Sam
+
+The pusher eyes your dwarf banana tree.
+
+>give pusher uncle sam
+The pusher does not desire 1 Uncle Sam.
+
+The pusher eyes your dwarf banana tree.
+
+>give pusher 3 kroner
+You can't use multiple objects with that verb.
+
+>give pusher kroner
+You can't see any such thing.
+
+>go east
+You can't go that way.
+
+The pusher eyes your wallet.
+
+>open wallet
+It isn't something you can open.
+
+The pusher eyes your backpack.
+
+>wait
+Time passes.
+
+The pusher eyes your dwarf banana tree.
+
+>wait
+Time passes.
+
+The pusher eyes your dwarf banana tree.
+
+>wait
+Time passes.
+
+The pusher eyes your mound of herring.
+
+>wait
+Time passes.
+
+The pusher eyes your mound of herring.
+
+>wait
+Time passes.
+
+The pusher eyes your dwarf banana tree.
+
+>wait
+Time passes.
+
+The pusher eyes your wallet.
+
+>wait
+Time passes.
+
+The pusher eyes your wallet.
+
+>wait
+Time passes.
+
+The pusher eyes your wallet.
+
+>go west
+You can't go that way.
+
+The pusher eyes your dwarf banana tree.
+
+>go nw
+You can't go that way.
+
+The pusher eyes your dwarf banana tree.
+
+>go n
+You can't go that way.
+
+The pusher eyes your backpack.
+
+>n
+You can't go that way.
+
+The pusher eyes your dwarf banana tree.
+
+>ne
+You can't go that way.
+
+The pusher eyes your backpack.
+
+>e
+You can't go that way.
+
+The pusher eyes your dwarf banana tree.
+
+>s
+You can't go that way.
+
+The pusher eyes your wallet.
+
+>sw
+You can't go that way.
+
+The pusher eyes your mound of herring.
+
+>se
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+Stairs lead southward and upward to the IIT Campus exit. Christiana is northwest of here: this much you know.
+
+The Danes are very efficient: you can also take a direct route west from here to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see the fake tree (closed) here.
+
+>west
+
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade, and white flowers bloom here and there.
+
+You can see the friendly bird and several flowers here.
+
+>pick flowers
+I didn't understand that sentence.
+
+>take flower
+You pluck a flower from where it grows.
+
+>x bird
+The bird seems to have regained some energy after eating. Its plumage has a healthy sheen.
+
+>call bird
+That's not a verb I recognize.
+
+>take bird
+You can't take a living thing!
+
+>give bird herring
+The friendly bird does not desire a mound of herring.
+
+>feed bird
+What do you want to feed the friendly bird to?
+
+>me
+(first taking the friendly bird)
+You can't take a living thing!
+
+>pusher
+That's not a verb I recognize.
+
+>tombs
+That's not a verb I recognize.
+
+>feed herring to bird
+
+*** Run-time problem P54: Tried to move The Path (not a thing) to the gnarled bush, but only things can move around.
+
+
+The friendly bird nuzzles your hand, then gently spears the mound of herring with its beak. It jerks its head, tossing the mound of herring into the air, then leaps into the air to grab it.
+
+It circles lazily above you for a minute or two, then soars off elsewhere.
+
+[Your score has just gone up by one point.]
+
+>dig grave
+That's not a verb I recognize.
+
+>x grave
+You can't see any such thing.
+
+>grave rob
+That's not a verb I recognize.
+
+>x
+What do you want to examine?
+
+>x graveyard
+You can't see any such thing.
+
+>x location
+You can't see any such thing.
+
+>x graveyard
+You can't see any such thing.
+
+>x Aarenhus Cemetery
+You can't see any such thing.
+
+>l
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade, and white flowers bloom here and there.
+
+You can see several flowers here.
+
+>x tombs
+You see nothing special about the marble tombs.
+
+>l tombs
+You see nothing special about the marble tombs.
+
+>x trees
+You see nothing special about the trees.
+
+>x path
+You can't see any such thing.
+
+>walk on path
+You can't see any such thing.
+
+>take path
+You can't see any such thing.
+
+>x flowers
+You can't use multiple objects with that verb.
+
+>x flower
+Sweet-smelling.
+
+>e
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+Stairs lead southward and upward to the IIT Campus exit. Christiana is northwest of here: this much you know.
+
+The Danes are very efficient: you can also take a direct route west from here to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (empty) and the fake tree (closed) here.
+
+The C-Train departs without you.
+
+>sw
+You can't go that way.
+
+>take stairs
+You can't see any such thing.
+
+>s
+
+IIT Campus
+The campus is pretty sleepy in the summer. A construction crew works below the bell tower, but the only student you see is Ana.
+
+You can see Ana and a stone bench here.
+
+>approach ana
+That's not a verb I recognize.
+
+>talk to ana
+That's not a verb I recognize.
+
+>l ana
+A Czech girl. Starting next week, she's your TA for Introductory Programming. Starting last night, she's your lover.
+
+>kiss ana
+Ana might not like that.
+
+>x ana
+A Czech girl. Starting next week, she's your TA for Introductory Programming. Starting last night, she's your lover.
+
+>l ana
+A Czech girl. Starting next week, she's your TA for Introductory Programming. Starting last night, she's your lover.
+
+>talk to ana
+That's not a verb I recognize.
+
+>feed ana
+What do you want to feed Ana to?
+
+>mound of herring
+You can't see any such thing.
+
+>dwarf banana tree
+That's not a verb I recognize.
+
+>touch ana
+Ana might not like that.
+
+>do it
+That's not a verb I recognize.
+
+>avoid ana
+That's not a verb I recognize.
+
+>sit on bench
+That's not something you can sit down on.
+
+>lay on bench
+That's not a verb I recognize.
+
+>x bench
+Effortlessly square.
+
+>sit
+What do you want to sit on?
+
+>bench
+That's not something you can sit down on.
+
+>sit
+What do you want to sit on?
+
+>ana
+She's not something you can sit down on.
+
+>ask ana to sit on face
+I didn't understand that sentence.
+
+>h
+That's not a verb I recognize.
+
+>help
+Good fortune awaits you if you use these keys:
+look - l - Describes the room you're in and what you perceive there.
+examine - x - Looks at a person or thing more closely to gain information.
+take - take - Picks something up to take with you.
+inventory - i - Checks the items you're carrying with you.
+wait - r (for rest) - Waits/rests for one turn.
+banter - banter - Just bloody try it bruv I swear on me grave
+In general, examine everything for clues and take anything you can. Good luck!
+
+>banter ana
+That's not a verb I recognize.
+
+>banter
+That's not a verb I recognize.
+
+>take ana
+Ana is incensed. "Trying to take me in in public?! What would your glorious Lincoln think of that?"
+
+>he died for this
+That's not a verb I recognize.
+
+>pursist
+That's not a verb I recognize.
+
+>pursue
+That's not a verb I recognize.
+
+>seek and destroy
+That's not a verb I recognize.
+
+>kiss ana
+Ana might not like that.
+
+>i
+You are carrying:
+  a flower
+  a backpack (open but empty)
+  a dwarf banana tree
+  a wallet
+    3 kroner
+    1 Uncle Sam
+
+>give ana flower
+Ana sighs and kisses your cheek. She strolls over to the bench, and sits down to gaze at the flower.
+
+[Your score has just gone up by one point.]
+
+>sit on bench
+That's not something you can sit down on.
+
+>go west
+You can't go that way.
+
+>go south
+You can't go that way.
+
+>s
+You can't go that way.
+
+>go n
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+Stairs lead southward and upward to the IIT Campus exit. Christiana is northwest of here: this much you know.
+
+The Danes are very efficient: you can also take a direct route west from here to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (empty) and the fake tree (closed) here.
+
+The C-Train departs without you.
+
+>open tree
+(the dwarf banana tree)
+It isn't something you can open.
+
+>x fake tree
+You see nothing special about the fake tree.
+
+>open fake tree
+It seems to be locked.
+
+>unlock fake tree
+What do you want to unlock the fake tree with?
+
+>key
+You can't see any such thing.
+
+>pcik
+That's not a verb I recognize.
+
+>pick
+(up the fake tree)
+(putting the wallet into the backpack to make room)
+Taken.
+
+>go west
+
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade, and white flowers bloom here and there.
+
+You can see several flowers here.
+
+>open tomb
+You can't see any such thing.
+
+>x tomb
+You can't see any such thing.
+
+>x marble tombs
+You see nothing special about the marble tombs.
+
+>open marble tombs
+They aren't something you can open.
+
+>x trees
+You see nothing special about the trees.
+
+>go e
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+Stairs lead southward and upward to the IIT Campus exit. Christiana is northwest of here: this much you know.
+
+The Danes are very efficient: you can also take a direct route west from here to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+>go to small door
+You can't see any such thing.
+
+>x small door
+It's not even a finished door - just a plank of wood on hinges. A sign hangs from a nail in the middle.
+
+>open door
+You open the small door.
+
+>enter small door
+
+The Path
+This odd little path runs out of the metro station and toward an isolated hill overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+You can see the friendly bird here.
+
+>give bird fake tree
+The friendly bird does not desire the fake tree.
+
+>give bird kiss
+You can't see any such thing.
+
+>
