@@ -1,0 +1,50 @@
+* Intro
+Thank you for volunteering to playtest Ryan Quest 2! This is an adventure game, so you're going to be exploring an area and interacting with what you find there. It's also a text adventure, which means it's played by typing commands into the computer. The computer, in turn, describes where you are and what happens when you try things.
+
+I've filled the game with jokes, weird stuff, many distinct areas, and about 15 points' worth of puzzles to solve and secrets to find. I hope you enjoy yourself!
+* The Game File
+The ".blorb" file within this file is the game program itself.
+* Downloading an Interpreter
+You will need to download an interpreter to play this game. The interpreter makes the game program run on your computer.
+
+On Mac or Linux, you can use the Zoom interpreter. On Windows, you can use the Windows Frotz interpreter. These are easily found by searching online.
+* How to Play
+** New Game
+ 1. Open the game in your interpreter.
+ 2. Once you've seen the main screen of the game, your first command must be "transcript". That means typing the word "transcript" (no quotes) into the game's command line. You'll know you did it right if a window comes up on your computer asking you to choose a file to save to: name it something like "2018-12-25-Eric-playtest".
+ 3. A message will appear, saying, "Starting a transcript for RYAN QUEST 2".
+ 4. Now you can play!
+** Saving and Loading
+You can save your spot in the game with "save". This will prompt you to name your save file, after which you can safely quit the game.
+
+Once you quit, if you restart the game, you can load your save with "restore". *Every time* you *restore a save* to keep playing, *the first thing you must do* should is use "transcript", just like when you first started the playtest. Choose the file in which you originally started transcribing: the new transcript will be appended to the end, forming a complete record of your gameplay. Remember, use "transcript" *every time* you restore a saved game.
+** Example of Play
+Suppose the game started with this description:
+
+#+BEGIN_QUOTE
+You are in a small, square room. On the wall is a painting. On the wall opposite the painting is a blue door.
+
+There is a flowerpot here. The flowerpot is empty.
+#+END_QUOTE
+
+The game would then you show you a blank line starting with this character: ">". A blinking cursor will follow it. It is now your turn to type something!
+
+In this case, you might interact with the setting by typing "take flowerpot", "examine painting", or "go through door". (Whenever I show a command here that you can type in at the cursor, always type it *without* the surrounding quotes.)
+
+Typing "take flowerpot" might result in the message:
+
+#+BEGIN_QUOTE
+>take flowerpot
+You pick up the flowerpot.
+#+END_QUOTE
+
+And so on. If you need a hand, try typing "help".
+* What to Keep in Mind when Playtesting
+- Basic commands
+  - Navigation: the commands "n", "s", "e", and so on will take you north, south, north-east, etc. You can also go "in" and "out" from some places, and "enter" some objects. Don't forget about "help". If those aren't enough, try "buy", "i" (short for "inventory"), "eat", "cook", and "feed".
+- It's OK if you get stuck or confused
+  - If this happens, it means that game needs more work on communicating what the player is supposed to do! Please tell me what happened and why you felt that way, so I can figure out what to change.
+- Go for a high score
+  - This will ensure that you explore the game thoroughly.
+- Use lots of commands on each object
+  - You want to try "eat street vendor" or "lick crate"? Go right ahead. Some results may suprise you - and some might be hiding bugs. Fool around!

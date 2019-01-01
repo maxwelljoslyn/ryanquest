@@ -9,15 +9,28 @@
             <title>RYAN QUEST 2</title>
             <author>Maxwell Joslyn</author>
             <headline>An Interactive Fiction</headline>
-            <genre>Fiction</genre>
+            <genre>Surreal</genre>
             <firstpublished>2018</firstpublished>
+            <description>You, as Ryan Wright, must navigate the curious city of Copenhagen while avoiding its perils and becoming its Casanova.</description>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
+        <resources>
+            <auxiliary>
+                <leafname>playtester-instructions.txt</leafname>
+                <description>Playtester Instructions</description>
+            </auxiliary>
+        </resources>
+        <cover>
+            <format>png</format>
+            <height>960</height>
+            <width>960</width>
+            <description>A photo of Ryan.</description>
+        </cover>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2018-11-08</releasedate>
+                    <releasedate>2018-12-30</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>6M62</compilerversion>
@@ -27,12 +40,13 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>6M62</generatorversion>
-            <originated>2018-11-08</originated>
+            <originated>2018-12-30</originated>
         </colophon>
         <glulx>
-            <serial>181108</serial>
+            <serial>181230</serial>
             <release>1</release>
             <compiler>Inform 7 build 6M62</compiler>
+            <coverpicture>1</coverpicture>
         </glulx>
     </story>
 </ifindex>
