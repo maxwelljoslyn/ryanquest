@@ -1,24 +1,34 @@
-"RYAN QUEST 2" by Maxwell Joslyn
+"RYAN QUEST" by Maxwell Joslyn
 
-Use scoring. Use American dialect.
+Use scoring. Use American dialect. Use brief room descriptions.
 
 The maximum score is 10.
 
 The story genre is "Surreal".
 
-The story description is "You, as Ryan Wright, must navigate the curious city of Copenhagen while avoiding its perils and becoming its Casanova."
+The story description is "As game-design student Ryan Wright, you must navigate the curious city of Copenhagen while avoiding its perils and becoming its Casanova."
+
+The story headline is "A Thoroughly Accurate Simulation".
 
 The story creation year is 2018.
 
-Release along with the introductory postcard.
+Release along with the introductory postcard and cover art ("A photo of the protagonist.").
 
-Release along with a file of "Playtester Instructions" called "playtester-instructions.txt".
+The release number is 2.
 
-Release along with cover art ("A photo of Ryan.").
+Release along with an interpreter.
 
 Book 1 - Procedure
 
-Part 1 - Printing Directions
+Figure of Ryan is the file "Medium Cover.png".
+
+Sound of eagle is the file "Short-Screech.ogg".
+
+Part 1 - Grabbing
+
+Understand "grab [something]" as taking.
+
+Part 2 - Printing Directions
 
 Understand the command "directions" as something new.
 
@@ -31,25 +41,66 @@ Carry out directions:
 	do nothing.
 
 Report directions:
-	repeat with that way running through directions:
-		if the room that way from the location is a room:
-			now that way is marked for listing;
-		if the room that way from the location is the Belly and the fake tree is locked:
-			now that way is not marked for listing;
-	say "From here you can go [list of directions which are marked for listing].";
-	now every direction is not marked for listing.
-	
-Part 2 - Money
+	if the location is the island:
+		say "From here you can ride the eagle to return to the mainland.";
+	else:
+		repeat with that way running through directions:
+			if the room that way from the location is a room:
+				now that way is marked for listing;
+		say "From here you can:";
+		say line break;
+		repeat with that way running through directions:
+			if that way is marked for listing:
+				let Q be the room that way from the location;
+				say "- go [bold type][that way][roman type] to [the Q]";
+				say line break;
+		if the location is the path and the eagle is in the location:
+			say "- ride the eagle to go to the island.";
+			say line break;
+		if the location is the train platform:
+			say "- ride the C-Train to go to Copenhagen Metro Station.";
+			say line break;
+		if the location is the metro station:
+			say "- ride the C-Train to go to the Hellerup Train Platform.";
+			say line break;
+		now every direction is not marked for listing.
+
+Part 3 - Goto Room
+
+Understand "travel [any room]" or "travel to [any room]" or "go [any room]" or "go to [any room]" as a mistake ("Unfortunately, you must travel room-by-room. The implementation of commands to directly travel to a known room caused bugs with plot event timing, and this game was hard enough to get working as it is.")
+
+[
+[It was good that I tried this out, but the fact that the player gets moved from one room to another instantly (and without any of the normal restraints on movement) can cause problems - for example, going inside the belly of the tree without being high, or traveling to the island without riding the eagle. Thus, I will not put these commands in the game.]
+
+Understand the command "travel" as something new.
+
+Traveling is an action applying to one thing. Understand "travel [any room]" or "travel to [any room]" or "go [any room]" or "go to [any room]" as traveling.
+
+Check traveling:
+	if the noun is not visited, say "You can only fast-travel to places you've already been." instead;
+	if the noun is limbo, say "'Limbo' is not part of the game world." instead;
+	if the noun is the fake tree, try traveling the belly of the tree instead; [bad]
+	if the noun is not a room, say "Use 'travel' or 'go to' with the name of a room." instead.
+
+Carry out traveling:
+	say "You go to [the noun].";
+	now the player is in the noun.
+
+Report traveling:
+	do nothing.]
+
+
+Part 4 - Money
 
 Price is a kind of value. 10 kroner specifies a price. A thing has a price. The price of a thing is usually 0 kroner. After examining something for sale which is not the money, say "It costs [the price of the noun]."
 
 Definition: a thing is free if the price of it is 0 kroner.
 Definition: a thing is for sale if it is not free.
 
-Instead of taking something for sale:
+Instead of taking something for sale which is not the money:
 	say "That costs money."
-	
-Before buying something for sale when the money is not in the wallet:
+
+Before buying something for sale when the player does not enclose the money:
 	say "You don't have any money." instead.
 	
 Before buying something for sale when the money is free:
@@ -62,25 +113,17 @@ Instead of buying something:
 	decrease the price of the money by the price of the noun;
 	say "You pay [the price of the noun] for [the noun], leaving yourself with [the price of the money].";
 	if the money is free:
-		now the money is nowhere;
+		now the money is in Limbo;
 	now the price of the noun is 0 kroner;
 	now the player is carrying the noun.
 
-[The plural of paper krone is paper krone.]
-Instead of taking the paper krone:
-	increase the price of the money by 1 kroner;
-	now the paper krone is nowhere;
-	say "You gain 1 krone."
-	
-The player carries a wallet. The description of the wallet is "You picked this bad boy up in Italy. It's a genuine Silvatorio Mossaganezza." The wallet contains money. The price of the money is 2 kroner. The printed name of the money is "[price of the money]". Understand "cash" or "kroner" as the money. The description of the money is "[The price of the money] will go further than you expect.".
+
+The player carries a wallet. The description of the wallet is "You picked this bad boy up in Italy. It's a genuine Silvatorio Mossaganezza." The wallet contains money. The price of the money is 2 kroner. The printed name of the money is "money totalling [if the price of the money is 1 kroner]1 krone[else][price of the money][end if]". Understand "cash" or "dosh" as the money. The description of the money is "[The price of the money] will go further than you expect.".
 
 The wallet contains 1 Uncle Sam. The description of the Uncle Sam is "The hardest currency on Earth."
 
 After examining the Uncle Sam for the first time:
 	say "A single tear leaks out as you contemplate the majesty of the USD.".
-
-Instead of taking the money:
-	say "No need to do anything with that until you want to buy something."
 
 Definition: a person is other if it is not the player.
 
@@ -90,25 +133,36 @@ Instead of buying something free:
 
 Instead of buying the money:
 	say "The money belongs to you, and you buy things with it."
-	
-Part 4 - Getting Help
 
-Understand "r" as waiting. [Mnemonic for "rest".]
+Instead of taking the money when the player does not enclose the money:
+	now the money is in the wallet;
+	say "Taken."
+
+Instead of dropping the money:
+	say "What are you, a commie drongo? Hang onto that cash!"
+	
+Part 5 - Getting Help
 
 Table of Commands
 Command	Short form	Description
-"look"	"l" 	"Describes your immediate surroundings. For detailed descriptions, specify a direct object (e.g. [']l/look toy['])."
+"look"	"l" 	"On its own, describes your immediate surroundings ('l'). For detailed descriptions, specify a direct object ('look backpack')."
 "take" 	"N/A" 	"Picks something up."
 "inventory"	"i"	"Shows what you're carrying."
 "dirs"	"N/A"	"Lists the directions you can go from here."
-"wait"	"r"	"Waits for one turn."
+"ask [italic type]someone[roman type] about/for [italic type]something[roman type]"	"N/A"	"Ask someone if they can tell you about somthing / ask someone to give you something."
+"undo"	"N/A"	"Undoes a mistaken action. I won't punish you for making a typo!"
+"credits"	"N/A"	"Shows a list of people involved with making the game!"
 
 
 
 Asking for help is an action out of world. Understand "advice" or "h" or "help" or "hint" or "hints" or "please help" or  "help please" or "I need help" or "help me please" or "I need help please" or "please help me" as asking for help.
 
 Carry out asking for help:
-	say "Study well this table:";
+	say "This is a classic text-adventure game. You play by typing in what you want to do. If this is your first text adventure, I wish you luck, and leave you with these tips:";
+	say paragraph break;
+	say "1) Take the time to [bold type]'look' at everything[roman type], e.g. 'look (at) cheese' or 'examine rug'. You'll [bold type]experience more jokes and puzzles[roman type] if you scrutinize the game world.";
+	say "2) [bold type]'Take' intriguing or suspicious objects with you[roman type] for later. Your backpack will hold as many things as you like.";
+	say "3) Refer to this table for some useful commands:";
 	say line break;
 	say "[fixed letter spacing]";
 	repeat through the Table of Commands:
@@ -124,33 +178,80 @@ Carry out asking for help:
 		say line break;
 	say "[roman type]".
 
+Playing credits is an action out of world. Understand "credit" or "credits" as playing credits.
 
-Part 5 - Ana
+Carry out playing credits:
+	say "Written, designed, and programmed by:";
+	say line break;
+	say "Maxwell Joslyn" in title case;
+	say paragraph break;
+	say "Sound effects by:";
+	say line break;
+	say "Larry Drui";
+	say paragraph break;
+	say "Fearlessly beta tested toward countless improvements by:";
+	say line break;
+	say "Eric Cleveland, Sophia Virk, Patrick Lynch, Wolfi Henderson, Brian Caddell, Adam Gutierrez-Luft, Zach Sauers, and the BR drongos' drongos, Samara, Nicole, Emmett, Arthur, Lakota, and both Jordans.";
+	say paragraph break;
+	say "Finally, thanks to everyone who played the game after the first release:[line break]Marléne, Nick, Lyla, Larry, Chris S, Ariel ...[paragraph break]... and some dude named Ryan!";
+
+Part 6 - Ana
 
 The block giving rule is not listed in the check giving it to rules.
 
 The block kissing rule is not listed in the check kissing rulebook.
 
+A woman called Ana is in the IIT Campus. The description of Ana is "A Czech girl in a white dress. Starting next week, she's your TA for Introductory Programming. Starting last night, she's your lover."
+
+Ana is proper-named. Ana is wearing a white dress. The description of the dress is "It looks good on her."
+
+A person can be mad or happy. A person is usually happy. Ana is mad.
+
 Instead of taking a person:
 	say "You can't take a living thing!".
 
+Report Ana rejecting conversation when Ana is mad:
+	say "Ana tosses her hair and refuses to answer.".
+
+Report Ana rejecting conversation when Ana is not mad:
+	say "Ana chuckles. 'My [sweet-name]', she says, 'your guess is as good as mine.'".
+
+To say sweet-name:
+	say "[sweet] [pet-name]".
+
+The carrying capacity of Ana is 6.
+
+The conversation of Ana is the Table of Ana Conv Mad.
+
+To say sweet:
+	say "[one of]sweet[or]scrumptious[or]lovable[or]darling[then at random]".
+
+To say pet-name:
+	say "[one of]Angeles-American[or]piglet[or]exotic treat[then at random]".
+
+[insult exclamation]
+To say insult-excl:
+	say "[insult]!" in sentence case.
+
+To say insult:
+	say "[one of]pig[or]beast[or]bastard[or]fool[or]loser[purely at random]".
+
 Instead of showing something (called the thingy) to Ana when Ana is mad:
 	now the thingy is in the location;
-	say "She slaps [the thingy] out of [our] hand.".
+	say "She slaps [the thingy] out of [our] hand. '[insult-excl]'".
 
 After showing something (called the thingy) to Ana:
 	say "She smiles at you and brushes [the thingy] with her hand."
 
-Instead of taking Ana when Ana is touchable:
-	[this statement stems from a bug. originally I used the word 'named' to initialize Ana, but the actual keyword for that is 'called'. 'named' gave me a thing instead of a person, and I had to debug for a while to figure it out. ('named' seemed so natural for a person that I overlooked it.)
-	
-	while debugging I used this code to help me diagnose. I decided to leave it in as a side-gag.]
-	say "Ana is incensed. 'Trying to take me in in public?! What would your [one of]glorious[or]precious[or]exalted[at random] [one of]Washington[or]Jefferson[or]Lincoln[or]Hamilton[at random] think of that?'".
+Instead of taking Ana when Ana is touchable and Ana is mad:
+	[this statement stems from a bug. originally I used the word 'named' to initialize Ana, but the actual keyword for that is 'called'. 'named' gave me a thing instead of a person, and I had to debug for a while to figure it out. ('named' seemed so natural for a person that I overlooked it.) while debugging I used this code to help me diagnose. I decided to leave it in as a hidden gag.]
+	say "Ana is incensed. 'Trying to take me in in public?! What would your [one of]glorious[or]precious[or]exalted[at random] [one of]Washington[or]Jefferson[or]Lincoln[or]Roosevelt[or]Kennedy[at random] think of that?'".
 
-Test bungo with "purloin steak / purloin panties / purloin red flower / gonear ana / give steak to ana / touch ana / kiss ana / give flower to ana / touch ana / kiss ana / give panties to Ana".
+Instead of taking Ana when Ana is touchable and Ana is happy:
+	say "'Yes, take me . . . but not here. Later.' She gives you a wink.".
 
 Instead of touching Ana when Ana is mad:
-	say "She slaps your hand away."
+	say "She slaps your hand away. '[insult-excl]'".
 
 Instead of pressing or pushing Ana, try touching Ana.
 
@@ -159,81 +260,126 @@ After touching Ana:
 	[Writing this "after" rule also stops the default "Ana might not like that" thing from printing]
 
 Instead of kissing Ana when Ana is mad:
-	say "She slaps the kiss right off your lips."
+	say "She slaps the kiss right off your lips. '[insult-excl]'"
 
 After kissing Ana:
 	say "You plant your [lippy] lips on her [one of]cheek[or]forehead[or]nose[then at random], and she [one of]squeals[or]wiggles[purely at random] in delight."
 
+[todo: chnge the name of this rule so it is mor descrpting and have nothing to do with potatoes.]
+[todo: change 'potato' so instead it is a different item that actually exists in game. it could check the current location and suggest 'buy herring', 'buy joint', or 'buy wheelbarrow/cart' ]
+To say buy-tater:
+	say "Try making a purchase with the 'buy' command instead, e.g. 'buy potato'."
+
 Before giving something (called the gift) to someone (called the taker):
+	if the gift is the money, say "[buy-tater]" instead;
+	if the taker is a merchant, say "[buy-tater]" instead; [THIS is the line that makes trigges when people try to GIVE things to a merchant and causeds nonsensical dialogue. todo fixme - take this out and write custom logic for the merchants instead - perhaps a custom action can be used.]
 	if the taker is a bird, try feeding the gift to the taker instead;
-	if the taker is not Ana, say "[The second noun] [do not] desire [a gift]." instead;
-	if the taker is Ana and the gift is not the panties:
-		if the gift is not a flower:
-			now the gift is in the location;
-			say "She slaps [the gift] out of [our] hand." instead.
+	if the taker is not Ana, say "[The second noun] [do not] desire [the gift]." instead.
+
+Before giving something (called the gift) to Ana when Ana is mad:
+	if the gift is not a flower and the gift is not the panties:
+		now the gift is in the location;
+		say "She [one of]slaps[or]smacks[at random] [the gift] out of [our] hand." instead.
+
+Before giving something (called the gift) to Ana when Ana is happy:
+	if the gift is not listed in ana-gifts:
+		say "She giggles, but refuses your offer of [the gift]." instead.
+
+Ana-gifts is a list of things that varies. When play begins: now ana-gifts is {the red flower, blue flower, white flower, yellow flower, Central European panties}.
+
+Instead of giving the backpack to Ana when Ana is mad:
+	say "She bats you away.".
+
+Instead of giving the backpack to Ana:
+	say "She rolls her eyes and gives you a playful shove. 'Keep that for your classes,' she says.".
 
 Instead of giving the panties to Ana when Ana is mad:
-	say "She blushes, snatches [the panties], and flounces off.";
-	now Ana carries the panties;
-	now Ana is in Limbo;
-	say line break;
-	say "Looks like you didn't handle that one too well.".
+	say "Ana snatches the panties out of your hand, and throws them to the ground.";
+	now the panties are in the location.
 	
 After giving the panties to Ana:
-	say "She blushes deeply, then stuffs them into her pocket. 'Thank you,' she says softly.";
-	increase score by 1.
+	say "She blushes, then stuffs them into her pocket. 'Thank you,' she says softly.";
+	increase the score by 1.
 	
-After giving a flower to Ana for the first time:
+Instead of giving a flower to Ana for the first time:
+	increase the score by 1;
 	now Ana is happy;
-	say "Ana sighs and kisses your cheek. She strolls over to the bench, and sits down to gaze at the flower.";
 	now Ana has the noun;
-	now Ana is on the stone bench;
-	increase score by 1.
+	now the conversation of Ana is Table of Ana Conv Happy;
+	say "Ana sighs and kisses your cheek.";
+	silently try Ana entering the stone bench;
+	if Ana is on the bench:
+		say "[paragraph break]She strolls over to the bench, and sits down to gaze at the flower.";
+	otherwise:
+		say "[paragraph break]She gazes at the flower.".
 
-After giving a flower to Ana:
+After giving a flower to Ana when Ana is not mad:
 	say "Ana [one of]giggles[or]grins[or]blushes[or]tickles [regarding the player][our] hand[then at random].";
 	now Ana is carrying the noun.
 
+Table of Ana Conv Mad
+topic	reply
+"panties/underwear/thong"	"She gives you a withering look. 'I[']m in no mood for that right now.'"
+"fuck/fucking/sex/evening/night" or "making love" or "[night]"	"Her gaze lingers on you. 'You really do only think about one thing, you [insult].'"
+"love"	"She stamps her foot. 'Who are you to talk about love, American?'"
+"[class]"	"'Ha! I ought to get you tossed out for canoodling with a TA!'"
+"[campus]"	"She shrugs, and indicates the surroundings with a hand. 'Here it is. What of it?'"
 
-Part 6 - Bald Eagle
+
+Table of Ana Conv Happy
+topic	reply
+"panties/underwear/thong"	"'You wouldn't mind bringing those to me, would you?' she asks."
+"sex/fucking" or "having sex" or "making love"	"She laughs. 'We probably shouldn't . . . but we probably will.'"
+"love"	"'We'll see what happens, no?' She blows you a kiss."
+"[class]"	"Ana gives you a grin. 'I think I'll have no choice but to grade you harder than the others . . . at least at first.'"
+"Christiana"	"She makes a face. 'Why would you want to go there? It's full of crime.'"
+"Copenhagen/Denmark"	"'This city is so enchanting. I much prefer it to Prague.'"
+"[campus]"	"'This is a good school, American. You'll learn a lot here . . . especially with me as your TA.'"
+"[night]"	"'Oh, it was lovely, darling. I was just frustrated that you made me leave, but your lovely gift has made up for it.' She smells the flower, then raises her head and bats her lashes at you."
+
+
+Part 7 - Bald Eagle
 
 Include Rideable Vehicles by Graham Nelson.
 
 A bird is a kind of rideable animal.
 
 Instead of kissing a bird:
-        say "[The noun] shies away from your [lippy] lips."
-
-Instead of kissing the pusher:
-	say "[The noun] scowls at you."
-	
-Instead of kissing the street vendor:
-	say "The vendor swallows nervously and leans away from you."
+        say "[The noun] shies away from your [lippy] lips.".
 
 To say lippy:
 	let Z be {"quivering", "parted", "soft", "searching"};
 	sort Z in random order;
 	say "[entry 1 of Z]".
 
-Limbo is a room. In Limbo is a bird called the bald eagle.
+Report the wretched bird rejecting conversation:
+	say "The bird squawks and looks at you dejectedly."
+
+Report the friendly bird rejecting conversation:
+	say "The bird chirrups, and cocks its head at you."
+
+Report the bald eagle rejecting conversation:
+	say "The bald eagle nobly looks you in the eye, but does not speak."
+
+Limbo is a room. In Limbo is a bird called the bald eagle. Understand "bird" as the bald eagle.
 
 In Limbo is a bird called the friendly bird.
 
 Instead of mounting the friendly bird:
-	say "[The noun] is too small to ride."
+	say "Good instincts . . . but [the noun] [are] will need to be even friendlier for that."
 
 Instead of mounting the wretched bird:
 	say "[The noun] is too weak and sickly to ride."
 
 The description of the bald eagle is "Its plumage feathers are a rich brown, edged with a color that can only be called the Gold Standard. Its head is the same shade as the White House itself."
 
-The description of the friendly bird is "The bird seems to have regained some energy after eating. [one of]Its plumage has a healthy sheen[or]It clucks happily to itself[or]It preens and struts about[then at random]."
+The description of the friendly bird is "This is the bird you fed earlier. It seems to have regained some energy after eating: [one of]its plumage has a healthy sheen[or]it clucks happily to itself[or]it preens and struts about[then at random]."
 
 Understand the command "feed" as something new.
 
 Feeding it to is an action applying to one carried thing and one thing.
 
-Understand "feed [something] to [something]" as feeding it to.
+Understand "feed [something] to [something]" as feeding it to. Understand "feed [someone] [something]" as feeding it to (with nouns reversed).
 
 Check feeding something (called the food) to something (called the eater):
 	if the eater is not a person, say "You can't feed an inanimate object!" instead;
@@ -243,25 +389,20 @@ Check feeding something (called the food) to something (called the eater):
 	let Q be {steak, Uncle Sam};
 	if the eater is the wretched bird and the food is listed in Q:
 		say "[A food] is much too good for [the eater]." instead;
-	if the eater is the friendly bird and the food is listed in Q:
-		say "[The food] would be wasted on [the eater]." instead;
 	let L be {pile of herring, mound of herring, steak, Uncle Sam};
 	if the food is not listed in L:
-		say "[The eater] turns its nose up at [the food]." instead.
+		say "[The eater] turns its head away from [the food]." instead.
 
 Carry out feeding something (called the food) to something (called the eater):
 	now the food is nowhere;
 	if the eater is the wretched bird:
 		now the wretched bird is nowhere;
 		now the friendly bird is in the cemetery;
-		increase score by 1;
+		increase the score by 1;
 	else if the eater is the friendly bird and the location is the cemetery:
-		now the friendly bird is on the gnarled bush;
-		increase score by 1;
-	else if the eater is the friendly bird and the location is the path:
 		now the friendly bird is nowhere;
 		now the bald eagle is on the gnarled bush;
-		increase score by 2.
+		increase the score by 2.
 
 Report feeding something (called the food) to something (called the eater):
 	if the eater is the wretched bird:
@@ -270,57 +411,51 @@ Report feeding something (called the food) to something (called the eater):
 		say "You see a flash of brilliance in its black, beady eyes. Then it caws, and flies off in the direction of Copenhagen.";
 		say line break;
 		say "You feel strangely proud.";
-	else if the eater is the friendly bird and the location is the cemetery:
-		say "[The eater] nuzzles your hand, then gently spears [the food] with its beak. It jerks its head, tossing [the food] into the air, then leaps into the air to grab it.";
+	else if the eater is the friendly bird:
+		say "[The eater] nuzzles your hand, then spears your offering with its beak. With a jerk of its head, [the food] disappears down the bird's gullet.";
 		say line break;
-		say "It circles lazily above you for a minute or two, then soars off elsewhere.";
-	else if the eater is the friendly bird and the location is the path:
 		say "[The eater] shrieks in triumph. It ascends into the sky, until it is so far away that you can only perceive a black dot.";
 		say line break;
-		say "There is a flash of light so brilliant that you have to avert your eyes. When you look up again, [the eater] has returned, its true form revealed to your worthy personage.".
+		say "There is a flash of light so brilliant that you have to avert your eyes. When you look up again, the black dot has disappeared . . .".		
 		
-After mounting the bald eagle for the first time: [on the path]
-	say "The eagle shrieks, and dives off the promontory with you on its back. As you cling for dear life, it swoops down to skim the water, then soars out above the bay.
-	
-	The view out here is breathtaking. Twisting your head around, you can look back and see all of Copenhagen laid out like a continental breakfast.
-	
-	";
-	now the player is in the island;
-	now the eagle is in the island.
 
-After mounting the bald eagle for the second time: [on the island]
-	say "The eagle screams, and jetplanes into the heavens with you on its back. After another harrowing ride over the bay, the eagle deposits you neatly on the promontory.";
-	now the player is in the path;
-	now the eagle is in the path.
+Has-ridden-from-path and has-ridden-from-island are truth states that vary.
 
-After mounting the bald eagle when the location is the path:
-	say "The eagle screams in the language of liberty, and carries you to the island.";
-	now the eagle is in the island;
-	now the player is in the island.
+When play begins:
+	now has-ridden-from-path is false;
+	now has-ridden-from-island is false.
 
-After mounting the bald eagle when the location is the island:
-	say "The eagle shrieks freedomishly, and carries you to the promontory.";
-	now the player is in the path;
-	now the eagle is in the path.
-		
-Part 7 - Other Stuff
+Instead of mounting the bald eagle:
+	if the location is the path:
+		if has-ridden-from-path is false:
+			now has-ridden-from-path is true;
+			play the sound of eagle;
+			say "The eagle shrieks, and dives off the promontory with you on its back. As you cling for dear life, it swoops down to skim the water, then soars out above the bay.[paragraph break]The view out here is breathtaking. Twisting your head around, you can look back and see all of Copenhagen laid out like breakfast.";
+		else:
+			play the sound of eagle;
+			say "The eagle screams in the language of liberty, and carries you to the island.";
+		say line break;
+		now the eagle is in the island;
+		now the player is in the island;
+		stop the action;
+	else:
+		if has-ridden-from-island is false:
+			play the sound of eagle;
+			now has-ridden-from-island is true;
+			say "The eagle jetplanes into the heavens with you on its back. After another harrowing ride over the bay, it deposits you neatly on the promontory.";
+		else:
+			play the sound of eagle;
+			say "The eagle shrieks freedomishly, and carries you to the promontory.";
+		now the eagle is on the gnarled bush;
+		now the player is in the path.
 
-
-[Rule for deciding if an item is invisible:
-# crib that code from that one concealment example about jackets and coats and stuff, simple as that. then the fistful of herring can go unbidden.]
-
-[When play begins: now the command prompt is "What do you do? ".]
-[This is fine, EXCEPT when a sub-prompt shows up. For example, "taking" without an object prompts the "What do you want to take?" sub-prompt. If "What do you do?" is active, then it shows up even after the subprompt "what do you want to take?" and looks super weird since the player has already been asked a question.]
-
-
+Part 8 - Other Stuff
 
 The carrying capacity of the player is 3. [One for the backpack and one for each hand.]
 
 A merchant is a kind of person.
 
-[A merchant has a list of things called the wares.]
-
-Part 8 - Food and Cooking
+Part 9 - Food and Cooking
 
 A food is a kind of thing. A food is usually edible. A food is usually portable.
 
@@ -354,7 +489,7 @@ Check cooking something (called the munch):
 	if the location is not the apartment, say "Your only place to cook is your apartment stove." instead.
 
 Carry out cooking something for the first time:
-	increase score by 1;
+	increase the score by 1;
 	now the noun is edible.
 
 Carry out cooking something:
@@ -370,30 +505,106 @@ Before eating the steak:
 	otherwise:
 		stop the action.
 		
-Part 9 - Testing - Not for Release
+Part 10 - Exit List
 
-When play begins (this is the run property checks at the start of play rule): 
-	repeat with item running through things: 
-		if description of the item is "": 
-			say "[item] has no description."
+To say exit list:
+	let place be location;
+	repeat with way running through directions:
+		let place be the room way from the location;
+		if place is a room, say " [way]".
+
+Rule for printing the name of a direction (called the way) while constructing the status line:
+	choose row with a heading of the way in the Table of Abbreviation;
+	say "[shortcut entry]".
+
+Table of Abbreviation
+heading	shortcut
+north	"N"
+northeast	"NE"
+northwest	"NW"
+east	"E"
+southeast	"SE"
+south	"S"
+southwest	"SW"
+west	"W"
+up	"U"
+down	"D"
+inside	"IN"
+outside	"OUT"
+
+Part 11 - Status Line
+
+When play begins:
+	now the left hand status line is "Loc: [the player's surroundings]. Dirs: [exit list]";
+	now the right hand status line is "Points: [score]/[maximum score]".
+
+Rule for printing the name of the hellerup apartment while constructing the status line: say "Apartment".
+Rule for printing the name of the strandvejen while constructing the status line: say "Strandvejen".
+Rule for printing the name of the main street while constructing the status line: say "Christiana".
+Rule for printing the name of the train platform while constructing the status line: say "Platform".
+Rule for printing the name of the metro station while constructing the status line: say "Metro".
+Rule for printing the name of the commissary while constructing the status line: say "Commissary".
+
+Part 12 - Speech and Conversation
+
+Section 1 - Talking to People
+
+Understand "talk to [someone]" as a mistake ("To speak with someone, try one of 'ask [bracket]someone[close bracket] about something' or 'ask [bracket]someone[close bracket] for something'.").
+
+Asking someone about something is speech. Telling someone about something is speech. Answering someone that something is speech. Asking someone for something is speech.
+
+Instead of telling someone about something:
+	try asking the noun about it.
+
+A person has a table name called conversation.
+
+Instead of asking someone about something:
+	let the source be the conversation of the noun;
+	if topic understood is a topic listed in source:
+		say "[reply entry][paragraph break]";
+	otherwise:
+		try the noun rejecting conversation.
+
+Rejecting conversation is an action applying to nothing.
+
+Check rejecting conversation:
+	do nothing.
+
+Carry out rejecting conversation:
+	do nothing.
+
+The conversation of the fisherman is the Table of Fisherman Conv.
+
+Table of Fisherman Conv
+topic	reply
+"the/-- [fishy]"	"'All my herring is fresh from the bay,' he says, waving his hand toward the Gentofte."
+"the/-- bird" or "wretched" or "the/-- wretched bird" or "the/-- birds"	"He looks grim. 'We fishermen catch so much herring that the birds sometimes go hungry,' he concedes."
+"the/-- " or "the/-- Gentofte" or "the/-- bay of Gentofte"	"'There's loads of [italic type]sild[roman type] living down there for a [italic type]fisker[roman type] like me.'"
+"the/-- [denhagen]"	"'Denmark is a [italic type]glimrende[roman type] country, Copenhagen is a [italic type]storsået[roman type] city, and Hellerup is a [italic type]fantastisk[roman type] neighborhood."
+"the/-- boat" or "the/-- rowboat" or "the/-- dock"	"'That's my boat, alright. It'd be best if you didn't fool around with it.'"
+"the/-- monk" or "[island]"	"The fisherman looks uncomfortable. 'I, uh, I've never heard of such a thing . . . wouldn't you like to buy some fish?'"	
+
+Report the fisherman rejecting conversation:
+	say "The [italic type]fisker[roman type] shifts from foot to foot. 'Reckon I don't know much about that.'"
+
+Section 2 - Talking about Things
+
+[copy the Nameless example]
+[A thing can be known or unknown.
+
+Understand "ask [someone] about [any known thing]" as interrogating it about. interrogating it about is an action applying to two visible things.
+]
 
 Book 2 - Scenario
 
 When play begins:
-	say "It is the Year of Our Lord MMXVIII. You have arrived in the Danish city of Copenhagen to pursue a master's degree. You found an apartment for let in the suburb of Hellerup, and promptly moved in. The place isn't much, but for the next two years it's home.	";
-	say line break;
-	say line break;
-	say line break;
-	say line break;
+	say "It is the Year of Our Lord MMXVIII. You have arrived in the Danish city of Copenhagen to pursue a master's degree. You found an apartment for let in the suburb of Hellerup, and promptly moved in. The place isn't much, but for the next two years it's home.";
+	say paragraph break;
+	say paragraph break;
 	say "[bold type]PREPARE YOUR SPIRIT FOR . . .[roman type]";
-	say line break;
-	say line break;
-	say line break;
-	say line break;
-
-When play begins:
-	now the left hand status line is "Loc: [the player's surroundings]";
-	now the right hand status line is "Points: [score]/[maximum score]".
+	say paragraph break;
+	say paragraph break;
+	display Figure of Ryan.
 
 Part 1 - Hellerup
 
@@ -401,7 +612,7 @@ Hellerup is a region.
 
 Chapter 1 - Hellerup Apartment
 
-The Apartment is a room in Hellerup. "Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast."
+The Hellerup Apartment is a room in Hellerup. "Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast."
 
 The player is in the apartment.
 
@@ -409,6 +620,9 @@ The player is in the apartment.
         try going south.]
 
 The apartment door is a door. It is south of the Apartment and north of Hellerup Strandvejen. The description is "Just looking at this door makes you eager to start each day."
+
+Before listing nondescript items when the location is the apartment:
+	now the apartment door is not marked for listing.
 
 The apartment contains a portable thing called a backpack. The backpack is wearable. The backpack is a player's holdall. The description of the backpack is "Adorned with the seal of Reed College, your undergraduate alma mater." Understand "pack" as backpack.
 
@@ -420,7 +634,7 @@ The rug, the stove, the round window, and some shelves are scenery in the Apartm
 
 The description of the round window is "Out the window you can see the Bay of Gentofte. Some way out in the water is a small island. From here it looks quite pleasant[if the island is visited], but you know that it's actually kind of a shithole[otherwise][end if]."
 
-The description of the rug is "The rug depicts a scene of universal healthcare flying over a lake."
+The description of the rug is "The rug depicts a universal healthcare flying over the Kingdom of Denmark."
 
 Instead of taking the rug:
 	say "You couldn't possibly take that! It belongs to your landlady.";
@@ -432,7 +646,7 @@ The description of the stove is "A two-burner electric stove." On top of the sto
 
 The shelves are a supporter. On the shelves is a food called a loaf of bread. The description of the bread is "Made with 100% Danish wheat." Understand "shelf" as the shelves. The description of the shelves is "Each of the shelves is thin enough to shave with."
 
-The Apartment contains a fridge. The fridge is a closed container. The fridge is fixed in place and openable. The description of the fridge is "Silver, yet subtle. The handle is [description of handle in lower case]". The handle is a thing which is part of the fridge. The description of the handle is "Quite affordant."
+The Apartment contains a fridge. The fridge is a closed container. The fridge is fixed in place and openable. The description of the fridge is "Silvery-subtle. The handle is [description of handle in lower case]". The handle is a thing which is part of the fridge. The description of the handle is "Quite affordant."
 
 Instead of pulling the handle:
 	try opening the fridge.
@@ -440,7 +654,13 @@ Instead of pulling the handle:
 Instead of pushing the handle:
 	try closing the fridge.
 	
-The piece of cheese and a steak are foods in the fridge. The description of the cheese is "Purchased in the airport." The steak is not edible. The description of the steak is "A gift from your landlady: she's rented to Americans before."
+The piece of cheese and a steak are foods in the fridge. The description of the cheese is "An off-white slab. You got it in the airport, but one bite was enough to determine that it tasted gross." The steak is not edible. The description of the steak is "A gift from your landlady: she's rented to Americans before."
+
+After eating the cheese:
+	say "God, that was foul."
+
+After printing the name of the steak when the steak is not edible:
+	say " (uncooked)".
 
 The glass bottle of Dankdrinke is an edible thing in the fridge. The description of the bottle is "No drinke is more ergonomik than Dankdrinke!"
 
@@ -449,9 +669,9 @@ Instead of drinking something (called the drink):
 
 After drinking or eating the Dankdrinke:
 	say "Your throat is filled with ergonomitivity.";
-	increase score by 1.
+	increase the score by 1.
 
-The Apartment contains an enterable thing called the bed. The description of the bed is "Shaped to perfectly fit the human body." On the bed are bedsheets and a pair of Central European panties. Understand "underwear" as the panties.
+The Apartment contains an enterable thing called the bed. The description of the bed is "Shaped to perfectly fit the human body." On the bed are bedsheets and a pair of Central European panties. Understand "underwear" or "knickers" as the panties.
 
 After smelling the panties:
 	say "Pervert."
@@ -464,27 +684,7 @@ The description of the bedsheets is "Extremely rumpled from excessive romping." 
 After taking the panties for the first time:
 	say "Nice.".
 
-Test pack with "get pack".
 
-Test apt with "x fridge / open fridge / x bottle / x Dankdrinke / drink Dankdrinke / x sheets / x panties / x rug / take panties / take banana tree".
-
-Test leave with "go south".
-
-Test vendor with "buy pile / buy mound".
-
-Test bird-a with "e / feed pile to bird".
-
-Test docktoplatform with "w / w".
-
-Test uptodock with "test pack / test apt / test leave / test vendor / test bird-a".
-
-Test wait-a with "take kroner / r / r / r / r / r / r ".
-
-Test trainto with "enter train / r / r / r / r / r / r / r / r / r".
-
-Test uptocope with "test uptodock / w / w / test wait-a / test trainto / exit".
-
-Test ana with "s / give banana tree to ana / show banana tree to ana / take banana tree / take ana / give panties to ana".
 
 Part 2 - Outdoors in Hellerup
 
@@ -492,28 +692,28 @@ Chapter 1 - Hellerup Strandvejen
 
 Hellerup Strandvejen is a room in Hellerup. "The main street of Hellerup is bordered on its north side by brightly-painted row houses, such as the one containing your apartment. At the east end is a dock, and if you go west you can catch a train."
 
-Some row houses are scenery in Hellerup Strandvejen. The description of the row houses is "I said brightly-painted and I goddamn meant it. Cheery as heck, and at least a century old."
+Some row houses are scenery in Hellerup Strandvejen. The description of the row houses is "I said brightly-painted and I meant it -- yet these suckers must be at least a century old."
 
-Every turn when the vendor is visible:
+Every turn when the fisherman is visible:
 	if a random chance of 1 in 3 succeeds:
 		let L be the list of things in the wheelbarrow;
 		if the number of entries in L is not 0:
-			say "The vendor calls out, 'Today I have [L with indefinite articles]! Fresh!'";
+			say "The fisherman calls out, 'Today I have [L with indefinite articles]! [one of]Fresh[or]Very tasty[or]Delicious[or]Come and get it[then at random]!'";
 		otherwise:
-			say "The vendor [one of]winks at [us][or]taps his foot[or]grins cheerfully[at random].".
+			say "The fisherman [one of]winks at [us][or]taps his foot[or]grins cheerfully[at random].".
 
-The street vendor is a merchant in Hellerup Strandvejen. The vendor is wearing a long coat, a fingerless glove, a pair of trousers, and a pair of sneakers. A pocket is part of the long coat. The pocket is a container. The pocket has carrying capacity 1. In the pocket is a fistful of herring. The fistful of herring is edible. The description of the pocket is "Haphazardly stitched." The description of the fistful of herring is "Must be tucked away for a rainy day."
+The fisherman is a merchant in Hellerup Strandvejen. The fisherman is wearing a long coat, a fingerless glove, a pair of trousers, and a pair of sneakers. A pocket is part of the long coat. The pocket is a container. The pocket has carrying capacity 1. In the pocket is a fistful of herring. The fistful of herring is edible. The description of the pocket is "Haphazardly stitched." The description of the fistful of herring is "Must be tucked away for a rainy day."
 
 Does the player mean taking a fistful of herring: it is unlikely.
 
-The description of the long coat is "The vendor's coat has clearly seen better days. From the sole remaining pocket protrudes [a list of things in the pocket]."
+The description of the long coat is "The man's coat has clearly seen better days. From the sole remaining pocket protrudes [a list of things in the pocket]."
 
 The description of the glove is "Dirty." The description of the trousers is "Threadbare." The description of the sneakers is "Stained." Understand "shoes" as sneakers.
 
 A wheelbarrow is a thing in Strandvejen. The wheelbarrow is a container which is pushable between rooms. The wheelbarrow has carrying capacity 3. In the wheelbarrow is the pile of herring and the mound of herring.
 
 Instead of taking the wheelbarrow:
-	say "That belongs to the street vendor.".
+	say "That belongs to the fisherman.".
 
 The description of the wheelbarrow is "Rusty but serviceable. It contains [a list of things in the wheelbarrow]."
 
@@ -524,14 +724,26 @@ Instead of the player eating the mound of herring:
 	say "Ugh, it's really not as good as it looks.";
 	now the mound of herring is edible.
 
-The description of the street vendor is "A friendly purveyor of herring, and perhaps more. He wears [a list of things worn by the street vendor]."
+Instead of the player eating the mound of herring:
+	now the mound of herring is inedible;
+	say "What are you, a drongo?";
+	now the mound of herring is edible.
+
+The description of the fisherman is "A friendly purveyor of herring, and perhaps more. He wears [a list of things worn by the fisherman]."
+
+Instead of kissing the fisherman:
+	say "He swallows nervously and leans away from you."
+
+Instead of kissing someone who is not Ana:
+	say "Your seductive skills are no use here."
+
 
 Chapter 2 - Dock and Bird
 
 After listening to in the dock:
 	say "You hear the gentle wind that stirs the Gentofte waters."
 
-The Dock is a room in Hellerup. "This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate, atop which sits a bird." The dock is east of Strandvejen.
+The Dock is a room in Hellerup. "This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate[if the wretched bird is enclosed by the dock], atop which sits a bird[end if]." The dock is east of Strandvejen.
 
 A rowboat and a rope are scenery in the dock. The rowboat is an open container. The description of the rowboat is "This rowboat is sad but serviceable." Understand "boat" as the rowboat.
 
@@ -539,28 +751,41 @@ The description of the rope is "Soaked and salty, but somehow still strong.".
 
 Instead of entering the rowboat, say "[The rowboat] is much too slippery for a landlubber like you to get in."
 
-In the rowboat is an enterable supporter called the herring crate. The description of the crate is "It's got to be loaded with herring." The crate is fixed in place.
+In the rowboat is a enterable supporter called the herring crate. The description of the crate is "It's got to be loaded with herring." The crate is fixed in place. Understand "large" or "large crate" as the crate.
+
+Instead of opening the herring crate:
+	say "Nuts! It's barred and locked."
 
 On top of the herring crate is a bird called a wretched bird. The description of the bird is "The species is impossible to identify, but its plumage is wilted, its beak is crooked, and its eyes are dull."
 
 Chapter 3 - Hellerup Train Platform
 
-The Train Platform is a room in Hellerup. "The open-air train platform has a line that runs to Copenhagen every 10 minutes. There are no tickets: it is free to ride.
-
-[if the commissary is visited]There is a staircase leading upward in the northwest corner of the station[else]In the northwest corner of the station stands the staircase that leads to the Commissary[end if]."
+The Train Platform is a room in Hellerup. "The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. [if the commissary is not visited]A staircase and [an arrow-shaped sign] in the northwest corner of the station pair up to beckon you downward[else]In the northwest corner of the station stands the staircase that leads to the Commissary[end if]."
 
 The train platform is west of Strandvejen.
 
-A wall sign is a thing in the train platform. The wall sign is fixed in place. The description of the sign is "It reads, 'PLEASE WAIT FOR TRAIN'."
+A wall sign is a thing in the train platform. The wall sign is fixed in place. The description of the sign is "It reads, 'Get into the train at your leisure.'"
 
-Train Tunnel is a room. The description of the tunnel is "This underwater transit tunnel represents a feat of engineering. Its creator won the Most Illustrious Dane medal."
-
-The C-Train is an enterable container in the Tunnel. The description of the C-Train is "This train is a large glass lozenge containing one big wrap-around sofa." Understand "c-train" or "train" or "pod" or "C-train" or "C-Train" as the C-Train. The C-train is not portable.
+The C-Train is an enterable container in the Platform. The description of the C-Train is "This train is a large glass lozenge containing one big wrap-around sofa." Understand "c-train" or "train" or "pod" or "C-train" or "C-Train" as the C-Train. The C-train is not portable.
 
 Instead of taking the C-train:
 	say "You can hardly pick up a train!".
 
 The wrap-around sofa is an enterable supporter in the C-Train. Understand "couch" as the wrap-around sofa. The description of the sofa is "Made of plush leather for discerning Danish derrieres." The sofa is fixed in place.
+
+Understand the command "leave" as something new.
+
+Leaving is an action applying to one thing. Understand "leave [something]" as leaving.
+
+Check leaving something:
+	if the C-train encloses the player:
+		now the player is in the holder of the C-train;
+	else if the player is in the apartment:
+		try going south;
+	otherwise:
+		say "Try the 'dirs' command to see where you can go from here." instead.
+
+Instead of mounting the C-train, try entering the C-train.
 
 Understand the command "board" as something new.
 
@@ -572,68 +797,77 @@ Check boarding something:
 Carry out boarding something:
 	try entering the noun instead.
 
-Instead of exiting when the player is in the C-Train:
-	if the C-Train is in the train tunnel:
-		say "You can't get out while the train is moving." instead;
-	otherwise:
-		move the player to the location of the C-Train instead.
+Instead of exiting when the location is the C-train:
+	try leaving the C-train.
 
+Understand "exit train" or "exit c-train" as exiting.
 
-Hellerup Stop is a recurring scene. Train Wait 2 is a recurring scene. Train Wait 1 is a recurring scene. Copenhagen Stop is a recurring scene.
+Does the player mean leaving the C-train: it is very likely.
 
-Train Wait 1 begins when play begins.
-Train Wait 1 ends when the time since Train Wait 1 began is 1 minute.
+Does the player mean pulling the lever: it is very likely.
 
-Hellerup Stop begins when Train Wait 1 ends.
-Hellerup Stop ends when the time since Hellerup Stop began is 5 minutes.
+The lever is a device in the C-train. The description of the lever is "The handle has indentations shaped to cuddle your fingers. A small speaker grille is embedded in the tippy-top." The speaker grille is a thing which is part of the lever. The description of the grille is "Nine teeny holes form this barely-there speaker." Understand "grille" or "grill" or "speaker grill" or "speaker grille" as the speaker grille.
 
-Train Wait 2 begins when Hellerup Stop ends.
-Train Wait 2 ends when the time since Train Wait 2 began is 1 minute.
+Instead of pressing the lever:
+	say "[pullme]".
 
-Copenhagen Stop begins when Train Wait 2 ends.
-Copenhagen Stop ends when the time since Copenhagen Stop began is 5 minutes.
+Instead of pushing the lever:
+	say "[pullme]".
 
-Train Wait 1 begins when Copenhagen Stop ends.
+To say pullme:
+	say "'You must pull me!' the lever says [one of]jubilantly[or]joyously[or]pleasantly[then at random].".
 
-When Train Wait 1 ends:
-	now the C-Train is in the train platform;
-	if the player is in the C-Train:
-		say "You arrive in Hellerup.";
-	if the player is in the train platform:
-		say "The C-Train arrives."
+Instead of pulling, pressing, or pushing the lever when the player is not enclosed by the C-train, say "You'll have to get in the train to do that." instead.
 
-When Hellerup Stop ends:
-	now the C-Train is in the Train Tunnel;
-	if the player is in the C-Train:
-		say "The C-Train departs, taking you into a tunnel.";
-	if the player is in the train platform:
-		say "The C-Train departs without you."
+Carry out pulling the lever:
+	try silently switching on the lever.
 
-When Train Wait 2 ends:
-	now the C-Train is in Copenhagen Metro Station;
-	if the player is in the C-Train:
-		say "You arrive in Copenhagen.";
-	if the player is in the metro station:
-		say "The C-Train arrives."
+Report pulling the lever:
+	do nothing.
 
-When Copenhagen Stop ends:
-	now the C-Train is in the Train Tunnel;
-	if the player is in the C-Train:
-		say "The C-Train departs, taking		 you into a tunnel.";
-	if the player is in the metro station:
-		say "The C-Train departs without you."
-		
+[get rid of the obnoxious 'nothing obvious happens' default report, which was coming up even with "report pulling the lever: do nothing" in place.]
+The report pulling rule is not listed in the report pulling rules.
+
+After switching on the lever:
+	now the lever is switched off;
+	if the location is the Platform:
+		say "With a tug of the lever, you are transported to Copenhagen proper.";
+		now the C-train is in the metro station;
+		now the player is in the metro station;
+		say "You step out of the train.";
+	else if the location is the Metro Station:
+		say "With a tug of the lever, you are transported to the suburb of Hellerup.";
+		now the C-train is in the Platform;
+		now the player is in the Platform;
+		say "You step out of the train.".
+
+Some downward stairs are scenery in the platform. The description of the downward stairs is "This must be the way to the Commissary."
+
 Chapter 4 - The Socialist Money Commissary
+[fix: not enough money in the game, easy to get stuck. have the bills reset every so often.]
+[fix: change out of money message to instead be "come back soon", so that playes will eturn looking for more money.]
 
 To say arrow text:
 	let the word be "This way for money" in upper case;
 	say the word.
 
-The arrow-shaped sign is a thing in the train platform. The description of the sign is "The delightfully red arrow is painted with blue text: '[arrow text]'.".
+The arrow-shaped sign is a thing in the train platform. The description of the sign is "The delightfully red arrow is painted with blue text: '[arrow text]'.". The arrow-shaped sign is fixed in place.
 
-
-Down from the train platform is a room called Socialist Money Commissary. 
+Down from the train platform is a room called Socialist Money Commissary.
 The description of the commissary is "The inside of the commissary is a bit cramped, but the lighting is gentle and there is air-conditioning. ".
+Some upward stairs are scenery in the commissary. The description of the upward stairs is "If you want to go upward, these stairs are a safe bet."
+
+The conversation of the clerk is Table of Clerk Conv.
+
+Table of Clerk Conv
+topic	reply
+"the/-- money/krone/kroner/"	"'Each shipment comes stamped with the Queen's royal seal, and every krone may be spent with her blessing.'"
+"Hellerup/train/platform" or "train platform"	"'We are fortunate to have a direct self-service connection to Copenhagen,' the clerk says. 'You can go at any hour of day!'"
+"socialist/socialism/commissary" or "money commissary" or "socialist commissary"	"The clerk stands up straight. 'The Danish way of life is civilized and prosperous. It's a pity not all countries work the way we do!'"
+"capitalist/capitalism"	"The clerk scowls. 'You'd better leave such topics alone during your time here, American.'"
+
+Report the clerk rejecting conversation:
+	say "The clerk demurres, giving no answer.".
 
 The clerk is a woman in the commissary. The clerk is wearing a brown jumpsuit and a gold apron. The description of the clerk is "She gives you the smile of a true believer. She is wearing [a list of things worn by the clerk]." The description of the jumpsuit is "Fish-brown." The description of the apron is "Unfortunately, it's only gold-dyed cloth, not actual gold."
 
@@ -641,52 +875,60 @@ A note is a kind of thing.
 
 The one-krone note, the two-kroner note and the three-kroner note are notes in the commissary. The price of the one-krone note is 1 kroner. The price of the two-kroner note is 2 kroner. The price of the three-kroner note is 3 kroner. The indefinite article of the one-krone note is "a".
 
-The description of the one-krone note is "Depicts a wizard fighting a ghost for a plate of meat."
-The description of the two-kroner note is "Depicts Queen Magrethe II. Long may she live!"
-The description of the three-kroner note is "Depicts King Jonathon the Blowth."
+The description of the one-krone note is "Depicts Queen Magrethe II. Maybe one day you will meet her."
+
+The description of the two-kroner note is "It bears the likeness of King Christian IV. He rekt Northern Germany during the Thirty Years War."
+
+The description of the three-kroner note is "Depicts a piddly little island[if the island is unvisited][else], which you can tell was based on the one in the bay[end if]."
 
 Instead of buying a note:
 	try taking the noun.
 
 Instead of the player taking a note (called the cashola) in the commissary:
 	let Y be "[dumb]" in title case;
-	say "[Y] American! Under Socialism, everyone has a job to do - and the clerk's job is to hand you that [cashola]. For free!";
-	try the clerk taking the cashola;
-	try the clerk giving the cashola to the player;
+	say "[Y] American! Under Socialism, everyone has a job to do - and the clerk's job is to hand you that [cashola]. For free![paragraph break]The clerk picks up [the cashola], and gives it to you.";
+	[if the player was reduced to 0 kroner, the money got moved to Limbo, so here we will check for that and move it back]
+	if the money is not in the wallet, now the money is in the wallet;
 	increase the price of the money by the price of the cashola;
 	now the cashola is nowhere.
 
 Instead of asking the clerk for a note (called the cashola):
-	say "The clerk does as you ask.";
-	try the clerk taking the cashola;
-	try the clerk giving the cashola to the player;
+	say "The clerk does as you ask: she [regarding the clerk][pick] up [the cashola], and gives it to you.";
+	[if the player was reduced to 0 kroner, the money got moved to Limbo, so here we will check for that and move it back]
+	if the money is not in the wallet, now the money is in the wallet;
 	increase the price of the money by the price of the cashola;
-	now the cashola is nowhere.
+	now the cashola is in limbo.
 
-Every turn when the player is in the commissary:
+Clerk-saidit is a truth state that varies. When play begins: now clerk-saidit is false.
+
+Every turn when the player is in the commissary (this is the tell the player when the commissary is out of money rule):
 	if there are no notes in the commissary:
-		say "Unfortunately, the commissary out of money for the day."
+		if clerk-saidit is false:
+			now clerk-saidit is true;
+			say "The clerk says, 'Unfortunately, we're out of money right now. Please return in a little while.'";
+		else:
+			say "It seems there's no money available right now.".
 
-Test comm with "gonear platform / down / x clerk / x one-krone / x two-kroner note / x three-kroner note / take one-krone / ask clerk for two-kroner".
+Every turn when the player is not in the commissary (this is the restock the commissary with money rule):
+	if the number of notes in the commissary is less than 3:
+		if a random chance of 1 in 4 succeeds:
+			let X be a random note in Limbo;
+			if X is a note:
+				now X is in the commissary.
 
-Part 4 - Copehagen
+Test restock with "test p1 / n / get in train / pull lever / down / up / z / z / z / z / down".
+
+Part 4 - Copenhagen
 
 Copenhagen is a region.
 
 Chapter 1 - Copenhagen Metro Station
 
-In Copenhagen is a room called Copenhagen Metro Station. The description of the metro station is "This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
-
-	Stairs lead southward and upward to the IIT Campus exit.
-	
-	Christiana is northwest of here, but don't go there at night.
-	
-	The Danes have built an efficient route running west, from here to the Aarenhus Cemetery.
-			
-	A small door stands in the southeast corner of the station near a fake tree."
+In Copenhagen is a room called Copenhagen Metro Station. The description of the metro station is "This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.[paragraph break]A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.[paragraph break]A small door stands in the southeast corner of the station near a fake tree."
 
 South of the metro station is a room called IIT Campus. IIT Campus is up from the metro station. IIT Campus is in Copenhagen.
 
+Some stairs to IIT Campus are scenery in metro station. The description of the stairs to IIT Campus is "[one of]Patently pedestriable[or]Sublimely steppable[then at random]." Some stairs to the Metro Station are scenery in IIT Campus. The description of the stairs to the Metro Station is "Just stairs, really. They just can't compare to the ones in the metro station."
 
 Northwest of the Metro Station is a room called Christiana Main Street. Christiana Main Street is in Copenhagen.
 
@@ -696,22 +938,139 @@ There is a room in Copenhagen called The Path.
 
 A door called a small door is southeast of the metro station and northwest of The Path. The small door is scenery. The description of the small door is "It's not even a finished door - just a plank of wood on hinges. A sign hangs from a nail in the middle.".
 
-A thing called the small sign is part of the small door. The description of the small sign is "The hand-lettered sign reads, 'My friend, you[']ve gotten [the score] point[s] so far.'".
+A thing called the small sign is part of the small door. The description of the small sign is "The hand-lettered sign reads, 'My friend, you've gotten [the score] point[s] so far.'".
 
-In the station is a locked lockable closed door called the fake tree. Understand "artificial tree" as the fake tree. The description of the fake tree is "A huge plastic palm tree, fifteen feet tall and twenty feet around. It 'grows' from an inch-thick disc of marble which is set into the floor of the station, disrupting the pattern of tiles around it."
+In the station is a locked lockable closed door called the fake tree. Understand "tree" or "artificial tree" as the fake tree. The description of the fake tree is "A huge plastic palm tree, fifteen feet tall and twenty feet around. It 'grows' from an inch-thick disc of marble which is set into the floor of the station, disrupting the pattern of tiles around it."
 
 The fake tree is inside from the metro station and outside from the Belly of the Tree.
 
-[When "l" or "x belly" is issued, this code stops the fake tree from being mentioned in the ensuingn description of items in the location. Nondescript roughly means 'has been seen before' which is guaranteed since they've been to the metro station before being able to come in here.]
+[When "l belly" or "x belly" is issued, this code stops the fake tree from being mentioned in the ensuing description of items in the location. Nondescript roughly means 'has been seen before' which is guaranteed since they've been to the metro station before being able to come in here.]
 Before listing nondescript items when the location is the belly:
 	now the fake tree is not marked for listing.
 
-Before going through the fake tree to the belly when the fake tree is unlocked:
-	say "You walk up to the fake tree. Your instincts propel you onward, and you walk [italic type]into[roman type] the tree.
+Before opening or entering the locked fake tree:
+	say "You examine [the fake tree], but there's no way to get in.[paragraph break]Perhaps if you boosted your imagination you'd think of something.";
+	stop the action.
 
-        You're inside the tree, Ryan.".
+Understand "boost imagination" or "boost my imagination" or "boost the imagination" as a mistake ("Nice try, drongo!").
+
+Instead of going inside from the metro station when the fake tree is locked:
+	try entering the fake tree.
+
+After going through the unlocked fake tree to the belly for the first time:
+	say "You walk up to the fake tree. Your instincts propel you onward, and you walk [italic type]into[roman type] the tree.[paragraph break]You're inside the tree, Ryan.".
+
+After going through the unlocked fake tree to the belly:
+	say "You walk up to the fake tree, and boldly stride in.".
 
 The Belly of the Tree is a room in copenhagen. The description of the belly of the tree is "It's gloomy in here."
+
+Every turn:
+	if the player encloses the ineffable mystery or the player encloses something which encloses the mystery:
+		if the player is in the belly of the tree:
+			say "The ineffable mystery pulses like crazy.";
+		else if the location is the metro station:
+			say "The ineffable mystery pulses rapidly.";
+		else:
+			let Q be the number of moves from the location to the belly of the tree;
+			if Q <= 2:
+				say "The ineffable mystery pulses slowly."
+
+Yourself can be dull or enlightened.
+
+When play begins:
+	now the player is dull.
+
+The print obituary headline rule is not listed in any rulebook.
+
+Looking is dunko. Examining is dunko. Searching is dunko.
+
+Rule for printing the player's obituary:
+	if the score is less than the maximum score:
+		say "From outside of time and space, infinite power is awakened.
+		
+		With no warning, the ultimate technique destroys not only your body, but also your spirit. Your last thought is, 'If only I had collected all of the points!'";
+	else:
+		say "You summon all your power and perform the ultimate technique. Infinite power courses through both your body and your spirit.[line break]
+		[line break]
+		You did it, friend[line break]
+		You did your best[line break]
+		You played the game[line break]
+		You won the quest[line break]
+		[line break]
+		You fed the bird[line break]
+		You rode the train[line break]
+		You sussed out spots[line break]
+		With points to gain[line break]
+		[line break]
+		You bought herring[line break]
+		And dank weed too[line break]
+		You talked to folks[line break]
+		Much unlike you[line break]
+		[line break]
+		You made Ana[line break]
+		Stop being mad[line break]
+		Now she will be[line break]
+		Forever glad[line break]
+		[line break]
+		Eight times you pressed[line break]
+		The beige button[line break]
+		Haha, I say[line break]
+		That one was fun[line break]
+		[line break]
+		You relaxed in[line break]
+		The graveyard zone[line break]
+		You made your way[line break]
+		All on your own[line break]
+		[line break]
+		With eagle's help[line break]
+		You met the monk[line break]
+		You opened up[line break]
+		His wooden trunk[line break]
+		[line break]
+		The dank you smoked[line break]
+		Set your mind free[line break]
+		You willed yourself[line break]
+		To enter tree[line break]
+		[line break]
+		You did the thing[line break]
+		Good job to you[line break]
+		Perhaps I'll make[line break]
+		Ryan Quest 2	[line break]
+		[line break]
+		Now you are done[line break]
+		You're at the end[line break]
+		Thanks for being[line break]
+		My closest friend[line break]".
+
+Instead of dunko when the noun is the ineffable mystery and the location is the belly:
+	[the newlines here should stay hardcoded to avoid any formatting that sometimes occurs with paragraph breaks]
+	now the player is sober;
+	now the player is enlightened;
+	now the ineffable mystery is in Limbo;
+	say "You gaze at the ineffable mystery.
+		
+		Suddenly
+		
+		in an instant
+		
+		you understand!
+		
+		The ultimate technique, the final technique, the last possible technique, is yours! Now all you have to do is use it.'"
+
+Ultimating is an action applying to nothing. Understand "use ultimate technique" or "use the ultimate technique" or "perform ultimate technique" or "perform the ultimate technique" or "the ultimate technique"as ultimating.
+
+Check ultimating:
+	if the player is dull, say "You are not enlightened, and cannot perform the ultimate technique." instead.
+
+Carry out ultimating:
+	do nothing.
+
+Report ultimating:
+	if the score is less than the maximum score:
+		end the story;
+	otherwise:
+		end the story finally.
 
 
 Chapter 2 - Aarenhus Cemetery
@@ -720,31 +1079,29 @@ The description of Aarenhus Cemetery is "Dark paths run here and there among the
 
 Some marble tombs and some trees are scenery in the cemetery. The description of the tombs is "Your attention rests on a tomb of [one of]pale white[or]blue-gray[or]gray-green[or]reddish-purple[then at random] marble with [one of]pinkish[or]dark brown[or]silvery[or]gold[purely at random] streaks.". The description of the trees is "Strong and hardy. It's macabre, but bones make excellent fertilizer.". Understand "tomb" or "marble" as the tombs. Understand "tree" as the trees.
 
-A paper krone is a thing in the platform. The description of the paper krone is "It bears the likeness of King Christian IV. He rekt Northern Germany during the Thirty Years War."
-
 Understand the command "relax" as something new.
 
 Relaxing is an action applying to nothing. Understand "relax" or "relax in the shade" as relaxing.
 
-Has-relaxed is a truth state that varies. When play begins: now has-relaxed is false.
-
 Check relaxing:
 	if the location is not the cemetery:
-		say "You can kill time with 'r' or 'wait', but if you want to truly relax, you're in the wrong place." instead.
+		say "You can kill time with 'wait', but if you want to truly relax, you're in the wrong place." instead.
 
 Carry out relaxing for the first time:
-	increase score by 1;
-	now has-relaxed is true;
-	do nothing.
+	increase the score by 1.
 
 Carry out relaxing:
 	do nothing.
 
-Report relaxing for the first time:
-	say "You take a deep breath of Danish air, and let it out slowly.".
+Has-relaxed is a truth state that varies. When play begins: now has-relaxed is false.
 
-Report relaxing:
-	say "You breathe in and out. Now you're calmer than ever.".
+[I tried programming this with the normal "for the first time" construct, but couldn't figure out how to make the non-first-time message NOT show up on the first time.]
+After relaxing:
+	if has-relaxed is false:
+		say "You take a deep breath of Danish air, and let it out slowly.";
+		now has-relaxed is true;
+	otherwise:
+		say "You breathe in and out. Now you're calmer than ever.".
 
 To say qualifier:
 	let Z be {"superb", "excellent", "terrific", "perfect"};
@@ -752,6 +1109,8 @@ To say qualifier:
 	say "[entry 1 of Z]".
 
 Every turn when the player is in the cemetery:
+	if the friendly bird is in the cemetery:
+		do nothing;
 	if has-relaxed is true:
 		do nothing;
 	otherwise:
@@ -764,19 +1123,14 @@ A red flower, a white flower, a blue flower, and a yellow flower are flowers in 
 
 Chapter 3 - IIT Campus
 
-The description of IIT Campus is "The campus is pretty sleepy in the summer. A construction crew works below the bell tower, but [if Ana is in IIT Campus]the only student you see is Ana[otherwise]no students are to be seen[end if]."
+The description of IIT Campus is "The campus is pretty sleepy in the summer. A construction crew is working around the bell tower, but [if Ana is in IIT Campus]the only student you see is Ana[otherwise]no students are to be seen[end if]."
 
-A woman called Ana is in the IIT Campus. The description of Ana is "A Czech girl. Starting next week, she's your TA for Introductory Programming. Starting last night, she's your lover."
+The stone bench is an enterable supporter in the campus. The stone bench is fixed in place. The description of the bench is "Effortlessly square.[paragraph break]On the base, nearly invisible, is an unlabelled beige button. The button is [button-desc]." The carrying capacity of the bench is 2.
 
-Ana is proper-named.
+To say button-desc:
+	say "rounder than round: it's Dane-Rounde".
 
-A person can be mad or happy. A person is usually happy. Ana is mad.
-
-The stone bench is an enterable supporter in the campus. The stone bench is fixed in place. The description of the bench is "Effortlessly square.
-
-On the base, nearly invisible, is an unlabelled beige button." The carrying capacity of the bench is 1.
-
-The button is a device. The button is part of the bench. The description of the button is "Rounder than round: it's Dane-Rounde."
+The button is a device. The button is part of the bench. The description of the button is "This button is [button-desc].".
 
 Understand the command "press" as something new.
 
@@ -817,41 +1171,70 @@ After switching on the button:
 		let X be entry B in L;
 		say "From somewhere nearby, a voice yells, [quotation mark][X]![quotation mark]";
 		if B is the number of entries in L:
-			increase score by 1. [Give a point for making it all the way through the hint.]
-	
-Test butt with "gonear button / press button / g / g / g / g / g / g / g / g".
+			increase the score by 1. [Give a point for making it all the way through the hint.]
 
-[A worker is a kind of man.
 
-The pipefitter and the carpenter are workers in IIT Campus.
+A worker is a kind of man.
 
-Before touching a worker, say "You don't want to get in the way of their work." instead.
+The sawyer and the carpenter are workers in IIT Campus.
 
-The description of the pipefitter is "Short and squat." The description of the carpenter is "Tall and thin."
+To say worker-no:
+	say "You don't want to get in the way of their work." 
+
+Before touching a worker, say worker-no instead.
+
+Report the sawyer rejecting conversation:
+	say worker-no.
+
+Report the carpenter rejecting conversation:
+	say worker-no.
+
+The description of the sawyer is "Short and squat." The description of the carpenter is "Tall and thin."
 
 After listening to in IIT Campus:
-	let Y be {"[metaller]", "[woodler]"};
-	if a random chance of 1 in 2 succeeds:
-		say "The pipefitter fiddles with a [the
-	otherwise:
-		now X is "carpenter";
-	
-		
 	say "The workers are [one of]sawing a [woodler][or]hammering a [woodler][or]joking with each other[then at random]."
 
 To say woodler:
-	say "[one of]board[or]plank[then at random]".
+	say "[one of]board[or]plank[or]log[then at random]".
 
-To say metaller:
-	say "[one of]pipe[or]bracket[or]bolt[then at random]".]]
-	
-
-Chapter 4 - Christiana
+Chapter 5 - Christiana
 
 After listening to in Christiana Main Street:
-	say "You hear a dreadful din."
+	say "You hear pleasant strains of music: [one of]6000 different footsteps arranged into a dance number.[or]splrrrrrrt![or]un-sk-un-sk-un-sk-un-sk![or]honk, honk, ding ding ding![or]clang, sploosh, bzzzzzzrt![then at random]"
 
-The description of Christiana Main Street is "This street is lined with drug pushers, filled with tourists, dotted with hippies, and sprinkled with musicians."
+The description of Christiana Main Street is "This spacious street at the entrance of Christiana is stuffed with all manner of people."
+
+A flood of tourists, a gathering of hippies, and an infestation of musicians are people in Christiana. Understand "tourist" as the tourists. Understand "hippie" as the hippies. Understand "musician" or "player" as the musicians.
+
+The description of the tourists is "So bristling with cameras that you can't get a good look at them."
+
+The description of the hippies is "Real flower children. Who knows what their agenda is."
+
+The description of the musicians is "Almost certainly unlicensed."
+
+Instead of asking the pusher about "[weed]":
+	say "He says, 'This is quality grass. Might make you see stuff, heh heh.'";
+
+Instead of asking the pusher about "the/-- Christiana/main/street":
+	say "The pusher smiles a little. 'I wouldn't trade this place for anything . . . even when a drongo like you asks a question like that.'"
+
+Instead of asking the pusher about "the/-- tourist/musician/hippie/tourists/musicians/hippies":
+	say "He raises his hands. 'Don't lump me in with [that-crowd].'"
+
+To say that-crowd:
+	say "[one of]those drongos[or]those parsleys[or]those balugas[then at random]".
+
+Instead of asking the pusher about something:
+	say "He rolls his freaky eyes. 'You lookin['] to buy or not?' he says.".
+
+Instead of asking the pusher for something  during Way-Baked:
+	say "'Quit it, drongo. Can't you see I'm rolling a joint here?'";
+
+Instead of asking the pusher for the joint:
+	say "'If you wanna buy a joint, buy a joint,' says the pusher."
+
+Instead of asking the pusher for something:
+	say "'I'm not giving you anything for free,' the pusher says."
 
 To say pusher-desc:
 	say "His eyes are freaky, but your friends say he's honest.".
@@ -859,10 +1242,15 @@ To say pusher-desc:
 A pusher is a merchant in Christiana Main Street. The description of the pusher is "[pusher-desc]".
 
 To eye is a verb.
-Every turn when the pusher is visible:	
-	say "[The pusher] [adapt verb eye] [our] [random thing which is carried by the player]."
+Every turn when the pusher is visible:
+	if a random chance of 1 in 5 succeeds:
+		say "[The pusher] [adapt verb eye] [our] [random thing which is carried by the player]."
 
-A pushcart is a supporter in Christiana Main Street. The pushcart is pushable between rooms. The description of the pushcart is "A vital tool of the drug trade.".
+A pushcart is a supporter in Christiana Main Street. The pushcart is pushable between rooms. The description of the pushcart is "A vital tool of the drug trade.". Understand "cart" or "tool" as the pushcart.
+
+[maybe todo; give the pusher a (variable) line to say here to reinforce his character ... or maybe kick you out of the location?]
+Instead of touching or pushing the pushcart:
+	say "You probably shouldn't touch the pusher's stuff."
 
 A drug is a kind of thing. A drug is usually portable.
 
@@ -870,7 +1258,7 @@ A marijuana joint is a drug on the pushcart. The marijuana joint has price 2 kro
 
 Understand the command "smoke" as something new.
 
-Smoking is an action applying to one carried thing. Understand "smoke [something]" as smoking.
+Smoking is an action applying to one carried thing. Understand "smoke [something]" or "hit [something]" or "toke [something]" as smoking.
 
 Yourself can be sober or baked.
 
@@ -879,32 +1267,37 @@ When play begins:
 
 Check smoking something (called the junk):
 	if the junk is not a drug, say "You don't want to smoke [the junk]." instead;
-	if the player is baked, say "You [italic type]really[roman type] don't want to get any higher." instead.
+	if the player is baked, say "You can't handle getting any higher." instead.
 
 Carry out smoking something (called the junk):
 	now the player is baked;
 	now the junk is in Limbo.
 
 Report smoking something (called the junk):
-	say "You hit it and don't quit it. Your War-on-Drugs work ethic erases that joint from existence.
-	
-	Now you're baked.".
+	say "You hit it and don't quit it. Your War-on-Drugs work ethic erases that joint from existence.[paragraph break]Now you're baked.".
 
 Not-Baked is a recurring scene. Way-Baked is a recurring scene.
 
 Not-Baked begins when play begins. Not-Baked ends when the player is baked.
 
-Way-Baked begins when Not-Baked ends. Way-Baked ends when the time since Way-Baked began is 20 minutes.
+Way-Baked begins when Not-Baked ends. Way-Baked ends when the time since Way-Baked began is 20 minutes. Way-Baked begins when the player is baked.
 
 When Way-Baked ends:
 	say "Your high has worn off.";
+	now the player is sober;
 	now the fake tree is locked;
-	now the fake tree is closed.
+	now the fake tree is closed;
+	now the description of the pusher is "[pusher-desc]";
+	now the joint is on the pushcart;
+	now the price of the joint is 2 kroner;
+	if the player is in the belly and the player does not enclose the ineffable mystery:
+		say "Suddenly, the strange space within the tree squeezes shut. As the walls contract, you are forced out into the metro station. Before your eyes, the opening in the side of [the fake tree] shrinks and disappears.";
+		now the player is in the metro station.
 
 When Way-Baked begins:
-	now the description of the pusher is "Busily rolling another mondo joint.";
 	now the fake tree is unlocked;
-	now the fake tree is open.
+	now the fake tree is open;
+	now the description of the pusher is "Busily rolling another mondo joint.".
 
 Every turn when the player is baked:
 	say "[baked-exclaim]".
@@ -923,40 +1316,68 @@ To say baked-exclaim:
 			say "baked.";
 		otherwise:
 			say "[N] ".
-
-When Way-Baked ends:
-	now the description of the pusher is "[pusher-desc]";
-	now the joint is on the pushcart;
-	now the fake tree is closed;
-	if the player is in the fake tree:
-		now the player is in the metro station;
-		say "Suddenly, the strange space within the tree squeezes shut. As the walls contract, you are forced out into the metro station. As you face this arboreal mystery, the door on its side shrinks to nothing and disappears."
                
 
-Chapter 5 - The Path
+Chapter 6 - The Path
 
-The description of the path is "This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+The description of the path is "This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.[paragraph break]Out in the bay is a small island."
 
-Out in the bay is a small island."
-
-A gnarled bush is scenery in the path. The gnarled bush is a supporter. The description of the bush is "The leaves and branches are so tangled that it could probably support some weight." The carrying capacity of the bush is 1.
+A gnarled bush is scenery in the path. The gnarled bush is an enterable supporter. The description of the bush is "The leaves and branches are so tangled that it could probably support some weight." The carrying capacity of the bush is 2.
 
 Chapter 7 - The Island
 
-The Island of Technique is a room in Copenhagen. The description of the island is "This little island is no tropical paradise. It's more like someone carved a chunk off of Scotland and dropped it at the edge of the bay. Foggy, muddy, and riddled with trees."
+The Island of Technique is a room in Copenhagen. The description of the island is "This little island is no tropical paradise: it's foggy, muddy, and riddled with trees."
+
+Report the monk rejecting conversation:
+	say "'I cannot help you with that,' says the monk.".
+
+The conversation of the monk is Table of Monk Conv.
+
+Table of Monk Conv
+topic	reply
+"[weed]"	"'Such a substance as this will certainly help you comprehend the ultimate technique.'"
+"[mystery]"	"[if the monk encloses the mystery]'I cannot yet reveal that sort of knowledge to you[else]When taken to the right place, the ineffable mystery will help you understand the ultimate technique[end if]'."
+"[island]"	"'This island is my home. A friendly [italic type]fisker[roman type] brings me fresh herring to eat, and I sleep in the fork of a tree. Who could ask for more?'"
+"[technique]"	"'The last possible technique? Yes, I know of it. [if the score is less than gotta-have]I cannot, per se, teach it to you, but I will show you the way forward . . . [italic type]if[roman type] you improve your score.' He points at the top right corner of the screen.[else]The contents of [thisthat] wooden box are your pathway toward the technique.'[end if]"
+"the/-- [fisker]"	"'Ah yes, the one who supplies me with food. A pious man, he is.'"
+"the/-- [denhagen]"	"'This is a fine place,' says the monk. 'The beer is cheap, and the fish are savory.'"
+"the/-- box" or "the/-- wooden box" or "the/-- small box" or "the/-- small wooden box"	"'The contents of [thisthat] wooden box are your pathway toward the ultimate technique[if the score is less than gotta-have], but your score is not yet high enough for me to give it to you.' He gestures toward the top right of the screen.[else].'[end if]"
+
+To say thisthat:
+	if the monk encloses the wooden box:
+		say "this";
+	otherwise:
+		say "that".
 
 A monk is a man in the island. The monk is wearing a gray robe. The description of the robe is "A simple garment made of rough material, with big sleeves."
 
 The description of the monk is "He stands solemnly, with his arms [if the monk is not wearing the gray robe]at his sides[otherwise]nearly enveloped by the sleeves of his robe[end if].[if the monk carries the box] In one hand he carries a small wooden box.[otherwise][end if]"
 
-The monk is carrying a closed openable container called the wooden box. The description of the box is "Plainer than a raw herring.". Understand "wooden" or "box" or "the box" as the box.
+The monk is holding a closed openable container called the wooden box. The description of the box is "Plainer than a raw herring.". Understand "wooden" or "box" or "small" or "the box" as the box.
 
-Inside the box is the ineffable mystery. The description of the mystery is "Did you really think your brain would figure this one out just by looking?"
+Inside the box is the ineffable mystery. The description of the mystery is "Did you really think you could figure this one out just by looking?" The indefinite article of the mystery is "the".
+
+Understand "[eff] [mystery]" as a mistake ("Nice try, drongo!")
+
+Instead of dropping the mystery:
+	say "No way you're going to part with that. You earned it.".
+
+Instead of dropping something that encloses the mystery:
+	say "No way you're going to drop that. It contains [the ineffable mystery]!"
+
+Instead of giving something which encloses the mystery to someone:
+	say "You can't give away [the ineffable mystery]!"
+
+Instead of giving the ineffable mystery to someone:
+	say "You can't give away [the ineffable mystery]!"
+
+Instead of removing the ineffable mystery from the wooden box:
+	say "No, no. The ineffable mystery belongs in its box.".
 
 Gotta-have is a number that varies.
 
 When play begins:
-	now gotta-have is 8.
+	now gotta-have is 5.
 
 Instead of taking the box:
 	say "The monk holds [the box] out of your reach. Do you ask him for it?[command clarification break]";
@@ -966,56 +1387,97 @@ Check the player asking the monk for something (called the doozy):
 	if the score is less than gotta-have:
 		say "The monk gestures at the top right corner of the screen. 'Your score is too low for you to receive my blessing, traveler!'" instead;
 	if the doozy is not the box:
-		say "The monk shakes his head. 'I cannot give you such a thing, traveler.'" instead.
+		say "The monk shakes his head. 'I cannot give you such a thing, traveler.'" instead;
+	otherwise:
+		now the player has the wooden box;
+		increase the score by 1;
+		say "The monk hands you [the box].[paragraph break]As you take it in your hands, you feel a great weightiness upon your soul.";
+		rule succeeds.
 
-Persuasion rule for the monk giving the box to the player: persuasion succeeds.
+Persuasion rule for the monk doing something: persuasion succeeds.
 
-Carry out the monk giving the box to the player:
-	now the player has the wooden box.
+Chapter 8 - Text Understanding
 
-After the monk giving the box to the player:
-	say "With much gravitas, the monk hands you [the box].
-	
-	As you take it in your hands, you feel a great weightiness upon your soul.".
-		
-
-Test monk with "gonear monk / ask monk for box".
+Understand "fisherman/fish/herring/pile/mound/crate" or "herring crate" or "pile of herring" or "mound of herring" as "[fishy]". Understand "city/Denmark/Copenhagen/Hellerup" as "[denhagen]".
 
 
+Understand "last night" or "our night together" as "[night]". Understand "IIT campus" or "IIT Campus" or "school campus" or "university campus" or "campus" or "school" or "university" or "college" as "[campus]". Understand "programming" or "class" or "Introductory Programming" or "programming class" or "intro programming" or "computer science" or "TA" or "teaching assistant" as "[class]".
 
-Chapter 7 - Not for release
+Understand "the/-- weed/joint/marijuana/pot/lettuce/dro/hydro/chronic/grass" as "[weed]".
 
-Test inside-tree with "purloin joint / gonear fake tree / smoke joint / enter tree".
+Understand "fisker/fisherman" as "[fisker]".
 
-[
-DEF to-do todo  TO-DO TODO:
-finish descriptions of bald eagle flight
+Understand "the/this/-- island" or "the/-- island of technique" as "[island]".
 
-add baked interactions to earlier areas such as the vendor, the train
+Understand "the/-- technique" or "ultimate technique" or "the ultimate technique" as "[technique]".
 
-[Need to deal with case when player has no flower but tries to give one to ana - it silently tries to take one she has, which is unintuitive to the player in this scenario even though it's an OK default message in general.
+Understand "the/-- mystery" or "the/-- ineffable mystery" as "[mystery]". Understand "eff" or "make love" or "make love to" or "fuck" as "[eff]".
 
-This code DOESN'T work for that:
+Chapter 9 - Testing - Not for Release
 
-Instead of giving something (called the thingy) to someone when the player does not enclose the thingy:
-	say "You wish you could give away [a thingy], but you don't have one.".]
+Understand the command "testdirs" as something new.
 
-seduce command, and effects on ana; on birds? ; on pusher; and others
+Testdirs is an action applying to nothing. Understand "testdirs" as testdirs.
 
-describ dirs/list directions: make the "from here you can go" thing into a command.
+Check testdirs:
+	do nothing.
 
-add response for "start day" command
+Carry out testdirs:
+	do nothing.
 
-respond to 'open window'
+Report testdirs:
+	repeat with roomie running through rooms:
+		say "Testing directions in [roomie]";
+		now the player is in roomie;
+		try directions.
 
-[talkable people - even if it's just a bit of patter, it goes a long way. everyone keeps trying to talk to the people. perhaps they can hint at the UT.]
+Test p1 with "test apt / test fisherman / test wretched / test comm-then-pile / test train / test friendly / test aaren / test cem-to-campus".
 
-feeding anything to a person: they refuse it. (i already did this, why didn't it work in the adam playtest?)
+Test p2 with "test ana / test change-ana / test ana / test campus-to-christ / test christ / test pusher / test path / test monk / test mystery-unloseable / test endgame".
 
-reprogram friendly bird so you can get bald eagle via steak OR uncle sam.
+Test win with "test p1 / test button / test p2 / look at mystery / use ultimate technique".
 
-NOT going to implement:
-go to command
-a computer
-"tap foot"
-dance the ryan dance]
+Test lose with "test p1 / test p2 / look at mystery / use ultimate technique".
+
+Test apt with "take backpack / open fridge / take steak / cook steak / drink dankdrinke / take panties / go south".
+
+Test fisherman with "ask fisherman about herring / ask fisherman about bird / buy mound of herring / go east".
+
+Test wretched with "x bird / feed mound to bird / w / w".
+
+Test comm-then-pile with "d / ask clerk about money / ask clerk about copenhagen / take one-krone note / ask clerk for two-kroner note / ask clerk for three-kroner note / up / e / buy pile / w".
+
+Test train with "enter c-train / sit on sofa / pull lever".
+
+Test friendly with "w / feed pile to the friendly bird".
+
+Test aaren with "relax / take red flower / take white flower / take blue flower / take yellow flower".
+
+Test cem-to-campus with "e / s".
+
+Test campus with "listen / ".
+
+Test button with "press button / g / g / g / g / g / g / g / g".
+
+Test ana with "ask ana about love / ask ana about sex / ask ana about panties / ask ana about class / ask ana about last night / ask ana about campus / kiss ana / give steak to ana / take steak / give panties to ana".
+
+Test change-ana with "give red flower to ana".
+
+Test campus-to-christ with "north / nw".
+
+Test christ with "listen / x the hippies / x hippie".
+
+Test pusher with "ask pusher about the weed / ask pusher about the hippies / listen / ask pusher for joint / x pusher / buy joint".
+
+Test path with "se / go through small door / x eagle / mount eagle".
+
+Test monk with "ask monk about box / ask monk about weed / ask monk about the ultimate technique / ask monk about the island of technique / ask monk about the fisherman / ask monk for box".
+
+Test mystery-unloseable with "open wooden box / drop wooden box / drop ineffable mystery / take mystery from box / give wooden box to monk / give ineffable mystery to monk".
+
+Test endgame with "ride eagle / go through small door / smoke joint / in".
+
+When play begins (this is the run property checks at the start of play rule):
+	repeat with item running through things:
+		if description of the item is "":
+			say "[item] has no description."
