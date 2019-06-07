@@ -1,0 +1,198 @@
+Apartment:
+- type "help" for help, after the apartment is first described
+- greet [Benjamin] or talk to [Benjamin] as a mistake (He might be friendly but he's still just a tree). Check asking Benjamin about something or asking Benjamin for something: say "He might be friendly but he's still..." instead.
+- "look out the/-- window"
+- look outside -> try looking the window
+- Island scenery (or backdrop?). instead of looking at the island: try looking the window
+- eat a piece of bread -> dummy action -> try eating the bread
+- The apartment is in from Hellerup Strandvejen. Hellerup Strandvejen is out from the Apartment. -> make necessary changes to "directions" verb
+- Understand "a/the/-- tasty/dank/-- drink/beverage" as the Dankdrinke.
+- Understand "wear them anyway/regardless" or "wear [the panties] anyway/regardless" as a mistake
+- implementing smell panties "You flash back to last night..."
+- go out when loc is apt -> go s
+- add presence of door to room description
+- ? understand "pull the/-- sheets from/off/-- the/-- bed/--" as taking the bedsheets
+- make the pan a supporter with cap 1 so you can put stuff on it to cook
+- instead of put something in the pan: try putting the noun on the pan [both "in" and "on" pan are acceptable English, but the pan is a supporter, and in Inform, "in" is used for Dob containers. "on" is used when the Dob is a supporter]
+- turn on stove -> if something in the pan try cooking it, otherwise say "there's nothing in your pan to cook"
+- "wear [the bedsheets]" as a mistake ("You drape the sheets over your head and say "Boo!" like a ghost, but you soon tire of this game.")
+- "cube" scenery in the apartment. instead of doing something to the cube: now the noun is the apartment; continue the action.
+- ? lift rug ("you lift a corner of the rug to reveal ... nothing!")
+- ! glass bottle should remain after drinking the dankdrinke - that's a bug. may require new implementation for drinking - I bet there's a "now the noun is nowhere" in there somewhere
+- "shave" or "shave with the/a/-- shelf/shelves" as a mistake (You try to shave, but flinch away after getting a small cut. Perhaps it's best to preserve your manly beard.)
+- unplug something  -> dummy action unplugging; Instead of unplugging: say "Now, now, Ryan. There's no need to go around unplugging things." (coding as "understand "unplug fridge" as a mistake ("blah blah")" is a problem because then they could type "unplug fridge" anywhere and get the mistake response, even when the fridge wasn't present. and, this way, it also serves to catch any attempts to unplug other electrical devices (though I can't think of any.)
+- understand "bag" as the backpack
+- ? "make bed" with a dummy action
+
+Strandvejen
+- island backdrop
+- ask fisherman about apt ("You live here? Lovely homes, these are, but a boat's the only home I need."
+- ask fisherman about train
+- ask fisherman about panties / show panties to fisherman ("Oh ho ho! The American has got himself a sweetheart!")
+- ask fisherman about dock
+- ask fisherman about his/-- foot/feet - "I've got a lively pair of feet, always tipping and tapping without me noticing."
+- "Fisker shifts from foot" has an extra space hiding in it somewhere.
+- remove "it contains" sentence from description of barrow - inform by default will give it the "in the wheelbarrow..." treatment
+- make fistful visible in description of fisker ("a coat (in which is a fistful)")
+- ? make fistful of herring only an option for taking, etc. if the player has x'd the coat or the fistful (i.e. if either is examined)
+- check spelling of Danish words in fisker dialogue
+
+Dock
+- untie boat -> untie rope, untie rope -> try untying the rope
+- remove "barred and" from response to "open crate"
+- indicate visually that the crate is locked 
+
+Platform
+- Understand "arrow shaped" or "arrow" or "arrow sign" as the arrow-shaped sign
+- replace/augment wall sign with text in the room description
+- understand "lozenge" as the C-train
+- Understand "tug [something]" as pulling it [to match "with a tug of the lever"]
+
+Socialist Money Commissary
+- add a four-kroner note
+- "three" or "three kroner" as three-kroner, "two" or "two kroner" as two-kroner, etc.
+- have a scene that regenerates money over time
+- change "unfortunately" to "out of money for now - check back later"
+- ! always move money to the wallet after acquiring it
+- make "ask clerk for money" work, with a random note
+
+Station
+- "go/-- nw at night" mistake (nice try) [thanks Jeremy!]
+- change desc of door sign to "IT reads...", then incorporate it into description of the door "... [description of the sign]" a-la incorporating desc of handle into desc of fridge
+
+Campus
+- ? ask ana about babies
+- ? "give ana some/-- sex/lovin'/loving/fuck" as a mistake
+- ask ana about our/-- relationship
+- find first occurrence of acronym ITU, and spell it out in full
+- ask ana about denmark/copenhagen -> COPENHAGEN so enchanting... (then it makes sense even if player asks about denmark)
+- ? hit ana as a mistake (And you call yourself a feminist?); slap ana -> try hitting ana
+- ? giggle command
+- change name AND ALL REFERENCES to "ITU Campus"
+- add bell tower as scenery
+- understand "go in/to/-- bell/-- tower" as a mistake ("its under construction and not safe to go there!")
+- add x-able "construction crew" or else redirect it to the sawyer and carp
+- ? remove "button is curently switched off" from its description as a device, since that's not really how one talks about buttons
+- alias "show ana x" to "give ana x" in the case of the flowers
+- ! problem: check if ana is holding the panties during dialogue. right now, even if she is holding panties, will still say "you wouldn't mind bringing those to me".
+- let the player look at "somewhere nearby" (make it scenery?)
+- hit on, flirt, seduce -> seduce the noun
+- ask Ana about Prague
+- ask Ana about America
+- ask Ana about pusher
+- ask Ana about [marijuana] ;; or whatever the right bracket substitution is
+- Instead of taking the white dress: Ana laughs and pushes your hand away. "Not in public, Ryan!"
+
+Tree
+- add a minimal room description
+-  (before entering the tree when the player encloses the mystery), CHANGE that room description to something new (the inside of the tree is quite familiar now  ;;; or something like that)
+- understand "use the/-- technique" as ultimating
+
+
+Christiana
+- instead of doing something other than looking, examining, or speech with the tourists (hippies, musicians)
+- "reject talking" entries for hippies, tourists, and musicians
+- Understand "dank shit" or "dank" or "dro" or "chronic" as the marijuana joint
+- ? dialogue for hippies
+- ? dialogue for musicans
+- ? dialogue for tourists
+
+Path
+- bow to/before eagle as a mistake ("you try to bow to the eagle, but it grips your shoulder with a talon and hauls you to your feet. The American Dream means nobody has to bow to anyone else.")
+- salute eagle as a mistake
+- add bay as scenery
+- add island as scenery
+- sit on eagle, get on eagle, fly on eagle, mount eagle -> ride eagle ;; mix of "understand" for text like fly on eagle, and rules like "instead of sitting on the eagle: try riding the eagle"
+- "FLY TO ISLAND" -> ride eagle (but NOT just "fly" on its own -- too vague)
+- remove the sound effect - it's just not worth the weirdness of the sound effect number 4 thing
+- ? if you are carrying weed in the path, after printing desc of the room, say that the weed is also large vegetation durhurhur
+- once the eagle is in the path, it's OK to eat the steak. nothing left to feed to anyone
+
+Aarenhus Cemetery
+- ? Understand "bloom/blooms" as random-smelling a flower.
+- tombs as scenery
+- "tomb" as tombs
+- understand "enter [the marble tombs]" as a mistake
+
+Island
+- stray " character in monk "right place" dialogue
+- stray " character after "all you have to do is use it" (might be fixed)
+- all refs to technique -> ultimate technique
+- don't let the box be opened unless player encloses it
+- ask monk about [the monk] (similar to "talk to")
+- ask monk about knowledge
+- ask monk about contents (of the box)
+- ask monk about "using the/-- ultimate/-- technique" or "how to use the/-- ultimate/-- technique"
+- ask monk about robe ("All members of my order wear these robes")
+- ask monk about his/the/-- monk/-- order
+- ask monk about "pathway"
+- ask monk about herring -> the more general ask monk about food
+- ask monk about beer OR remove beer from his dialogue
+- ask monk about "right place" (for the mystery)
+- ? ask monk about Ana
+
+Help
+- put "scrutinize" sentence first in (1)
+- change (2) to simply "your backpack will hold as many things as you like"
+
+General
+- review all dialogue for per-character consistency of voice
+- "take money" shouldn't work - don't know how Larry got it to. the money should always stay in the wallet
+- ! debug "your high has worn off" for god's sake
+- more responses for "show", including "show mystery to monk", "show Uncle Sam to eagle" (the eagle recognizes the Uncle Sam, and looks you in the eye with approval)
+- add a command to display the title picture
+- put credits into post-game selections
+- change Larry's role in credits
+- uncapitalize "all the rest" in credits
+- "speak to [someone]" as talk to
+- backback or packpack as backpack
+- run a check for "  " (double space) and eliminate
+- wear something that's not wearable -> you can't wear that
+- implement "talk to" as asking it about some default topic
+- understand "talk to [someone] about [something]" as asking it about
+- ? understand 'leave' as something other than dropping? dummy action aliasing to exiting apt, and other places
+- ? verb "price" to get the price of something
+- understand "sit [something]" as sitting on.
+- understand "lie down/-- on [something]" as sitting on
+- make descriptions verbose by default
+- make "does not desire" code for give take precedence over (be listed before?) the "make a purchase with the buy command" code
+- understand "sell [text]" as a mistake (you can buy, you can't sell.)
+- add brackets to "ask [someone] about/for something"
+- allow herring to act like normal food EXCEPT eating ('the danes may eat this stuff, but you're allergic to fish.')
+- ? take living thing -> take intelligent being
+- dance! (the Ryan Dance)
+- understand "put [something] away" as putting the noun in the backpack.
+- before jumping: try standing (so that if you are seated and jump, you'll get up first)
+- a single tear leaks -> "a single tear leaks FROM YOUR EYE as you..."
+- swim to the/-- island as a mistake (even a tough young man like you couldn't do it, Ryan!)
+- ? add more "Ryan" name-dropping to things
+- smell Ana, smell fisker, smell cheese, smell steak (if cooked X else Y), smell money, smell boat, smell in the dock, smell in the campus
+- ? Understand "scream" as something new. Screaming is an action applying to nothing. Understand "scream" or "shout" or "yell" as screaming.
+- change "that costs money" to "that costs [the price of the noun]"
+- test something like "Before doing something to something which is enclosed by the backpack: repeat with Q running through a list of items carried by the player: if Q is the backpack do nothing; else try putting Q in the backpack; try taking the noun" to handle some of the inventory-related nonsense
+  - if  this doesn't work, review the code for carrying and capacity and try to suss out what's going on with auto-adding to backpack
+- ? "thank" verb/command
+- Understand "pet [something]" as touching it.
+- Instead of touching the wretched bird: say "[The noun] shies away from your touch. It clearly isn't used to friendly touching."
+- Instead of touching the friendly bird: say "[The noun] nuzzles against your hand."
+- Instead of touching the bald eagle: say "[The noun] graciously permits you to stroke its feathers."
+- ask X about Ryan/me
+- ! solve the Larry box-grabbing problem (might have solved this already, I recall working on it before showing the game to Chris) ">carry box The monk holds the wooden box out of your reach. Do you ask him for it? Please answer yes or no.> Y You can't reach into the Island of Technique."
+-  change "idiotic" to "gluttonous"
+- ? possibly change "X american have you truly mistaken X for food". "Not everything is a food, X American!" or "Have you truly mistaken [the noun] for food?" or "Americans! If it's not nailed down, they'll try to eat it!" or "Trust an American to try eating something that's not food."
+- Instead of asking someone for something which is enclosed by the player, say "You already have [the noun]."
+- ! figure out when the asking it for response "X has better things to do" rule applies and possibly edit it. "panties on ground, ask Ana for panties -> Ana has better things to do"
+- before dropping something enclosed by the player: try silently taking it [this is so that attempts to drop something contained in the backpack will Just Work]
+
+Amuse
+- figure out how to add amuse
+- DONE type up entries from orange note paper
+Have you tried:
+- boosting your imagination?
+- taking Anna?
+- staying in the fake tree until your high wears off?
+- eathing something that's not food?
+- going "nw at night" from the Station?
+- pushing the train lever, instead of pulling?
+- trying to capture one of the birds, perhaps with a certain object?
+- wearing the panties?
