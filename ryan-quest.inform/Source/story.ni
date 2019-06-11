@@ -1,6 +1,6 @@
 "RYAN QUEST" by Maxwell Joslyn
 
-Use scoring. Use American dialect. Use brief room descriptions.
+Use scoring. Use American dialect. Use verbose room descriptions.
 
 The maximum score is 10.
 
