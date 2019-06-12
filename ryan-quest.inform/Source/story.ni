@@ -698,6 +698,8 @@ After smelling the panties:
 Instead of wearing the panties:
         say "No way: you'd stretch them."
 
+Understand "wear them anyway/regardless" or "wear [the panties] anyway/regardless" as a mistake ("There's Casanova, and there's callous. Stretching out the panties would just be rude.")
+
 The description of the bedsheets is "Extremely rumpled from excessive romping." Understand "sheets" or "bedclothes" as bedsheets. The description of the panties is "Pink, frilly, and definitely not yours."
 
 After taking the panties for the first time:
