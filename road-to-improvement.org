@@ -8,7 +8,8 @@
 ** DONE eat a piece of bread -> try eating the bread
    CLOSED: [2019-06-11 Tue 17:08]
 ** Instead of going out from the apartment: say "(going south, out of your apartment)[command clarification break]"; try going south. Instead of going in from Hellerup Strandvejen: say "(going north, into your apartment)[command clarification break]"; try going north.
-** Understand "a/the/-- tasty/dank/-- drink/beverage" as the Dankdrinke.
+** DONE Understand "a/the/-- tasty/dank/-- drink/beverage" as the Dankdrinke.
+   CLOSED: [2019-06-11 Tue 17:15]
 ** Understand "wear them anyway/regardless" or "wear [the panties] anyway/regardless" as a mistake
 ** implementing smell panties "You flash back to last night..."
 ** go out when loc is apt -> go s

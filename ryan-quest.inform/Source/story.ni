@@ -675,7 +675,9 @@ After eating the cheese:
 After printing the name of the steak when the steak is not edible:
 	say " (uncooked)".
 
-The glass bottle of Dankdrinke is an edible thing in the fridge. The description of the bottle is "No drinke is more ergonomik than Dankdrinke!" The empty bottle is a thing in Limbo. The description of the empty bottle is "This used to contain Dankdrinke."
+The glass bottle of Dankdrinke is an edible thing in the fridge. The description of the bottle is "No drinke is more ergonomik than Dankdrinke!" The empty glass bottle is a thing in Limbo. The description of the empty glass bottle is "This used to contain Dankdrinke."
+
+Understand "a/the/-- tasty/dank/delicious/ergonomik/-- drink/beverage" as the Dankdrinke.
 
 Instead of drinking something (called the drink):
 	silently try eating the drink.
