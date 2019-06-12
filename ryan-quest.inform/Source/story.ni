@@ -484,9 +484,10 @@ Understand the command "cook" as something new.
 Cooking is an action applying to one thing. Understand "cook [something]" as cooking. Understand "fry [something]" as cooking.
 
 Check cooking something (called the munch):
-	if the munch is not a food, say "[fool]" instead;
 	if the frying pan is not touchable, say "You need a pan to cook in." instead;
-	if the location is not the apartment, say "Your only place to cook is your apartment stove." instead.
+	if the location is not the apartment, say "Your only place to cook is your apartment stove." instead;
+	if the munch is not a food, say "[fool]" instead;
+	if the frying pan supports something which is not the munch, say "You can't cook [the munch] until you take [a list of things supported by the frying pan] out of the pan." instead.
 
 Carry out cooking something for the first time:
 	increase the score by 1;
@@ -655,6 +656,11 @@ Understand "greet [dwarf banana tree]" or "talk to [dwarf banana tree]" as a mis
 
 The description of the stove is "A two-burner electric stove." On top of the stove is a frying pan. The pan is portable. The description of the pan is "Danish engineering makes bad food an impossibility." Understand "pan" as the frying pan.
 
+The frying pan is a supporter. The frying pan has carrying capacity 1.
+
+Instead of inserting something into the frying pan:
+	try putting the noun on the frying pan.
+
 The shelves are a supporter. On the shelves is a food called a loaf of bread. The description of the bread is "Made with 100% Danish wheat." Understand "shelf" as the shelves. The description of the shelves is "Each of the shelves is thin enough to shave with."
 
 Understand "a/the/-- piece of bread" as the loaf of bread.
@@ -672,7 +678,7 @@ The piece of cheese and a steak are foods in the fridge. The description of the 
 After eating the cheese:
 	say "God, that was foul."
 
-After printing the name of the steak when the steak is not edible:
+After printing the name of the steak when the steak is not edible:	
 	say " (uncooked)".
 
 The glass bottle of Dankdrinke is an edible thing in the fridge. The description of the bottle is "No drinke is more ergonomik than Dankdrinke!" The empty glass bottle is a thing in Limbo. The description of the empty glass bottle is "This used to contain Dankdrinke."

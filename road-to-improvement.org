@@ -19,8 +19,10 @@
 ** DONE add presence of door to room description
    CLOSED: [2019-06-11 Tue 17:26]
 ** ? understand "pull the/-- sheets from/off/-- the/-- bed/--" as taking the bedsheets
-** make the pan a supporter with cap 1 so you can put stuff on it to cook
-** instead of put something in the pan: try putting the noun on the pan [both "in" and "on" pan are acceptable English, but I will make the pan into a supporter, and in Inform, "in" is used for containers. "on" is used when the noun is a supporter]
+** DONE make the pan a supporter with cap 1 so you can put stuff on it to cook
+   CLOSED: [2019-06-11 Tue 17:44]
+** DONE instead of put something in the pan: try putting the noun on the pan [both "in" and "on" pan are acceptable English, but I will make the pan into a supporter, and in Inform, "in" is used for containers. "on" is used when the noun is a supporter]
+   CLOSED: [2019-06-11 Tue 17:44]
 ** turn on stove -> if something in the pan try cooking it, otherwise say "there's nothing in your pan to cook"
 ** DONE "wear [the bedsheets]" as a mistake ("You drape the sheets over your head and say "Boo!" like a ghost, but you soon tire of this game.")
    CLOSED: [2019-06-11 Tue 17:31]
