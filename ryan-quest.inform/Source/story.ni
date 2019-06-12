@@ -675,14 +675,18 @@ After eating the cheese:
 After printing the name of the steak when the steak is not edible:
 	say " (uncooked)".
 
-The glass bottle of Dankdrinke is an edible thing in the fridge. The description of the bottle is "No drinke is more ergonomik than Dankdrinke!"
+The glass bottle of Dankdrinke is an edible thing in the fridge. The description of the bottle is "No drinke is more ergonomik than Dankdrinke!" The empty bottle is a thing in Limbo. The description of the empty bottle is "This used to contain Dankdrinke."
 
 Instead of drinking something (called the drink):
 	silently try eating the drink.
 
 After drinking or eating the Dankdrinke:
 	say "Your throat is filled with ergonomitivity.";
-	increase the score by 1.
+	increase the score by 1;
+	if the player encloses the backpack:
+		now the empty bottle is inside the backpack;
+	else:
+		now the player is holding the empty bottle.
 
 The Apartment contains an enterable thing called the bed. The description of the bed is "Shaped to perfectly fit the human body." On the bed are bedsheets and a pair of Central European panties. Understand "underwear" or "knickers" as the panties.
 
