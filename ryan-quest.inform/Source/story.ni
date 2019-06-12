@@ -656,6 +656,14 @@ Understand "greet [dwarf banana tree]" or "talk to [dwarf banana tree]" as a mis
 
 The description of the stove is "A two-burner electric stove." On top of the stove is a frying pan. The pan is portable. The description of the pan is "Danish engineering makes bad food an impossibility." Understand "pan" as the frying pan.
 
+Instead of switching on the stove:
+	let C be the list of things supported by the frying pan;
+	if C is not empty:
+		let F be entry 1 of C;
+		try cooking F;
+	else:
+		say "There's nothing in the pan to cook."
+
 The frying pan is a supporter. The frying pan has carrying capacity 1.
 
 Instead of inserting something into the frying pan:
