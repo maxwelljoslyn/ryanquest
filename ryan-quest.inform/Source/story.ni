@@ -41,7 +41,7 @@ Carry out directions:
 	do nothing.
 
 Report directions:
-	if the location is the island:
+	if the location is the Island of Technique:
 		say "From here you can ride the eagle to return to the mainland.";
 	else:
 		repeat with that way running through directions:
@@ -435,8 +435,8 @@ Instead of mounting the bald eagle:
 			play the sound of eagle;
 			say "The eagle screams in the language of liberty, and carries you to the island.";
 		say line break;
-		now the eagle is in the island;
-		now the player is in the island;
+		now the eagle is in the Island of Technique;
+		now the player is in the Island of Technique;
 		stop the action;
 	else:
 		if has-ridden-from-island is false:
@@ -635,7 +635,15 @@ The woven rug, the stove, the round window, and some shelves are scenery in the 
 
 The description of the round window is "Out the window you can see the Bay of Gentofte. Some way out in the water is a small island. From here it looks quite pleasant[if the island is visited], but you know that it's actually kind of a shithole[otherwise][end if]."
 
-The island is scenery in the apartment. Instead of examining the island when the location is the apartment, try windowlooking the round window.
+The distant island is a backdrop. The distant island is in Hellerup Apartment, Hellerup Strandvejen, The Dock, and The Path.
+
+Instead of examining the distant island:
+	if the location is the Apartment:
+		try examining the round window;
+	else if the location is the path:
+		say "From here you can make out trees on the island, but you can't discern any further detail.";
+	else:
+		say "You gaze toward the island, but you can't see much at all from here.".
 
 Instead of examining outside when the location is the apartment:
 	try examining the round window.
@@ -706,7 +714,7 @@ The piece of cheese and a steak are foods in the fridge. The description of the 
 After eating the cheese:
 	say "God, that was foul."
 
-After printing the name of the steak when the steak is not edible:	
+After printing the name of the steak when the steak is not edible:
 	say " (uncooked)".
 
 The glass bottle of Dankdrinke is an edible thing in the fridge. The description of the bottle is "No drinke is more ergonomik than Dankdrinke!" The empty glass bottle is a thing in Limbo. The description of the empty glass bottle is "This used to contain Dankdrinke."
@@ -1387,7 +1395,7 @@ A gnarled bush is scenery in the path. The gnarled bush is an enterable supporte
 
 Chapter 7 - The Island
 
-The Island of Technique is a room in Copenhagen. The description of the island is "This little island is no tropical paradise: it's foggy, muddy, and riddled with trees."
+The Island of Technique is a room in Copenhagen. The description of the Island of Technique is "This little island is no tropical paradise: it's foggy, muddy, and riddled with trees."
 
 Report the monk rejecting conversation:
 	say "'I cannot help you with that,' says the monk.".
@@ -1410,7 +1418,7 @@ To say thisthat:
 	otherwise:
 		say "that".
 
-A monk is a man in the island. The monk is wearing a gray robe. The description of the robe is "A simple garment made of rough material, with big sleeves."
+A monk is a man in the Island of Technique. The monk is wearing a gray robe. The description of the robe is "A simple garment made of rough material, with big sleeves."
 
 The description of the monk is "He stands solemnly, with his arms [if the monk is not wearing the gray robe]at his sides[otherwise]nearly enveloped by the sleeves of his robe[end if].[if the monk carries the box] In one hand he carries a small wooden box.[otherwise][end if]"
 

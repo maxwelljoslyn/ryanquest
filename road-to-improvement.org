@@ -1,4 +1,4 @@
-* Apartment:
+* Apartment
 ** type "help" for help, after the apartment is first described
 ** DONE greet [Benjamin] or talk to [Benjamin] as a mistake (He might be friendly but he's still just a tree). Check asking Benjamin about something or asking Benjamin for something: say "He might be friendly but he's still..." instead.
    CLOSED: [2019-06-11 Tue 16:57]
@@ -42,12 +42,15 @@ I tried accomplishing this with the above code, but it didn't work. Only one per
    CLOSED: [2019-06-11 Tue 17:13]
 ** DONE "shave" or "shave with the/a/-- shelf/shelves" as a mistake (You try to shave, but flinch away after getting a small cut. Perhaps it's best to preserve your manly beard.)
    CLOSED: [2019-06-11 Tue 17:56]
-** unplug something  -> dummy action unplugging; Instead of unplugging: say "Now, now, Ryan. There's no need to go around unplugging things." (coding as "understand "unplug fridge" as a mistake ("blah blah")" is a problem because then they could type "unplug fridge" anywhere and get the mistake response, even when the fridge wasn't present. and, this way, it also serves to catch any attempts to unplug other electrical devices (though I can't think of any.)
+** CANCELLED unplug something  -> dummy action unplugging; Instead of unplugging: say "Now, now, Ryan. There's no need to go around unplugging things." (coding as "understand "unplug fridge" as a mistake ("blah blah")" is a problem because then they could type "unplug fridge" anywhere and get the mistake response, even when the fridge wasn't present. and, this way, it also serves to catch any attempts to unplug other electrical devices (though I can't think of any.)
+   CLOSED: [2019-06-11 Tue 18:24]
 ** DONE understand "bag" as the backpack
    CLOSED: [2019-06-11 Tue 17:53]
-** ? "make bed" with a dummy action
+** CANCELLED ? "make bed" with a dummy action
+   CLOSED: [2019-06-11 Tue 18:24]
 * Strandvejen
-** island backdrop
+** DONE island backdrop
+   CLOSED: [2019-06-11 Tue 18:59]
 ** ask fisherman about apt ("You live here? Lovely homes, these are, but a boat's the only home I need."
 ** ask fisherman about train
 ** ask fisherman about panties / show panties to fisherman ("Oh ho ho! The American has got himself a sweetheart!")
@@ -59,6 +62,8 @@ I tried accomplishing this with the above code, but it didn't work. Only one per
 ** ? make fistful of herring only an option for taking, etc. if the player has x'd the coat or the fistful (i.e. if either is examined)
 ** check spelling of Danish words in fisker dialogue
 * Dock
+** DONE island backdrop
+   CLOSED: [2019-06-11 Tue 18:59]
 ** untie boat -> untie rope, untie rope -> try untying the rope
 ** remove "barred and" from response to "open crate"
 ** indicate visually that the crate is locked
@@ -68,11 +73,14 @@ I tried accomplishing this with the above code, but it didn't work. Only one per
 ** understand "lozenge" as the C-train
 ** Understand "tug [something]" as pulling it [to match "with a tug of the lever"
 * Socialist Money Commissary
-** add a four-kroner note
+** put Commissary in the Hellerup region (currently it's regionless)
 ** "three" or "three kroner" as three-kroner, "two" or "two kroner" as two-kroner, etc.
-** have a scene that regenerates money over time
-** change "unfortunately" to "out of money for now - check back later"
-** ! always move money to the wallet after acquiring it
+** DONE have a scene that regenerates money over time
+   CLOSED: [2019-06-11 Tue 18:40]
+** DONE change "unfortunately" to "out of money for now - check back later"
+   CLOSED: [2019-06-11 Tue 18:40]
+** DONE ! always move money to the wallet after acquiring it
+   CLOSED: [2019-06-11 Tue 18:41]
 ** make "ask clerk for money" work, with a random not
 * Station
 ** "go/-- nw at night" mistake (nice try) [thanks Jeremy!]
@@ -113,8 +121,8 @@ I tried accomplishing this with the above code, but it didn't work. Only one per
 * Path
 ** bow to/before eagle as a mistake ("you try to bow to the eagle, but it grips your shoulder with a talon and hauls you to your feet. The American Dream means nobody has to bow to anyone else.")
 ** salute eagle as a mistake
-** add bay as scenery
-** add island as scenery
+** DONE island backdrop
+   CLOSED: [2019-06-11 Tue 18:59]
 ** sit on eagle, get on eagle, fly on eagle, mount eagle -> ride eagle ;; mix of "understand" for text like fly on eagle, and rules like "instead of sitting on the eagle: try riding the eagle"
 ** "FLY TO ISLAND" -> ride eagle (but NOT just "fly" on its own -- too vague)
 ** remove the sound effect - it's just not worth the weirdness of the sound effect number 4 thing
@@ -126,6 +134,8 @@ I tried accomplishing this with the above code, but it didn't work. Only one per
 ** "tomb" as tombs
 ** understand "enter [the marble tombs]" as a mistak
 * Island of Technique
+** disallow player from putting box/mystery on a supporter or inserting it into a container
+preventing the player from dropping it will not handle these cases
 ** stray " character in monk "right place" dialogue
 ** stray " character after "all you have to do is use it" (might be fixed)
 ** all refs to technique -> ultimate technique
@@ -140,7 +150,6 @@ I tried accomplishing this with the above code, but it didn't work. Only one per
 ** ask monk about herring -> the more general ask monk about food
 ** ask monk about beer OR remove beer from his dialogue
 ** ask monk about "right place" (for the mystery)
-** ? ask monk about An
 * Help
 ** put "scrutinize" sentence first in (1)
 ** change (2) to simply "your backpack will hold as many things as you like
