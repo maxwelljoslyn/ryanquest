@@ -657,6 +657,8 @@ The description of the stove is "A two-burner electric stove." On top of the sto
 
 The shelves are a supporter. On the shelves is a food called a loaf of bread. The description of the bread is "Made with 100% Danish wheat." Understand "shelf" as the shelves. The description of the shelves is "Each of the shelves is thin enough to shave with."
 
+Understand "a/the/-- piece of bread" as the loaf of bread.
+
 The Apartment contains a fridge. The fridge is a closed container. The fridge is fixed in place and openable. The description of the fridge is "Silvery-subtle. The handle is [description of handle in lower case]". The handle is a thing which is part of the fridge. The description of the handle is "Quite affordant."
 
 Instead of pulling the handle:
