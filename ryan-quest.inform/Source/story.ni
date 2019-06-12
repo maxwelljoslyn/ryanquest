@@ -749,6 +749,10 @@ Chapter 1 - Hellerup Strandvejen
 
 Hellerup Strandvejen is a room in Hellerup. "The main street of Hellerup is bordered on its north side by brightly-painted row houses, such as the one containing your apartment. At the east end is a dock, and if you go west you can catch a train."
 
+Instead of going inside in Hellerup Strandvejen:
+	say "(entering your apartment)[command clarification break]";
+	try going north.
+
 Some row houses are scenery in Hellerup Strandvejen. The description of the row houses is "I said brightly-painted and I meant it -- yet these suckers must be at least a century old."
 
 Every turn when the fisherman is visible:
