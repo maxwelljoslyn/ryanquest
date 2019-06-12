@@ -690,7 +690,7 @@ After drinking or eating the Dankdrinke:
 	else:
 		now the player is holding the empty bottle.
 
-The Apartment contains an enterable thing called the bed. The description of the bed is "Shaped to perfectly fit the human body." On the bed are bedsheets and a pair of Central European panties. Understand "underwear" or "knickers" as the panties.
+The Apartment contains an enterable thing called the bed. The description of the bed is "Shaped to perfectly fit the human body." On the bed are bedsheets and a pair of Central European panties. Understand "underwear" or "knickers" as the panties. The description of the panties is "Pink, frilly, and definitely not yours."
 
 After smelling the panties:
 	say "Your memory flashes back to last night . . . and returns, slowly, to the present moment.".
@@ -700,11 +700,13 @@ Instead of wearing the panties:
 
 Understand "wear them anyway/regardless" or "wear [the panties] anyway/regardless" as a mistake ("There's Casanova, and there's callous. Stretching out the panties would just be rude.")
 
-The description of the bedsheets is "Extremely rumpled from excessive romping." Understand "sheets" or "bedclothes" as bedsheets. The description of the panties is "Pink, frilly, and definitely not yours."
-
 After taking the panties for the first time:
 	say "Nice.".
 
+The description of the bedsheets is "Extremely rumpled from excessive romping." Understand "sheets" or "bedclothes" as bedsheets.
+
+Before wearing the bedsheets:
+	say "You drape the bedsheets over your head and shout 'Boo!' like a ghost, but soon you tire of this game, and toss the sheets back on the bed." instead.
 
 
 Part 2 - Outdoors in Hellerup
