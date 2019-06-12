@@ -616,8 +616,8 @@ The Hellerup Apartment is a room in Hellerup. "Your apartment is a cheery little
 
 The player is in the apartment.
 
-[Instead of exiting the apartment:
-        try going south.]
+Instead of going outside in the apartment:
+	try going south.
 
 The apartment door is a door. It is south of the Apartment and north of Hellerup Strandvejen. The description is "Just looking at this door makes you eager to start each day."
 
