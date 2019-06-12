@@ -625,7 +625,7 @@ The apartment door is a door. It is south of the Apartment and north of Hellerup
 Before listing nondescript items when the location is the apartment:
 	now the apartment door is not marked for listing.
 
-The apartment contains a portable thing called a backpack. The backpack is wearable. The backpack is a player's holdall. The description of the backpack is "Adorned with the seal of Reed College, your undergraduate alma mater." Understand "pack" as backpack.
+The apartment contains a portable thing called a backpack. The backpack is wearable. The backpack is a player's holdall. The description of the backpack is "Adorned with the seal of Reed College, your undergraduate alma mater." Understand "pack" or "bag" as the backpack.
 
 Instead of opening the apartment door when the player does not have the backpack:
 	say "You can't go to school without your backpack.";

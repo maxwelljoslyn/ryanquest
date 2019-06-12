@@ -38,7 +38,8 @@ I tried accomplishing this with the above code, but it didn't work. Only one per
    CLOSED: [2019-06-11 Tue 17:13]
 ** "shave" or "shave with the/a/-- shelf/shelves" as a mistake (You try to shave, but flinch away after getting a small cut. Perhaps it's best to preserve your manly beard.)
 ** unplug something  -> dummy action unplugging; Instead of unplugging: say "Now, now, Ryan. There's no need to go around unplugging things." (coding as "understand "unplug fridge" as a mistake ("blah blah")" is a problem because then they could type "unplug fridge" anywhere and get the mistake response, even when the fridge wasn't present. and, this way, it also serves to catch any attempts to unplug other electrical devices (though I can't think of any.)
-** understand "bag" as the backpack
+** DONE understand "bag" as the backpack
+   CLOSED: [2019-06-11 Tue 17:53]
 ** ? "make bed" with a dummy action
 * Strandvejen
 ** island backdrop
