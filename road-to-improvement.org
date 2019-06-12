@@ -12,7 +12,8 @@
    CLOSED: [2019-06-11 Tue 17:15]
 ** DONE Understand "wear them anyway/regardless" or "wear [the panties] anyway/regardless" as a mistake
    CLOSED: [2019-06-11 Tue 17:18]
-** implementing smell panties "You flash back to last night..."
+** DONE better implementation of ">smell panties": "Your memory flashes back to last night..."
+   CLOSED: [2019-06-11 Tue 17:22]
 ** go out when loc is apt -> go s
 ** add presence of door to room description
 ** ? understand "pull the/-- sheets from/off/-- the/-- bed/--" as taking the bedsheets

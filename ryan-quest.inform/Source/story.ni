@@ -693,7 +693,7 @@ After drinking or eating the Dankdrinke:
 The Apartment contains an enterable thing called the bed. The description of the bed is "Shaped to perfectly fit the human body." On the bed are bedsheets and a pair of Central European panties. Understand "underwear" or "knickers" as the panties.
 
 After smelling the panties:
-	say "Pervert."
+	say "Your memory flashes back to last night . . . and returns, slowly, to the present moment.".
 
 Instead of wearing the panties:
         say "No way: you'd stretch them."
