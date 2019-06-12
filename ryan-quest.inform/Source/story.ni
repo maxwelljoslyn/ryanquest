@@ -630,7 +630,7 @@ Instead of opening the apartment door when the player does not have the backpack
 	say "You can't go to school without your backpack.";
 	stop the action.
 
-The rug, the stove, the round window, and some shelves are scenery in the Apartment.
+The woven rug, the stove, the round window, and some shelves are scenery in the Apartment.
 
 The description of the round window is "Out the window you can see the Bay of Gentofte. Some way out in the water is a small island. From here it looks quite pleasant[if the island is visited], but you know that it's actually kind of a shithole[otherwise][end if]."
 
