@@ -612,7 +612,7 @@ Hellerup is a region.
 
 Chapter 1 - Hellerup Apartment
 
-The Hellerup Apartment is a room in Hellerup. "Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast."
+The Hellerup Apartment is a room in Hellerup. "Your apartment is a cheery little cube with its door to the south. On the east wall is a round window, and on the west wall are a fridge and some shelves. A bed sits in the northwest corner, the stove lies in the northeast, and a woven rug adorns the floor in the middle of the room."
 
 The player is in the apartment.
 
