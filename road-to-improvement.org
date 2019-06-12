@@ -1,6 +1,7 @@
 * Apartment:
 ** type "help" for help, after the apartment is first described
-** greet [Benjamin] or talk to [Benjamin] as a mistake (He might be friendly but he's still just a tree). Check asking Benjamin about something or asking Benjamin for something: say "He might be friendly but he's still..." instead.
+** DONE greet [Benjamin] or talk to [Benjamin] as a mistake (He might be friendly but he's still just a tree). Check asking Benjamin about something or asking Benjamin for something: say "He might be friendly but he's still..." instead.
+   CLOSED: [2019-06-11 Tue 16:57]
 ** "look out the/-- window"
 ** look outside -> try looking the window
 ** Island scenery (or backdrop?). instead of looking at the island: try looking the window
@@ -16,8 +17,13 @@
 ** instead of put something in the pan: try putting the noun on the pan [both "in" and "on" pan are acceptable English, but I will make the pan into a supporter, and in Inform, "in" is used for containers. "on" is used when the noun is a supporter]
 ** turn on stove -> if something in the pan try cooking it, otherwise say "there's nothing in your pan to cook"
 ** "wear [the bedsheets]" as a mistake ("You drape the sheets over your head and say "Boo!" like a ghost, but you soon tire of this game.")
-** "cube" scenery in the apartment. instead of doing something to the cube: now the noun is the apartment; continue the action.
-** ? lift rug ("you lift a corner of the rug to reveal ... nothing!")
+** CANCELLED "cube" scenery in the apartment. instead of doing something to the cube: now the noun is the apartment; continue the action.
+   CLOSED: [2019-06-11 Tue 16:51]
+Understand "cheery/-- little/-- cube" as Hellerup Apartment.
+
+I tried accomplishing this with the above code, but it didn't work. Only one person has tried referring to the apartment as a cube anyway, so I won't worry hard about this.
+** CANCELLED ? lift rug ("you lift a corner of the rug to reveal ... nothing!")
+   CLOSED: [2019-06-11 Tue 16:53]
 ** ! glass bottle should remain after drinking the dankdrinke - that's a bug. may require new implementation for drinking - I bet there's a "now the noun is nowhere" in there somewhere
 ** "shave" or "shave with the/a/-- shelf/shelves" as a mistake (You try to shave, but flinch away after getting a small cut. Perhaps it's best to preserve your manly beard.)
 ** unplug something  -> dummy action unplugging; Instead of unplugging: say "Now, now, Ryan. There's no need to go around unplugging things." (coding as "understand "unplug fridge" as a mistake ("blah blah")" is a problem because then they could type "unplug fridge" anywhere and get the mistake response, even when the fridge wasn't present. and, this way, it also serves to catch any attempts to unplug other electrical devices (though I can't think of any.)

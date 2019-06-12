@@ -642,6 +642,17 @@ Instead of taking the rug:
 	
 In the apartment is a dwarf banana tree. The banana tree is portable. The description of the dwarf banana tree is "As friendly as a plant can get, and eminently pocketable. Its name is Benjamin." Understand "dwarf tree" and "banana tree" and "Benjamin" and "Ben" as the dwarf banana tree.
 
+To say tree-mistake:
+	say "[one of][The dwarf banana tree][or]Benjamin[then at random] offers no response. He might be friendly, but he's still just a tree.[command clarification break][run paragraph on]"
+
+Check asking the dwarf banana tree for something:
+	say "[tree-mistake]" instead.
+
+Check asking the dwarf banana tree about something:
+	say "[tree-mistake]" instead.
+
+Understand "greet [dwarf banana tree]" or "talk to [dwarf banana tree]" as a mistake ("[tree-mistake]").
+
 The description of the stove is "A two-burner electric stove." On top of the stove is a frying pan. The pan is portable. The description of the pan is "Danish engineering makes bad food an impossibility." Understand "pan" as the frying pan.
 
 The shelves are a supporter. On the shelves is a food called a loaf of bread. The description of the bread is "Made with 100% Danish wheat." Understand "shelf" as the shelves. The description of the shelves is "Each of the shelves is thin enough to shave with."
