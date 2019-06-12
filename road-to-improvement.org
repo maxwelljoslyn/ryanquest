@@ -2,9 +2,12 @@
 ** type "help" for help, after the apartment is first described
 ** DONE greet [Benjamin] or talk to [Benjamin] as a mistake (He might be friendly but he's still just a tree). Check asking Benjamin about something or asking Benjamin for something: say "He might be friendly but he's still..." instead.
    CLOSED: [2019-06-11 Tue 16:57]
-** "look out the/-- window"
-** look outside -> try looking the window
-** Island scenery (or backdrop?). instead of looking at the island: try looking the window
+** DONE "look out the/-- window"
+   CLOSED: [2019-06-11 Tue 18:19]
+** DONE look outside -> try looking the window
+   CLOSED: [2019-06-11 Tue 18:19]
+** DONE Island scenery (or backdrop?). instead of looking at the island: try looking the window
+   CLOSED: [2019-06-11 Tue 18:19]
 ** DONE eat a piece of bread -> try eating the bread
    CLOSED: [2019-06-11 Tue 17:08]
 ** Instead of going out from the apartment: say "(going south, out of your apartment)[command clarification break]"; try going south. Instead of going in from Hellerup Strandvejen: say "(going north, into your apartment)[command clarification break]"; try going north.

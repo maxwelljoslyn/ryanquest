@@ -635,6 +635,24 @@ The woven rug, the stove, the round window, and some shelves are scenery in the 
 
 The description of the round window is "Out the window you can see the Bay of Gentofte. Some way out in the water is a small island. From here it looks quite pleasant[if the island is visited], but you know that it's actually kind of a shithole[otherwise][end if]."
 
+The island is scenery in the apartment. Instead of examining the island when the location is the apartment, try windowlooking the round window.
+
+Instead of examining outside when the location is the apartment:
+	try examining the round window.
+
+Windowlooking is an action applying to one thing. Understand "look through/out [something]" as windowlooking.
+
+[I'd like to add
+Understand "look through/out [something] at [text]" as windowlooking.
+but I can't find a way to add an optional argument to an action. I could perhaps do it with action variables, but for now it's not important -- I'm only trying to handle cases like "look through window at island" and players rarely try that: they usually just go for "look out window" or similar.]
+
+Carry out windowlooking:
+	say "You can't look through that."
+
+Instead of windowlooking or searching the round window:
+	[we handle "searching" in order to redirect the command "look through [something]"]
+	try examining the round window.
+
 The description of the rug is "The rug depicts a universal healthcare flying over the Kingdom of Denmark."
 
 Instead of taking the rug:
