@@ -85,7 +85,9 @@ I tried accomplishing this with the above code, but it didn't work. Only one per
 * Station
 ** "go/-- nw at night" mistake (nice try) [thanks Jeremy!]
 ** change desc of door sign to "IT reads...", then incorporate it into description of the door "... [description of the sign]" a-la incorporating desc of handle into desc of fridg
+** make disc a scenery and give it description
 * Campus
+** rename or redescribe "button" to make clear that it's a pushbutton -- dad tried to pick it up, as if it were a shirt button
 ** ? ask ana about babies
 ** ? "give ana some/-- sex/lovin'/loving/fuck" as a mistake
 ** ask ana about our/-- relationship
@@ -112,6 +114,7 @@ I tried accomplishing this with the above code, but it didn't work. Only one per
 ** (before entering the tree when the player encloses the mystery), CHANGE that room description to something new (the inside of the tree is quite familiar now  ;;; or something like that)
 ** understand "use the/-- technique" as ultimatin
 * Christiana
+** 
 ** instead of doing something other than looking, examining, or speech with the tourists (hippies, musicians)
 ** "reject talking" entries for hippies, tourists, and musicians
 ** Understand "dank shit" or "dank" or "dro" or "chronic" as the marijuana joint
@@ -154,9 +157,22 @@ preventing the player from dropping it will not handle these cases
 ** put "scrutinize" sentence first in (1)
 ** change (2) to simply "your backpack will hold as many things as you like
 * General
+** instead of listening to the musicians: try listening.
+** understand "dance" as something new
+Dancing is an action applying to nothing. Understand "dance" or "dance around" or "cut a rug" or or "dance the/a/-- ryan/-- dance" as dancing.
+
+Report dancing:
+if the location is Christiana:
+try listening;
+say "You dance the Ryan Dance to this merry tune."
+otherwise:
+say "You dance the Ryan Dance."
+** change "buy potato" to "buy mound of herring" in buy-tater rule
+** "buy-tater" rule to have the informative name how-to-buy
 ** review all dialogue for per-character consistency of voice
 ** "take money" shouldn't work - don't know how Larry got it to. the money should always stay in the wallet
-** ! debug "your high has worn off" for god's sake
+** DONE ! debug "your high has worn off" for god's sake 2019-11-11: YOOOOO GOT IT DONE! The problem was that I was moving the cashola to nowhere instead of moving it to Limbo in ONLY ONE of the TWO places where cashola is handled.
+   CLOSED: [2019-11-13 Wed 00:09]
 ** more responses for "show", including "show mystery to monk", "show Uncle Sam to eagle" (the eagle recognizes the Uncle Sam, and looks you in the eye with approval)
 ** add a command to display the title picture
 ** put credits into post-game selections
@@ -206,14 +222,15 @@ if  this doesn't work, review the code for carrying and capacity and try to suss
 ** DONE figure out how to add amuse
    CLOSED: [2019-06-11 Tue 16:38]
 Use the activity "amusing the victorious player."
+i.e. write the rule: "To amuse the victorious player:"
 ** DONE type up entries from orange note paper
 Have you tried:
+- wearing the panties?
+- eating something that's not food?
+- pushing the train lever, instead of pulling?
 - boosting your imagination?
 - taking Anna?
 - staying in the fake tree until your high wears off?
-- eathing something that's not food?
-- going "nw at night" from the Station?
-- pushing the train lever, instead of pulling?
-- trying to capture one of the birds, perhaps with a certain object?
-- wearing the panties?
+- going "nw at night" from the Metro Station?
+- trying to capture a bird, perhaps by using a certain cloth object?
 ** add amuse entries to "amusing the victorious player"
