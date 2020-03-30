@@ -1,6 +1,11 @@
-# /transcripts/*
-# /ryan-quest.inform/Index/*
-# /ryan-quest.inform/Index/*/*.html
-# /*.epub
-# ryan-quest.inform/*.txt
-# ryan-quest.inform/*.html
+/transcripts/*.png
+/transcripts/*.zip
+/ryanquest.inform/Index/*
+/ryanquest.inform/Index/*/*.html
+/*.epub
+/ryanquest.inform/*.txt
+/ryanquest.inform/*.html
+/ryanquest.inform/*.iFiction
+/ryanquest.inform/*.blurb
+/ryanquest.inform/*.plist
+/ryanquest.inform/*.skein
