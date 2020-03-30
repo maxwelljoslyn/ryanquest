@@ -1,0 +1,2113 @@
+
+
+
+It is the Year of Our Lord MMXVIII. You have arrived in the Danish city of Copenhagen to pursue a master's degree. You found an apartment for let in the suburb of Hellerup, and promptly moved in. The place isn't much, but for the next two years it's home.
+
+
+
+
+PREPARE YOUR SPIRIT FOR . . .
+
+
+
+
+
+RYAN QUEST 2
+A Thoroughly Accurate Simulation by Maxwell Joslyn
+Release 1 / Serial number 190123 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) 
+
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+On the shelves is a loaf of bread.
+
+You can also see a backpack (empty), a dwarf banana tree, a fridge (closed) and the bed (on which are bedsheets and a pair of Central European panties) here.
+
+>lo
+That's not a verb I recognize.
+
+>load
+That's not a verb I recognize.
+
+>
+I beg your pardon?
+
+>help
+This is a classic text-adventure game. You play by typing in what you want to do. If this is your first text adventure, I wish you luck, and leave you with these tips:
+
+1) Take the time to "look" at everything, e.g. "look (at) cheese" or "examine rug". You'll experience more jokes and puzzles if you scrutinize the game world.
+2) "Take" intriguing or suspicious objects with you for later.
+3) Refer to this table for some useful commands:
+look      - l   - On its own, describes your immediate surroundings ("l"). For detailed descriptions, specify a direct object ("look backpack").
+take      - N/A - Picks something up.
+inventory - i   - Shows what you're carrying.
+dirs      - N/A - Lists the directions you can go from here.
+wait      - z   - Waits for one turn.
+undo      - N/A - Undoes a mistaken action. I won't punish you for making a typo!
+credits   - N/A - Shows a list of people involved with making the game!
+
+>look at dwarf banana tree
+As friendly as a plant can get, and eminently pocketable. Its name is Benjamin.
+
+>take benjamin
+Taken.
+
+>put benjamin in backpack
+You put the dwarf banana tree into the backpack.
+
+>i
+You are carrying:
+  a wallet
+    money totalling 2 kroner
+    1 Uncle Sam
+
+>look at panties
+Pink, frilly, and definitely not yours.
+
+>put panties on
+(first taking the pair of Central European panties)
+Nice.
+
+No way: you'd stretch them.
+
+>smell panties
+Pervert.
+
+>put panties on head
+You can't see any such thing.
+
+>take panties
+You already have that.
+
+>put panties in backpack
+You put the pair of Central European panties into the backpack.
+
+>l
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+On the shelves is a loaf of bread.
+
+You can also see a backpack (in which are a pair of Central European panties and a dwarf banana tree), a fridge (closed) and the bed (on which is bedsheets) here.
+
+>look under rug
+You find nothing of interest.
+
+>look at rug
+The rug depicts a universal healthcare flying over the Kingdom of Denmark.
+
+>look at fridge
+Silvery-subtle. The handle is quite affordant.
+
+>open fridge
+You open the fridge, revealing a piece of cheese, a steak (uncooked) and a glass bottle of Dankdrinke.
+
+>drink dankdrinke
+(first taking the glass bottle of Dankdrinke)
+Your throat is filled with ergonomitivity.
+
+[Your score has just gone up by one point.]
+
+>look at dankdrinke
+You can't see any such thing.
+
+>look at cheese
+Purchased in the airport.
+
+>eat cheese
+(first taking the piece of cheese)
+You eat the piece of cheese. Not bad.
+
+>cook steak
+You cook the steak, filling the air with delicious smells.
+
+[Your score has just gone up by one point.]
+
+>eat steak
+Are you sure? You might need that later. [y/n] n
+
+>put steak in backpack
+(first taking the steak)
+You put the steak into the backpack.
+
+>look out window
+I only understood you as far as wanting to look outside.
+
+>look at window
+Out the window you can see the Bay of Gentofte. Some way out in the water is a small island. From here it looks quite pleasant.
+
+>l
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+On the shelves is a loaf of bread.
+
+You can also see a backpack (in which are a steak, a pair of Central European panties and a dwarf banana tree), a fridge (empty) and the bed (on which is bedsheets) here.
+
+>look at shelves
+Each of the shelves is thin enough to shave with.
+
+On the shelves is a loaf of bread.
+
+>put bread in backpack
+(first taking the loaf of bread)
+You put the loaf of bread into the backpack.
+
+>look at bread
+Made with 100% Danish wheat.
+
+>cook bread
+You cook the loaf of bread, filling the air with tasty smells.
+
+>put bread in backpack
+(first taking the loaf of bread)
+You put the loaf of bread into the backpack.
+
+>look at frying pan
+Danish engineering makes bad food an impossibility.
+
+>take frying pan
+Taken.
+
+>put frying pan in backpack
+You put the frying pan into the backpack.
+
+>leave apartment
+(first opening the apartment door)
+You can't go to school without your backpack.
+
+>take backpack
+Taken.
+
+>leave apartment
+(first opening the apartment door)
+
+Hellerup Strandvejen
+The main street of Hellerup is bordered on its north side by brightly-painted row houses, such as the one containing your apartment. At the east end is a dock, and if you go west you can catch a train.
+
+You can see an apartment door, a fisherman and a wheelbarrow (in which are a pile of herring and a mound of herring) here.
+
+The fisherman calls out, "Today I have a pile of herring and a mound of herring! Fresh!"
+
+>look at herring
+Which do you mean, the fistful of herring, the pile of herring or the mound of herring?
+
+>fistful of herring
+Must be tucked away for a rainy day.
+
+>look at pile of herring
+Plump and juicy.
+
+It costs 1 kroner.
+
+The fisherman calls out, "Today I have a pile of herring and a mound of herring! Very tasty!"
+
+>look at mound of herring
+Moist and fresh.
+
+It costs 2 kroner.
+
+The fisherman calls out, "Today I have a pile of herring and a mound of herring! Delicious!"
+
+>buy pile of herring
+You pay 1 kroner for the pile of herring, leaving yourself with 1 kroner.
+
+>l
+Hellerup Strandvejen
+The main street of Hellerup is bordered on its north side by brightly-painted row houses, such as the one containing your apartment. At the east end is a dock, and if you go west you can catch a train.
+
+You can see an apartment door, a fisherman and a wheelbarrow (in which is a mound of herring) here.
+
+The fisherman calls out, "Today I have a mound of herring! Come and get it!"
+
+>go east
+
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate, atop which sits a bird.
+
+>ask bird about woodchucks
+The bird squawks and looks at you dejectedly.
+
+>look at crate
+It's got to be loaded with herring.
+
+On the herring crate is a wretched bird.
+
+>move bird
+Mind your manners, foolish American!
+
+>scare bird
+That's not a verb I recognize.
+
+>kick bird
+That's not a verb I recognize.
+
+>lick bird
+That's not a verb I recognize.
+
+>open crate
+Nuts! It's barred and locked.
+
+>unlock crate
+What do you want to unlock the herring crate with?
+
+>key
+You can't see any such thing.
+
+>unlock crate with frying pan
+(first taking the frying pan)
+(putting the wallet into the backpack to make room)
+That doesn't seem to be something you can unlock.
+
+>hit bird with frying pan
+I only understood you as far as wanting to hit the wretched bird.
+
+>hit bird
+Violence isn't the answer to this one.
+
+>dirs
+From here you can:
+- go west to Hellerup Strandvejen
+
+>west
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (in which is a mound of herring) here.
+
+The fisherman calls out, "Today I have a mound of herring! Very tasty!"
+
+>dirs
+From here you can:
+- go north to the Hellerup Apartment
+- go east to the Dock
+- go west to the Train Platform
+
+>west
+
+Train Platform
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. A staircase and an arrow-shaped sign in the northwest corner of the station pair up to beckon you downward.
+
+You can see a wall sign and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+>pull lever
+You'll have to get in the train to do that.
+
+>get on train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>look at sofa
+Made of plush leather for discerning Danish derrieres.
+
+>look at lever
+The handle has indentations shaped to cuddle your fingers. A small speaker grille is embedded in the tippy-top.
+
+The lever is currently switched off.
+
+>switch lever on 
+With a tug of the lever, you are transported to Copenhagen proper.
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award. A flight of stairs lead southward and upward to the IIT Campus exit, while going northwest will take you to Christiana. (Don't go there at night!) If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+You step out of the train.
+
+>look at fake tree
+A huge plastic palm tree, fifteen feet tall and twenty feet around. It "grows" from an inch-thick disc of marble which is set into the floor of the station, disrupting the pattern of tiles around it.
+
+>l
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award. A flight of stairs lead southward and upward to the IIT Campus exit, while going northwest will take you to Christiana. (Don't go there at night!) If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>look at door
+It's not even a finished door - just a plank of wood on hinges. A sign hangs from a nail in the middle.
+
+>read sign
+The hand-lettered sign reads, "My friend, you've gotten 2 points so far."
+
+>open door
+You open the small door.
+
+>go through door
+
+The Path
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+>look at bush
+The leaves and branches are so tangled that it could probably support some weight.
+
+>climb bush
+Little is to be achieved by that.
+
+>get on bush
+You get onto the gnarled bush.
+
+>look around
+You can't see any such thing.
+
+>l
+The Path (on the gnarled bush)
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+>get off bush
+You get off the gnarled bush.
+
+The Path
+
+>swim to island
+That's not a verb I recognize.
+
+>l
+The Path
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+>look at grass
+You can't see any such thing.
+
+>go to train station
+That noun did not make sense in this context.
+
+>nw
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>inside
+You examine the fake tree, but there's no way to get in.
+
+Perhaps if you boosted your imagination you'd think of something.
+
+>i
+You are carrying:
+  a frying pan
+  a pile of herring
+  a backpack (open)
+    a wallet
+      money totalling 1 krone
+      1 Uncle Sam
+    a loaf of bread
+    a steak
+    a pair of Central European panties
+    a dwarf banana tree
+
+>look at uncle sam
+The hardest currency on Earth.
+
+A single tear leaks out as you contemplate the majesty of the USD.
+
+>look at krone
+You can't see any such thing.
+
+>look at money
+1 kroner will go further than you expect.
+
+>se
+
+The Path
+
+>
+I beg your pardon?
+
+>l
+The Path
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+>take bush
+That's hardly portable.
+
+>nw
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>l
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award. A flight of stairs lead southward and upward to the IIT Campus exit, while going northwest will take you to Christiana. (Don't go there at night!) If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>climb tree
+(the fake tree)
+Little is to be achieved by that.
+
+>get on tree
+(the fake tree)
+You examine the fake tree, but there's no way to get in.
+
+Perhaps if you boosted your imagination you'd think of something.
+
+>s
+
+IIT Campus
+The campus is pretty sleepy in the summer. A construction crew is working around the bell tower, but the only student you see is Ana.
+
+You can see Ana, a stone bench, a sawyer and a carpenter here.
+
+>look at bench
+Effortlessly square.
+
+On the base, nearly invisible, is an unlabelled beige button. The button is rounder than round: it's Dane-Rounde.
+
+>push button
+From somewhere nearby, a voice yells, "F!"
+>push button
+From somewhere nearby, a voice yells, "E!"
+>
+I beg your pardon?
+
+>g
+From somewhere nearby, a voice yells, "E!"
+>g
+From somewhere nearby, a voice yells, "D!"
+>g
+From somewhere nearby, a voice yells, "B!"
+>g
+From somewhere nearby, a voice yells, "I!"
+>g
+From somewhere nearby, a voice yells, "R!"
+>g
+From somewhere nearby, a voice yells, "D!"
+[Your score has just gone up by one point.]
+
+>ask ana about tree
+Ana tosses her hair and refuses to answer.
+
+>ask ana about crate
+Ana tosses her hair and refuses to answer.
+
+>ask carpenter about tree
+You don't want to get in the way of their work.
+
+>dirs
+From here you can:
+- go north to Copenhagen Metro Station
+- go down to Copenhagen Metro Station
+
+>n
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>get on train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>push lever
+"You must pull me!" the lever says jubilantly.
+
+>pull lever
+With a tug of the lever, you are transported to the suburb of Hellerup.
+
+Train Platform
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. A staircase and an arrow-shaped sign in the northwest corner of the station pair up to beckon you downward.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and a wall sign here.
+
+You step out of the train.
+
+>dirs
+From here you can:
+- go east to Hellerup Strandvejen
+- go down to Socialist Money Commissary
+- ride the C-Train to go to Copenhagen Metro Station.
+
+
+>e
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (in which is a mound of herring) here.
+
+>dirs
+From here you can:
+- go north to the Hellerup Apartment
+- go east to the Dock
+- go west to the Train Platform
+
+>e
+
+Dock
+
+>
+I beg your pardon?
+
+>l
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate, atop which sits a bird.
+
+>feed bird
+What do you want to feed the wretched bird to?
+
+>feed herring to bird
+(the pile of herring to the wretched bird)
+The wretched bird regards you warily, then opens its beak and snaps up the pile of herring. It swallows in one gulp.
+
+You see a flash of brilliance in its black, beady eyes. Then it caws, and flies off in the direction of Copenhagen.
+
+You feel strangely proud.
+
+[Your score has just gone up by one point.]
+
+>open crate
+Nuts! It's barred and locked.
+
+>row boat
+That's not a verb I recognize.
+
+>get in boat
+The rowboat is much too slippery for a landlubber like you to get in.
+
+>look at rope
+Soaked and salty, but somehow still strong.
+
+>take rope
+That's hardly portable.
+
+>untie rope
+That's not a verb I recognize.
+
+>cut rope
+Cutting it up would achieve little.
+
+>dirs
+From here you can:
+- go west to Hellerup Strandvejen
+
+>w
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (in which is a mound of herring) here.
+
+The fisherman calls out, "Today I have a mound of herring! Come and get it!"
+
+>dirs
+From here you can:
+- go north to the Hellerup Apartment
+- go east to the Dock
+- go west to the Train Platform
+
+>w
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>look at wall sign
+It reads, "Get into the train at your leisure."
+
+>look at arrow-shaped sign
+The delightfully red arrow is painted with blue text: "THIS WAY FOR MONEY".
+
+>follow sign
+That's not a verb I recognize.
+
+>d
+
+Socialist Money Commissary
+The inside of the commissary is a bit cramped, but the lighting is gentle and there is air-conditioning. 
+
+You can see a clerk, a one-krone note, a two-kroner note and a three-kroner note here.
+
+>take note
+Which do you mean, the one-krone note, the two-kroner note or the three-kroner note?
+
+>all
+one-krone note: Stupid American! Under Socialism, everyone has a job to do - and the clerk's job is to hand you that one-krone note. For free!
+
+The clerk picks up the one-krone note, and gives it to you.
+two-kroner note: Idiotic American! Under Socialism, everyone has a job to do - and the clerk's job is to hand you that two-kroner note. For free!
+
+The clerk picks up the two-kroner note, and gives it to you.
+three-kroner note: Ignorant American! Under Socialism, everyone has a job to do - and the clerk's job is to hand you that three-kroner note. For free!
+
+The clerk picks up the three-kroner note, and gives it to you.
+
+Unfortunately, the commissary is out of money for the day.
+
+>i
+You are carrying:
+  a frying pan
+  a backpack (open)
+    a wallet
+      money totalling 7 kroner
+      1 Uncle Sam
+    a loaf of bread
+    a steak
+    a pair of Central European panties
+    a dwarf banana tree
+
+Unfortunately, the commissary is out of money for the day.
+
+>u
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>d
+
+Socialist Money Commissary
+You can see a clerk here.
+
+Unfortunately, the commissary is out of money for the day.
+
+>ask about commissary
+You can't see any such thing.
+
+>ask clerk about commissary
+The clerk stands up straight. "The Danish way of life is civilized and prosperous. It's a pity not all countries work the way we do!"
+
+Unfortunately, the commissary is out of money for the day.
+
+>u
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>get on train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>sit on couch
+You get onto the wrap-around sofa.
+
+>pull lever
+With a tug of the lever, you are transported to Copenhagen proper.
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award. A flight of stairs lead southward and upward to the IIT Campus exit, while going northwest will take you to Christiana. (Don't go there at night!) If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+You step out of the train.
+
+>l
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award. A flight of stairs lead southward and upward to the IIT Campus exit, while going northwest will take you to Christiana. (Don't go there at night!) If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>nw
+
+Christiana Main Street
+This spacious street at the entrance of Christiana is stuffed with all manner of people.
+
+You can see a flood of tourists, a gathering of hippies, an infestation of musicians, a pusher and a pushcart (on which is a marijuana joint) here.
+
+The pusher eyes your frying pan.
+
+>ask pusher for joint
+"If you wanna buy a joint, buy a joint," says the pusher.
+
+>look at joint
+This is the premium shit right here.
+
+It costs 2 kroner.
+
+>buy joint
+You pay 2 kroner for the marijuana joint, leaving yourself with 5 kroner.
+
+>put joint in backpack
+You put the marijuana joint into the backpack.
+
+The pusher eyes your backpack.
+
+>ask pusher about frying pan
+He rolls his freaky eyes. "You lookin' to buy or not?" he says.
+
+>sell pan
+That's not a verb I recognize.
+
+>look at tourists
+So bristling with cameras that you can't get a good look at them.
+
+The pusher eyes your frying pan.
+
+>ask pusher what he wants
+I didn't understand that sentence.
+
+>ask pusher about frying pan
+He rolls his freaky eyes. "You lookin' to buy or not?" he says.
+
+The pusher eyes your frying pan.
+
+>give pusher frying pan
+Try making a purchase with the "buy" command instead, e.g. "buy potato".
+
+>give frying pan to pusher
+Try making a purchase with the "buy" command instead, e.g. "buy potato".
+
+>look at hippies
+Real flower children. Who knows what their agenda is.
+
+The pusher eyes your frying pan.
+
+>look at musicians
+Almost certainly unlicensed.
+
+>l
+Christiana Main Street
+This spacious street at the entrance of Christiana is stuffed with all manner of people.
+
+You can see a flood of tourists, a gathering of hippies, an infestation of musicians, a pusher and a pushcart here.
+
+>run
+You'll have to say which compass direction to go in.
+
+>se
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>go to fake tree
+That noun did not make sense in this context.
+
+>look at tree
+(the fake tree)
+A huge plastic palm tree, fifteen feet tall and twenty feet around. It "grows" from an inch-thick disc of marble which is set into the floor of the station, disrupting the pattern of tiles around it.
+
+>smoke joint
+(first taking the marijuana joint)
+You hit it and don't quit it. Your War-on-Drugs work ethic erases that joint from existence.
+
+Now you're baked.
+
+Wow. You're totally baked.
+
+>look at tree
+(the fake tree)
+A huge plastic palm tree, fifteen feet tall and twenty feet around. It "grows" from an inch-thick disc of marble which is set into the floor of the station, disrupting the pattern of tiles around it.
+
+You're super baked.
+
+>get in tree
+(the fake tree)
+You walk up to the fake tree. Your instincts propel you onward, and you walk into the tree.
+
+You're inside the tree, Ryan.
+
+You're completely baked.
+
+>look around
+You can't see any such thing.
+
+>l
+Belly of the Tree
+It's gloomy in here.
+
+You're really, really baked.
+
+>dirs
+From here you can:
+- go outside to Copenhagen Metro Station
+
+You're completely baked.
+
+>i
+You are carrying:
+  a frying pan
+  a backpack (open)
+    a wallet
+      money totalling 5 kroner
+      1 Uncle Sam
+    a loaf of bread
+    a steak
+    a pair of Central European panties
+    a dwarf banana tree
+
+You're totally baked.
+
+>ask benjamin about tree
+You can only do that to something animate.
+
+>leave benjamin in tree
+I only understood you as far as wanting to leave the dwarf banana tree.
+
+>out
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+You're completely baked.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+You're totally baked.
+
+>se
+
+The Path
+You're really, really baked.
+
+>l
+The Path
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+You're super baked.
+
+>get on bush
+You get onto the gnarled bush.
+
+You're totally baked.
+
+>l
+The Path (on the gnarled bush)
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+You're completely baked.
+
+>i
+You are carrying:
+  a frying pan
+  a backpack (open)
+    a wallet
+      money totalling 5 kroner
+      1 Uncle Sam
+    a loaf of bread
+    a steak
+    a pair of Central European panties
+    a dwarf banana tree
+
+You're totally baked.
+
+>eat bread
+(first taking the loaf of bread)
+You eat the loaf of bread. Not bad.
+
+You're really, really baked.
+
+>nw
+You would have to get off the gnarled bush first.
+
+You're completely baked.
+
+>get off bush
+You get off the gnarled bush.
+
+The Path
+You're really, really baked.
+
+>nw
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+Damn. You're completely baked.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+You're super baked.
+
+>w
+
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade, and flowers bloom here and there.
+
+You can see the friendly bird, a red flower, a white flower, a blue flower and a yellow flower here.
+
+This seems like a excellent place to relax.
+
+Man. You're totally baked.
+
+>ask bird about flowers
+The bird chirrups, and cocks its head at you.
+
+You're super baked.
+
+Your high has worn off.
+
+>look at flowers
+You can't use multiple objects with that verb.
+
+>look at red flower
+Sweet-smelling.
+
+You're completely baked.
+
+>look at white flower
+The color of fine linen.
+
+Damn. You're totally baked.
+
+>look at blue flower
+As blue as the sky.
+
+Wow. You're super baked.
+
+>l yellow
+The yellow petals crinkle at the edges.
+
+You're completely baked.
+
+>pick plowers
+I didn't understand that sentence.
+
+>pick flowers
+I didn't understand that sentence.
+
+>take flowers
+red flower: Taken.
+white flower: (putting the frying pan into the backpack to make room)
+Taken.
+blue flower: (putting the red flower into the backpack to make room)
+Taken.
+yellow flower: (putting the white flower into the backpack to make room)
+Taken.
+
+You're super baked.
+
+>e
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+You're totally baked.
+
+>in
+You examine the fake tree, but there's no way to get in.
+
+Perhaps if you boosted your imagination you'd think of something.
+
+You're really, really baked.
+
+>o
+Sorry, that can't be corrected.
+
+>out
+But you aren't in anything at the moment.
+
+Damn. You're totally baked.
+
+>w
+
+Aarenhus Cemetery
+You can see the friendly bird here.
+
+Man. You're really, really baked.
+
+>l
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade.
+
+You can see the friendly bird here.
+
+Damn. You're totally baked.
+
+>look at tombs
+Your attention rests on a tomb of pale white marble with pinkish streaks.
+
+You're completely baked.
+
+>read tomb
+Your attention rests on a tomb of blue-gray marble with dark brown streaks.
+
+You're super baked.
+
+>put white flower on white tomb
+I only understood you as far as wanting to put the white flower on the white flower.
+
+>leave white flower on white tomb
+I only understood you as far as wanting to leave the white flower.
+
+>put on white marble
+You can't see any such thing.
+
+>leave white flower on white marble
+I only understood you as far as wanting to leave the white flower.
+
+>read tomb
+Your attention rests on a tomb of gray-green marble with gold streaks.
+
+Man. You're completely baked.
+
+>read tomb
+Your attention rests on a tomb of reddish-purple marble with dark brown streaks.
+
+Wow. You're super baked.
+
+>leave red flower
+Try the "dirs" command to see where you can go from here.
+
+You're really, really baked.
+
+>leave white flower
+Try the "dirs" command to see where you can go from here.
+
+This seems like a perfect place to relax.
+
+Man. You're totally baked.
+
+>dirs
+From here you can:
+- go east to Copenhagen Metro Station
+
+You're completely baked.
+
+>l
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade.
+
+You can see the friendly bird here.
+
+This seems like a superb place to relax.
+
+You're super baked.
+
+>follow dark path
+That's not a verb I recognize.
+
+>relax
+You take a deep breath of Danish air, and let it out slowly.
+
+You're totally baked.
+
+[Your score has just gone up by one point.]
+
+>give bird steak
+(first taking the steak)
+(putting the blue flower into the backpack to make room)
+The friendly bird nuzzles your hand, then spears your offering with its beak. With a jerk of its head, the steak disappears down the bird's gullet.
+
+The friendly bird shrieks in triumph. It ascends into the sky, until it is so far away that you can only perceive a black dot.
+
+There is a flash of light so brilliant that you have to avert your eyes. When you look up again, the black dot has disappeared . . .
+
+Wow. You're super baked.
+
+[Your score has just gone up by two points.]
+
+>l
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade.
+
+Damn. You're really, really baked.
+
+>look at trees
+Strong and hardy. It's macabre, but bones make excellent fertilizer.
+
+Man. You're super baked.
+
+>dig up graves
+That's not a verb I recognize.
+
+>dig graves
+That's not a verb I recognize.
+
+>e
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+You're completely baked.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+Damn. You're really, really baked.
+
+>s
+
+IIT Campus
+You can see Ana, a stone bench, a sawyer and a carpenter here.
+
+Man. You're totally baked.
+
+>ask ana about panties
+She gives you a withering look. "I'm in no mood for that right now."
+
+You're really, really baked.
+
+>give ana flowers
+(the yellow flower)
+Ana sighs and kisses your cheek.
+
+
+She strolls over to the bench, and sits down to gaze at the flower.
+
+You're totally baked.
+
+[Your score has just gone up by one point.]
+
+>ask ana about panties
+"You wouldn't mind bringing those to me, would you?" she asks.
+
+Wow. You're completely baked.
+
+>give ana panties
+(first taking the pair of Central European panties)
+She blushes, then stuffs them into her pocket. "Thank you," she says softly.
+
+You're really, really baked.
+
+[Your score has just gone up by one point.]
+
+>look at ana
+A Czech girl in a white dress. Starting next week, she's your TA for Introductory Programming. Starting last night, she's your lover.
+
+Man. You're totally baked.
+
+>take ana home
+I only understood you as far as wanting to take Ana.
+
+>put ana in backpack
+(first taking Ana)
+"Yes, take me . . . but not here. Later." She gives you a wink.
+
+Wow. You're completely baked.
+
+>i
+You are carrying:
+  a backpack (open)
+    a blue flower
+    a white flower
+    a red flower
+    a frying pan
+    a wallet
+      money totalling 5 kroner
+      1 Uncle Sam
+    a dwarf banana tree
+
+You're super baked.
+
+>invite ana home
+That's not a verb I recognize.
+
+>ask ana about school
+"This is a good school, American. You'll learn a lot here . . . especially with me as your TA."
+
+You're really, really baked.
+
+>l
+IIT Campus
+The campus is pretty sleepy in the summer. A construction crew is working around the bell tower, but no students are to be seen.
+
+You can see a stone bench (on which is Ana), a sawyer and a carpenter here.
+
+Man. You're completely baked.
+
+>look at bell tower
+You can't see any such thing.
+
+>look at construction crew
+You can't see any such thing.
+
+>look at sawyer
+Short and squat.
+
+Wow. You're totally baked.
+
+>look at carpenter
+Tall and thin.
+
+You're completely baked.
+
+>dirs
+From here you can:
+- go north to Copenhagen Metro Station
+- go down to Copenhagen Metro Station
+
+You're totally baked.
+
+>n
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+Man. You're completely baked.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+You're really, really baked.
+
+>nw
+
+Christiana Main Street
+You can see a flood of tourists, a gathering of hippies, an infestation of musicians, a pusher and a pushcart (on which is a marijuana joint) here.
+
+The pusher eyes your backpack.
+
+You're totally baked.
+
+>give flower to hippies
+Which do you mean, the blue flower, the white flower or the red flower?
+
+>white
+The gathering of hippies does not desire a white flower.
+
+You're completely baked.
+
+>give blue flower to hippies
+The gathering of hippies does not desire a blue flower.
+
+You're really, really baked.
+
+>give white flower to musicians
+The infestation of musicians does not desire a white flower.
+
+You're totally baked.
+
+>look at pushcart
+A vital tool of the drug trade.
+
+On the pushcart is a marijuana joint.
+
+You're super baked.
+
+>buy joint
+That doesn't cost any money.
+
+You're completely baked.
+
+>take joint
+You already have that.
+
+You're super baked.
+
+>i
+You are carrying:
+  a marijuana joint
+  a backpack (open)
+    a blue flower
+    a white flower
+    a red flower
+    a frying pan
+    a wallet
+      money totalling 5 kroner
+      1 Uncle Sam
+    a dwarf banana tree
+
+You're completely baked.
+
+>give joint to hippies
+The gathering of hippies does not desire a marijuana joint.
+
+You're super baked.
+
+>give joint to hippies
+The gathering of hippies does not desire a marijuana joint.
+
+The pusher eyes your backpack.
+
+You're totally baked.
+
+>se
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+You're really, really baked.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+You're super baked.
+
+>s
+
+IIT Campus
+You can see a stone bench (on which is Ana), a sawyer and a carpenter here.
+
+You're really, really baked.
+
+>give joint to ana
+You give the marijuana joint to Ana.
+
+You're totally baked.
+
+>smoke joint
+(first taking the marijuana joint)
+That seems to belong to Ana.
+
+You're super baked.
+
+>smoke joint with ana
+I only understood you as far as wanting to smoke the marijuana joint.
+
+>take joint from ana
+That seems to belong to Ana.
+
+You're really, really baked.
+
+>compliment ana
+That's not a verb I recognize.
+
+>i
+You are carrying:
+  a backpack (open)
+    a blue flower
+    a white flower
+    a red flower
+    a frying pan
+    a wallet
+      money totalling 5 kroner
+      1 Uncle Sam
+    a dwarf banana tree
+
+You're totally baked.
+
+>n
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+You're super baked.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+You're really, really baked.
+
+>plant banana tree
+That's not a verb I recognize.
+
+>get on train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+Damn. You're totally baked.
+
+>pull lever
+With a tug of the lever, you are transported to the suburb of Hellerup.
+
+Train Platform
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. In the northwest corner of the station stands the staircase that leads to the Commissary.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+You step out of the train.
+
+You're super baked.
+
+>dirs
+From here you can:
+- go east to Hellerup Strandvejen
+- go down to Socialist Money Commissary
+- ride the C-Train to go to Copenhagen Metro Station.
+
+
+You're totally baked.
+
+>e
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (in which is a mound of herring) here.
+
+You're completely baked.
+
+>dirs
+From here you can:
+- go north to the Hellerup Apartment
+- go east to the Dock
+- go west to the Train Platform
+
+You're totally baked.
+
+>n
+
+Hellerup Apartment
+You can see a fridge (empty) and the bed (on which is bedsheets) here.
+
+You're really, really baked.
+
+>sleep 
+You aren't feeling especially drowsy.
+
+You're super baked.
+
+>make bed
+That's not a verb I recognize.
+
+>leave apartment
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (in which is a mound of herring) here.
+
+The fisherman calls out, "Today I have a mound of herring! Very tasty!"
+
+You're really, really baked.
+
+>ask fisherman about the crate
+The fisker  shifts from foot to foot. "Reckon I don't know much about that."
+
+Man. You're completely baked.
+
+>ask fisherman about boat
+The fisker  shifts from foot to foot. "Reckon I don't know much about that."
+
+You're super baked.
+
+>i
+You are carrying:
+  a backpack (open)
+    a blue flower
+    a white flower
+    a red flower
+    a frying pan
+    a wallet
+      money totalling 5 kroner
+      1 Uncle Sam
+    a dwarf banana tree
+
+You're completely baked.
+
+>buy herring
+Which do you mean, the fistful of herring or the mound of herring?
+
+>mound 
+You pay 2 kroner for the mound of herring, leaving yourself with 3 kroner.
+
+The fisherman winks at you.
+
+Wow. You're really, really baked.
+
+>ask fisherman about wink
+The fisker  shifts from foot to foot. "Reckon I don't know much about that."
+
+You're super baked.
+
+>give red flower to fisherman
+Try making a purchase with the "buy" command instead, e.g. "buy potato".
+
+Man. You're really, really baked.
+
+>hit fisherman with flower
+I only understood you as far as wanting to hit the fisherman.
+
+>hit fisherman
+Violence isn't the answer to this one.
+
+The fisherman taps his foot.
+
+Damn. You're super baked.
+
+>dirs
+From here you can:
+- go north to the Hellerup Apartment
+- go east to the Dock
+- go west to the Train Platform
+
+The fisherman winks at you.
+
+You're totally baked.
+
+>n
+
+Hellerup Apartment
+You can see a fridge (empty) and the bed (on which is bedsheets) here.
+
+You're super baked.
+
+>put herring in fridge
+You put the mound of herring into the fridge.
+
+You're totally baked.
+
+>take herring
+Taken.
+
+You're completely baked.
+
+>cook herring
+Troublesome American, have you truly mistaken the mound of herring for food?
+
+Man. You're totally baked.
+
+>put mound of herring into the fridge
+You put the mound of herring into the fridge.
+
+Wow. You're super baked.
+
+>dirs
+From here you can:
+- go south to Hellerup Strandvejen
+
+You're totally baked.
+
+>s
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+You're really, really baked.
+
+>dirs
+From here you can:
+- go north to the Hellerup Apartment
+- go east to the Dock
+- go west to the Train Platform
+
+You're totally baked.
+
+>w
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+You're really, really baked.
+
+>get on train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+You're completely baked.
+
+>pull lever
+With a tug of the lever, you are transported to Copenhagen proper.
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award. A flight of stairs lead southward and upward to the IIT Campus exit, while going northwest will take you to Christiana. (Don't go there at night!) If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+You step out of the train.
+
+Man. You're super baked.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+You're completely baked.
+
+>se
+
+The Path
+On the gnarled bush is the bald eagle.
+
+You're super baked.
+
+>nw
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+You're really, really baked.
+
+>se
+
+The Path
+On the gnarled bush is the bald eagle.
+
+You're super baked.
+
+>look at eagle
+Its plumage feathers are a rich brown, edged with a color that can only be called the Gold Standard. Its head is the same shade as the White House itself.
+
+You're totally baked.
+
+>give uncle sam to eagle
+(first taking 1 Uncle Sam)
+The bald eagle is is free from all desire.
+
+You're really, really baked.
+
+>look at eagle
+Its plumage feathers are a rich brown, edged with a color that can only be called the Gold Standard. Its head is the same shade as the White House itself.
+
+Wow. You're super baked.
+
+>nw
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+You're really, really baked.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+You're super baked.
+
+>get on train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+Man. You're totally baked.
+
+>pull lever
+With a tug of the lever, you are transported to the suburb of Hellerup.
+
+Train Platform
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. In the northwest corner of the station stands the staircase that leads to the Commissary.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+You step out of the train.
+
+You're completely baked.
+
+>dirs
+From here you can:
+- go east to Hellerup Strandvejen
+- go down to Socialist Money Commissary
+- ride the C-Train to go to Copenhagen Metro Station.
+
+
+You're totally baked.
+
+>e
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+Damn. You're completely baked.
+
+>dirs
+From here you can:
+- go north to the Hellerup Apartment
+- go east to the Dock
+- go west to the Train Platform
+
+You're totally baked.
+
+>n
+
+Hellerup Apartment
+You can see a fridge (in which is a mound of herring) and the bed (on which is bedsheets) here.
+
+Man. You're completely baked.
+
+>take herring
+Taken.
+
+You're super baked.
+
+>leave apartment
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+You're completely baked.
+
+>dirs
+From here you can:
+- go north to the Hellerup Apartment
+- go east to the Dock
+- go west to the Train Platform
+
+Wow. You're super baked.
+
+>w
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+You're really, really baked.
+
+>dirs
+From here you can:
+- go east to Hellerup Strandvejen
+- go down to Socialist Money Commissary
+- ride the C-Train to go to Copenhagen Metro Station.
+
+
+You're super baked.
+
+>d
+
+Socialist Money Commissary
+You can see a clerk here.
+
+Unfortunately, the commissary is out of money for the day.
+
+You're totally baked.
+
+>u
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+Damn. You're really, really baked.
+
+>dirs
+From here you can:
+- go east to Hellerup Strandvejen
+- go down to Socialist Money Commissary
+- ride the C-Train to go to Copenhagen Metro Station.
+
+
+Wow. You're super baked.
+
+>e
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+You're really, really baked.
+
+>w
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+You're super baked.
+
+>get on train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+You're completely baked.
+
+>sit on sofa
+You get onto the wrap-around sofa.
+
+You're totally baked.
+
+>pull lever
+With a tug of the lever, you are transported to Copenhagen proper.
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award. A flight of stairs lead southward and upward to the IIT Campus exit, while going northwest will take you to Christiana. (Don't go there at night!) If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+You step out of the train.
+
+You're really, really baked.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+You're super baked.
+
+>se
+
+The Path
+On the gnarled bush is the bald eagle.
+
+You're really, really baked.
+
+>l
+The Path
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+On the gnarled bush is the bald eagle.
+
+You're completely baked.
+
+>feed herring to bald eagle
+The bald eagle is is free from all desire.
+
+You're super baked.
+
+>ask eagle about island
+The bald eagle nobly looks you in the eye, but does not speak.
+
+Man. You're totally baked.
+
+>ask eagle about crate
+The bald eagle nobly looks you in the eye, but does not speak.
+
+Wow. You're super baked.
+
+>l
+The Path
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+On the gnarled bush is the bald eagle.
+
+You're totally baked.
+
+>l bald eagle
+Its plumage feathers are a rich brown, edged with a color that can only be called the Gold Standard. Its head is the same shade as the White House itself.
+
+You're completely baked.
+
+>compliment bird
+That's not a verb I recognize.
+
+>salute bird
+That's not a verb I recognize.
+
+>admire bird
+That's not a verb I recognize.
+
+>watch bird
+You can't see any such thing.
+
+>give bird flowers
+You can't see any such thing.
+
+>fly bird
+That's not a verb I recognize.
+
+>get on bush
+You get onto the gnarled bush.
+
+On the gnarled bush you can see the bald eagle.
+
+You're super baked.
+
+>ride bird
+You can't see any such thing.
+
+>l bird
+You can't see any such thing.
+
+>l eagle
+Its plumage feathers are a rich brown, edged with a color that can only be called the Gold Standard. Its head is the same shade as the White House itself.
+
+You're really, really baked.
+
+>kill eagle
+Violence isn't the answer to this one.
+
+You're super baked.
+
+>ride eagle
+[Sound effect number 4 here.]
+The eagle shrieks, and dives off the promontory with you on its back. As you cling for dear life, it swoops down to skim the water, then soars out above the bay.
+
+The view out here is breathtaking. Twisting your head around, you can look back and see all of Copenhagen laid out like breakfast.
+
+
+Island of Technique
+This little island is no tropical paradise: it's foggy, muddy, and riddled with trees.
+
+You can see the bald eagle and a monk here.
+
+You're completely baked.
+
+>l monk
+He stands solemnly, with his arms nearly enveloped by the sleeves of his robe. In one hand he carries a small wooden box.
+
+You're super baked.
+
+>l box
+Plainer than a raw herring.
+
+Damn. You're completely baked.
+
+>ask monk about box
+"I cannot help you with that," says the monk.
+
+You're super baked.
+
+>that sounds dumb
+That's not a verb I recognize.
+
+>ask monk about wooden box
+"I cannot help you with that," says the monk.
+
+You're completely baked.
+
+>ask monk about small wooden box
+"I cannot help you with that," says the monk.
+
+You're totally baked.
+
+>take box
+The monk holds the wooden box out of your reach. Do you ask him for it?
+ask monk for box
+Please answer yes or no.> yes
+
+The monk has better things to do.
+
+You're completely baked.
+
+>ask monk for box
+The monk has better things to do.
+
+Wow. You're super baked.
+
+>ask eagle for help
+You can't see any such thing.
+
+>l
+Island of Technique
+This little island is no tropical paradise: it's foggy, muddy, and riddled with trees.
+
+You can see the bald eagle and a monk here.
+
+You're really, really baked.
+
+>ask monk about weed
+"Such a substance as this will certainly help you comprehend the ultimate technique."
+
+You're totally baked.
+
+>ask monk about island
+"This island is my home. A friendly fisker brings me fresh herring to eat, and I sleep in the fork of a tree. Who could ask for more?"
+
+You're completely baked.
+
+>feed monk
+What do you want to feed the monk to?
+
+>feed herring to monk
+The monk is not willing to be fed by you.
+
+Man. You're really, really baked.
+
+>give herring to monk
+The monk does not desire a mound of herring.
+
+You're completely baked.
+
+>give flower to monk
+Which do you mean, the blue flower, the white flower or the red flower?
+
+>rules
+You can't see any such thing.
+
+>actions
+That's not a verb I recognize.
+
+>items
+That's not a verb I recognize.
+
+>showme
+That's not a verb I recognize.
+
+>save
+Ok.
+
+>l
+Island of Technique
+This little island is no tropical paradise: it's foggy, muddy, and riddled with trees.
+
+You can see the bald eagle and a monk here.
+
+You're really, really baked.
+
+>history
+That's not a verb I recognize.
+
+>l
+Island of Technique
+This little island is no tropical paradise: it's foggy, muddy, and riddled with trees.
+
+You can see the bald eagle and a monk here.
+
+You're super baked.
+
+>l

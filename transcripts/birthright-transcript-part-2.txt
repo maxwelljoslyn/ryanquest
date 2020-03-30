@@ -1,0 +1,801 @@
+Island of Technique
+This little island is no tropical paradise: it's foggy, muddy, and riddled with trees.
+
+You can see the bald eagle and a monk here.
+
+>look at monk
+He stands solemnly, with his arms nearly enveloped by the sleeves of his robe. In one hand he carries a small wooden box.
+
+>look at box
+Plainer than a raw herring.
+
+>ask monk about box
+"The contents of this wooden box are your pathway toward the ultimate technique."
+
+>look at eagle
+Its plumage feathers are a rich brown, edged with a color that can only be called the Gold Standard. Its head is the same shade as the White House itself.
+
+>ask monk about the ultimate technique
+"The last possible technique? Yes, I know of it. The contents of this wooden box are your pathway toward the technique."
+
+>ask monk for box
+The monk hands you the wooden box.
+
+As you take it in your hands, you feel a great weightiness upon your soul.
+
+[Your score has just gone up by one point.]
+
+>open box
+You open the wooden box, revealing the ineffable mystery.
+
+>look in box
+In the wooden box is the ineffable mystery.
+
+>take ineffable mystery
+(putting the steak into the backpack to make room)
+You're carrying too many things already.
+
+>look in ineffable mystery
+You find nothing of interest.
+
+>look at ineffable mystery
+Did you really think you could figure this one out just by looking?
+
+>smoke joint
+You hit it and don't quit it. Your War-on-Drugs work ethic erases that joint from existence.
+
+Now you're baked.
+
+Wow. You're totally baked.
+
+>ask monk about ineffable mystery
+"I cannot help you with that," says the monk.
+
+You're super baked.
+
+>look at ineffable mystery
+Did you really think you could figure this one out just by looking?
+
+Damn. You're completely baked.
+
+>touch ineffable mystery
+You feel nothing unexpected.
+
+Man. You're really, really baked.
+
+>fuck the mystery
+That's not a verb I recognize.
+
+>have sex with the mystery
+That's not a verb I recognize.
+
+>make love to the mystery
+That's not a verb I recognize.
+
+>drongo the mystery
+That's not a verb I recognize.
+
+>help
+This is a classic text-adventure game. You play by typing in what you want to do. If this is your first text adventure, I wish you luck, and leave you with these tips:
+
+1) Take the time to "look" at everything, e.g. "look (at) cheese" or "examine rug". You'll experience more jokes and puzzles if you scrutinize the game world.
+2) "Take" intriguing or suspicious objects with you for later.
+3) Refer to this table for some useful commands:
+look      - l   - On its own, describes your immediate surroundings ("l"). For detailed descriptions, specify a direct object ("look backpack").
+take      - N/A - Picks something up.
+inventory - i   - Shows what you're carrying.
+dirs      - N/A - Lists the directions you can go from here.
+wait      - z   - Waits for one turn.
+undo      - N/A - Undoes a mistaken action. I won't punish you for making a typo!
+credits   - N/A - Shows a list of people involved with making the game!
+
+>ask monk about mystery
+"I cannot help you with that," says the monk.
+
+You're super baked.
+
+>i
+You are carrying:
+  the wooden box (open)
+    the ineffable mystery
+  a backpack (open)
+    a steak
+    a yellow flower
+    a blue flower
+    a white flower
+    a wallet
+      money totalling 3 kroner
+      1 Uncle Sam
+
+You're totally baked.
+
+>l
+Island of Technique
+This little island is no tropical paradise: it's foggy, muddy, and riddled with trees.
+
+You can see the bald eagle and a monk here.
+
+Damn. You're super baked.
+
+>ask eagle about mystery
+The bald eagle nobly looks you in the eye, but does not speak.
+
+Man. You're completely baked.
+
+>give monk the ineffable mystery
+The monk does not desire the ineffable mystery.
+
+You're really, really baked.
+
+>give eagle ineffable mystery
+(first taking the ineffable mystery)
+The bald eagle is is free from all desire.
+
+You're super baked.
+
+>i
+You are carrying:
+  the ineffable mystery
+  the wooden box (open but empty)
+  a backpack (open)
+    a steak
+    a yellow flower
+    a blue flower
+    a white flower
+    a wallet
+      money totalling 3 kroner
+      1 Uncle Sam
+
+You're totally baked.
+
+>l
+Island of Technique
+This little island is no tropical paradise: it's foggy, muddy, and riddled with trees.
+
+You can see the bald eagle and a monk here.
+
+You're super baked.
+
+>mount eagle
+[Sound effect number 4 here.]
+The eagle jetplanes into the heavens with you on its back. After another harrowing ride over the bay, it deposits you neatly on the promontory.
+
+The Path
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+On the gnarled bush is the bald eagle.
+
+You're completely baked.
+
+>dirs
+From here you can:
+- go northwest to Copenhagen Metro Station
+
+Damn. You're really, really baked.
+
+>nw
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+Wow. You're totally baked.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+You're completely baked.
+
+>south
+
+IIT Campus
+You can see a stone bench (on which is Ana), a sawyer and a carpenter here.
+
+You're totally baked.
+
+>Ask ana about mystery
+Ana chuckles. "My sweet Angeles-American", she says, "your guess is as good as mine."
+
+You're super baked.
+
+>take ana
+"Yes, take me . . . but not here. Later." She gives you a wink.
+
+Damn. You're totally baked.
+
+>dirs
+From here you can:
+- go north to Copenhagen Metro Station
+- go down to Copenhagen Metro Station
+
+You're really, really baked.
+
+Your high has worn off.
+
+>north
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>look at fake tree
+A huge plastic palm tree, fifteen feet tall and twenty feet around. It "grows" from an inch-thick disc of marble which is set into the floor of the station, disrupting the pattern of tiles around it.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>l
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award. A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>nw
+
+Christiana Main Street
+You can see a flood of tourists, a gathering of hippies, an infestation of musicians, a pusher and a pushcart (on which is a marijuana joint) here.
+
+>ask hippies about mystery
+>ask gathering hippies about mystery
+>ask tourists about mystery
+The pusher eyes your wooden box.
+
+>ask pusher about mystery
+He rolls his freaky eyes. "You lookin' to buy or not?" he says.
+
+>aks pusher for joint
+That's not a verb I recognize.
+
+>buy joint
+You pay 2 kroner for the marijuana joint, leaving yourself with 1 kroner.
+
+>look at pushcart
+A vital tool of the drug trade.
+
+>dirs
+From here you can:
+- go southeast to Copenhagen Metro Station
+
+>se
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>go on train
+That noun did not make sense in this context.
+
+>enter train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>pull lever
+With a tug of the lever, you are transported to the suburb of Hellerup.
+
+Train Platform
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. In the northwest corner of the station stands the staircase that leads to the Commissary.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+You step out of the train.
+
+>look at wall sign
+It reads, "Get into the train at your leisure."
+
+>look at arrow shaped sign
+You can't see any such thing.
+
+>dirs
+From here you can:
+- go east to Hellerup Strandvejen
+- go down to Socialist Money Commissary
+- ride the C-Train to go to Copenhagen Metro Station.
+
+
+>east
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+The fisherman taps his foot.
+
+>ask fisherman about mystery
+The fisker shifts from foot to foot. "Reckon I don't know much about that."
+
+>dirs
+From here you can:
+- go north to the Hellerup Apartment
+- go east to the Dock
+- go west to the Train Platform
+
+>east
+
+Dock
+
+>l
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate.
+
+>look at crate
+It's got to be loaded with herring.
+
+>dirs
+From here you can:
+- go west to Hellerup Strandvejen
+
+>look at boat
+This rowboat is sad but serviceable.
+
+In the rowboat is the herring crate.
+
+>enter boat
+The rowboat is much too slippery for a landlubber like you to get in.
+
+>dira
+That's not a verb I recognize.
+
+>dirs
+From here you can:
+- go west to Hellerup Strandvejen
+
+>west
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>dirs
+From here you can:
+- go north to the Hellerup Apartment
+- go east to the Dock
+- go west to the Train Platform
+
+>west
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>dirs
+From here you can:
+- go east to Hellerup Strandvejen
+- go down to Socialist Money Commissary
+- ride the C-Train to go to Copenhagen Metro Station.
+
+
+>down
+
+Socialist Money Commissary
+You can see a clerk here.
+
+Unfortunately, the commissary is out of money for the day.
+
+>ask clerk about mystery
+The clerk demurres, giving no answer.
+
+Unfortunately, the commissary is out of money for the day.
+
+>dirs
+From here you can:
+- go up to the Train Platform
+
+Unfortunately, the commissary is out of money for the day.
+
+>up
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>dirs
+From here you can:
+- go east to Hellerup Strandvejen
+- go down to Socialist Money Commissary
+- ride the C-Train to go to Copenhagen Metro Station.
+
+
+>enter train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>pull lever
+With a tug of the lever, you are transported to Copenhagen proper.
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award. A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+You step out of the train.
+
+>look small door
+It's not even a finished door - just a plank of wood on hinges. A sign hangs from a nail in the middle.
+
+>look at sign
+The hand-lettered sign reads, "My friend, you've gotten 10 points so far."
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>enter train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>pull lever
+With a tug of the lever, you are transported to the suburb of Hellerup.
+
+Train Platform
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. In the northwest corner of the station stands the staircase that leads to the Commissary.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+You step out of the train.
+
+>push lever
+You'll have to get in the train to do that.
+
+>enter train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>push lever
+"You must pull me!" the lever says jubilantly.
+
+>dirs
+From here you can:
+- go east to Hellerup Strandvejen
+- go down to Socialist Money Commissary
+- ride the C-Train to go to Copenhagen Metro Station.
+
+
+>east
+You would have to get out of the C-Train first.
+
+>get out of train
+I only understood you as far as wanting to get outside.
+
+>get off of train
+You can't see any such thing.
+
+>learn ineffable mystery
+That's not a verb I recognize.
+
+>east
+You would have to get out of the C-Train first.
+
+>exit train
+I only understood you as far as wanting to exit.
+
+>dirs
+From here you can:
+- go east to Hellerup Strandvejen
+- go down to Socialist Money Commissary
+- ride the C-Train to go to Copenhagen Metro Station.
+
+
+>east
+You would have to get out of the C-Train first.
+
+>l
+Train Platform (in the C-Train)
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. In the northwest corner of the station stands the staircase that leads to the Commissary.
+
+You can see a wall sign and an arrow-shaped sign here.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>exit
+You get out of the C-Train.
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>dirs
+From here you can:
+- go east to Hellerup Strandvejen
+- go down to Socialist Money Commissary
+- ride the C-Train to go to Copenhagen Metro Station.
+
+
+>e. in
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+You can't go that way.
+
+The fisherman grins cheerfully.
+
+>n
+
+Hellerup Apartment
+On the stove is a frying pan.
+
+On the shelves is a loaf of bread.
+
+You can also see a dwarf banana tree, a fridge (in which is a piece of cheese) and the bed (on which is bedsheets) here.
+
+>l
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+On the shelves is a loaf of bread.
+
+You can also see a dwarf banana tree, a fridge (in which is a piece of cheese) and the bed (on which is bedsheets) here.
+
+>i
+You are carrying:
+  a marijuana joint
+  the ineffable mystery
+  the wooden box (open but empty)
+  a backpack (open)
+    a steak
+    a yellow flower
+    a blue flower
+    a white flower
+    a wallet
+      money totalling 1 krone
+      1 Uncle Sam
+
+>feed joint to mystery
+You can't feed an inanimate object!
+
+>cook mystery
+Stupid American, have you truly mistaken the ineffable mystery for food?
+
+>ask mystery about itself
+You can only do that to something animate.
+
+>look at window
+Out the window you can see the Bay of Gentofte. Some way out in the water is a small island. From here it looks quite pleasant, but you know that it's actually kind of a shithole.
+
+>
+I beg your pardon?
+
+>dirs
+From here you can:
+- go south to Hellerup Strandvejen
+
+>south
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+The fisherman winks at you.
+
+>dirs
+From here you can:
+- go north to the Hellerup Apartment
+- go east to the Dock
+- go west to the Train Platform
+
+The fisherman taps his foot.
+
+>west
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>enter train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>pull lever
+With a tug of the lever, you are transported to Copenhagen proper.
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award. A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+You step out of the train.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>west
+
+Aarenhus Cemetery
+
+>l
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade.
+
+>look trees
+Strong and hardy. It's macabre, but bones make excellent fertilizer.
+
+>look tombs
+Your attention rests on a tomb of pale white marble with pinkish streaks.
+
+>dirs
+From here you can:
+- go east to Copenhagen Metro Station
+
+>east
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>go inside tree
+You examine the fake tree, but there's no way to get in.
+
+Perhaps if you boosted your imagination you'd think of something.
+
+>smoke joint
+You hit it and don't quit it. Your War-on-Drugs work ethic erases that joint from existence.
+
+Now you're baked.
+
+Wow. You're totally baked.
+
+>go inside the tree
+You examine the fake tree, but there's no way to get in.
+
+Perhaps if you boosted your imagination you'd think of something.
+
+You're completely baked.
+
+>entr tree
+That's not a verb I recognize.
+
+>enter tree
+You examine the fake tree, but there's no way to get in.
+
+Perhaps if you boosted your imagination you'd think of something.
+
+You're really, really baked.
+
+>go inside fake tree
+You examine the fake tree, but there's no way to get in.
+
+Perhaps if you boosted your imagination you'd think of something.
+
+You're completely baked.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+You're totally baked.
+
+>in
+You examine the fake tree, but there's no way to get in.
+
+Perhaps if you boosted your imagination you'd think of something.
+
+You're really, really baked.
+
+>smoke joint
+You can't see any such thing.
+
+>gonear belly
+Belly of the Tree
+It's gloomy in here.
+
+You can feel a pulsing coming from the ineffable mystery.
+
+You're completely baked.
+
+>look at ineffable mystery
+You gaze at the ineffable mystery.
+
+Suddenly
+
+in an instant
+
+you understand!
+
+The ultimate technique, the final technique, the last possible technique, is yours! Now all you have to do is use it."
+
+>use technique
+I didn't understand that sentence.
+
+>use the technique
+I didn't understand that sentence.
+
+>do technique
+That's not a verb I recognize.
+
+>take technique
+You can't see any such thing.
+
+>use the ultimate technique
+You summon all your power and perform the ultimate technique. Infinite power courses through both your body and your spirit.
+ 
+ You did it, friend
+ You did your best
+ You played the game
+ You won the quest
+ 
+ You fed the bird
+ You rode the train
+ You sussed out spots
+ With points to gain
+ 
+ You bought herring
+ And dank weed too
+ You talked to folks
+ Much unlike you
+ 
+ You made Ana
+ Stop being mad
+ Now she will be
+ Forever glad
+ 
+ Eight times you pressed
+ The beige button
+ Haha, I say
+ That one was fun
+ 
+ You relaxed in
+ The graveyard zone
+ You made your way
+ All on your own
+ 
+ With eagle's help
+ You met the monk
+ You opened up
+ His wooden trunk
+ 
+ The dank you smoked
+ Set your mind free
+ You willed yourself
+ To enter tree
+ 
+ You did the thing
+ Good job to you
+ Perhaps I'll make
+ Ryan Quest 2 
+ 
+ Now you are done
+ You're at the end
+ Thanks for being
+ My closest friend

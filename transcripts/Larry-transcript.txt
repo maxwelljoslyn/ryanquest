@@ -1,0 +1,4857 @@
+
+
+
+It is the Year of Our Lord MMXVIII. You have arrived in the Danish city of Copenhagen to pursue a master's degree. You found an apartment for let in the suburb of Hellerup, and promptly moved in. The place isn't much, but for the next two years it's home.
+
+
+
+
+PREPARE YOUR SPIRIT FOR . . .
+
+
+
+
+
+RYAN QUEST
+A Thoroughly Accurate Simulation by Maxwell Joslyn
+Release 1 / Serial number 190222 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) 
+
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+On the shelves is a loaf of bread.
+
+You can also see a backpack (empty), a dwarf banana tree, a fridge (closed) and the bed (on which are bedsheets and a pair of Central European panties) here.
+
+>l cube
+You can't see any such thing.
+
+>l window
+Out the window you can see the Bay of Gentofte. Some way out in the water is a small island. From here it looks quite pleasant.
+
+>open window
+It isn't something you can open.
+
+>l rug
+The rug depicts a universal healthcare flying over the Kingdom of Denmark.
+
+>lift rug
+I didn't understand that sentence.
+
+>l
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+On the shelves is a loaf of bread.
+
+You can also see a backpack (empty), a dwarf banana tree, a fridge (closed) and the bed (on which are bedsheets and a pair of Central European panties) here.
+
+>open fridge
+You open the fridge, revealing a piece of cheese, a steak (uncooked) and a glass bottle of Dankdrinke.
+
+>drink Dankdrinke
+(first taking the glass bottle of Dankdrinke)
+Your throat is filled with ergonomitivity.
+
+[Your score has just gone up by one point.]
+
+>drink Dankdrinke
+You can't see any such thing.
+
+>l stove
+A two-burner electric stove.
+
+On the stove is a frying pan.
+
+>l frying pan
+Danish engineering makes bad food an impossibility.
+
+>turn on stove
+It isn't something you can switch.
+
+>lick frying pan
+I didn't understand that sentence.
+
+>lick cheese
+I didn't understand that sentence.
+
+>light stove
+This dangerous act would achieve little.
+
+>l
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+On the shelves is a loaf of bread.
+
+You can also see a backpack (empty), a dwarf banana tree, a fridge (in which are a piece of cheese and a steak (uncooked)) and the bed (on which are bedsheets and a pair of Central European panties) here.
+
+>read dankedrinke
+You can't see any such thing.
+
+>i
+You are carrying:
+  a wallet
+    money totalling 2 kroner
+    1 Uncle Sam
+
+>lick Uncle Sam
+I didn't understand that sentence.
+
+>l dwarf banana tre
+I only understood you as far as wanting to look the dwarf banana tree.
+
+>
+I beg your pardon?
+
+>l dwarf
+As friendly as a plant can get, and eminently pocketable. Its name is Benjamin.
+
+>l Benjamin
+As friendly as a plant can get, and eminently pocketable. Its name is Benjamin.
+
+>l panties
+Pink, frilly, and definitely not yours.
+
+>wear panties
+(first taking the pair of Central European panties)
+Nice.
+
+No way: you'd stretch them.
+
+>take panties
+You already have that.
+
+>l
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+On the shelves is a loaf of bread.
+
+You can also see a backpack (empty), a dwarf banana tree, a fridge (in which are a piece of cheese and a steak (uncooked)) and the bed (on which is bedsheets) here.
+
+>take bread
+Taken.
+
+>take cheese
+You're carrying too many things already.
+
+Your high has worn off.
+
+>i
+You are carrying:
+  a loaf of bread
+  a pair of Central European panties
+  a wallet
+    money totalling 2 kroner
+    1 Uncle Sam
+
+>l Uncle
+The hardest currency on Earth.
+
+A single tear leaks out as you contemplate the majesty of the USD.
+
+>put bread
+What do you want to put the loaf of bread in?
+
+>bed
+That can't contain things.
+
+>on bed
+I didn't understand that sentence.
+
+>put bread on bed
+You put the loaf of bread on the bed.
+
+>put panties on pan
+Putting things on the frying pan would achieve nothing.
+
+>l
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+You can also see a backpack (empty), a dwarf banana tree, a fridge (in which are a piece of cheese and a steak (uncooked)) and the bed (on which are a loaf of bread and bedsheets) here.
+
+>take bread
+Taken.
+
+>put bread in backpack
+You put the loaf of bread into the backpack.
+
+>take steak
+Taken.
+
+>put steak in backpack
+You put the steak (uncooked) into the backpack.
+
+>put cheese in backpack
+(first taking the piece of cheese)
+You put the piece of cheese into the backpack.
+
+>shake backpack
+I didn't understand that sentence.
+
+>l
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+You can also see a backpack (in which are a piece of cheese, a steak (uncooked) and a loaf of bread), a dwarf banana tree, a fridge (empty) and the bed (on which is bedsheets) here.
+
+>lift rug
+I didn't understand that sentence.
+
+>l shelves
+Each of the shelves is thin enough to shave with.
+
+>l bed
+Shaped to perfectly fit the human body.
+
+On the bed is bedsheets.
+
+>take bedsheets
+Taken.
+
+>put Uncle on bd
+You can't see any such thing.
+
+>l bed
+Shaped to perfectly fit the human body.
+
+>Put Uncle on bed
+(first taking 1 Uncle Sam)
+You're carrying too many things already.
+
+>put wallet on bed
+You put the wallet on the bed.
+
+>i
+You are carrying:
+  bedsheets
+  a pair of Central European panties
+
+>l
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+You can also see a backpack (in which are a piece of cheese, a steak (uncooked) and a loaf of bread), a dwarf banana tree, a fridge (empty) and the bed (on which is a wallet (in which are money totalling 2 kroner and 1 Uncle Sam)) here.
+
+>take banana
+Taken.
+
+>l backpack
+Adorned with the seal of Reed College, your undergraduate alma mater.
+
+In the backpack are a piece of cheese, a steak (uncooked) and a loaf of bread.
+
+>put banana in back
+You can't see any such thing.
+
+>put banana in backpack
+You put the dwarf banana tree into the backpack.
+
+>put backpack on pan
+(first taking the backpack)
+Putting things on the frying pan would achieve nothing.
+
+>put backpack in fridge
+You put the backpack into the fridge.
+
+>l
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+You can also see a fridge (in which is a backpack (in which are a dwarf banana tree, a piece of cheese, a steak (uncooked) and a loaf of bread)) and the bed (on which is a wallet (in which are money totalling 2 kroner and 1 Uncle Sam)) here.
+
+>cut rug
+Cutting it up would achieve little.
+
+>unplug fridge
+I didn't understand that sentence.
+
+>l door
+Just looking at this door makes you eager to start each day.
+
+>exit room
+I only understood you as far as wanting to exit.
+
+>leave room
+You can't see any such thing.
+
+>leave
+What do you want to leave?
+
+>south
+You must name something more substantial.
+
+>s
+(first opening the apartment door)
+You can't go to school without your backpack.
+
+>l
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+You can also see a fridge (in which is a backpack (in which are a dwarf banana tree, a piece of cheese, a steak (uncooked) and a loaf of bread)) and the bed (on which is a wallet (in which are money totalling 2 kroner and 1 Uncle Sam)) here.
+
+>put all in pack
+bedsheets: Done.
+pair of Central European panties: Done.
+
+>take rug
+You couldn't possibly take that! It belongs to your landlady.
+
+>take fridge
+That's fixed in place.
+
+>take wallet
+Taken.
+
+>l N
+You see nothing unexpected in that direction.
+
+>l W
+You see nothing unexpected in that direction.
+
+>l E
+You see nothing unexpected in that direction.
+
+>
+I beg your pardon?
+
+>l S
+You see nothing unexpected in that direction.
+
+>S
+(first opening the apartment door)
+You can't go to school without your backpack.
+
+>take backapack
+You can't see any such thing.
+
+>take backpack
+Taken.
+
+>S
+(first opening the apartment door)
+
+Hellerup Strandvejen
+The main street of Hellerup is bordered on its north side by brightly-painted row houses, such as the one containing your apartment. At the east end is a dock, and if you go west you can catch a train.
+
+You can see an apartment door, a fisherman and a wheelbarrow (in which are a pile of herring and a mound of herring) here.
+
+>talk fisherman
+I didn't understand that sentence.
+
+>talk to fish
+You can't see any such thing.
+
+>talk to fisherman
+To speak with someone, try one of "ask [someone] about something" or "ask [someone] for something".
+
+>ask fisherman about fish
+"All my herring is fresh from the bay," he says, waving his hand toward the Gentofte.
+
+>ask fisherman about why his life is so meaningless
+The fisker shifts from foot to foot. "Reckon I don't know much about that."
+
+>ask fisherman what time it is
+I didn't understand that sentence.
+
+>ask fisherman about what time it is
+The fisker shifts from foot to foot. "Reckon I don't know much about that."
+
+>take fish
+You can't see any such thing.
+
+>take herring
+Which do you mean, the fistful of herring, the pile of herring or the mound of herring?
+
+>fistful
+That seems to belong to the fisherman.
+
+>take pile of herring
+That costs money.
+
+The fisherman calls out, "Today I have a pile of herring and a mound of herring! Fresh!"
+
+>l W
+You see nothing unexpected in that direction.
+
+>Dirs
+From here you can:
+- go north to the Hellerup Apartment
+- go east to the Dock
+- go west to the Train Platform
+
+>ask fisherman about pricing
+The fisker shifts from foot to foot. "Reckon I don't know much about that."
+
+The fisherman calls out, "Today I have a pile of herring and a mound of herring! Very tasty!"
+
+>ask fisherman about apartment
+The fisker shifts from foot to foot. "Reckon I don't know much about that."
+
+>ask fisherman about train
+The fisker shifts from foot to foot. "Reckon I don't know much about that."
+
+The fisherman calls out, "Today I have a pile of herring and a mound of herring! Delicious!"
+
+>ask fisherman about herring
+"All my herring is fresh from the bay," he says, waving his hand toward the Gentofte.
+
+The fisherman calls out, "Today I have a pile of herring and a mound of herring! Come and get it!"
+
+>ask fisherman about Gentofte
+"There's loads of sild living down there for a fisker like me."
+
+>ask fisherman about his accent
+The fisker shifts from foot to foot. "Reckon I don't know much about that."
+
+>ask fisherman about Hellerup
+"Denmark is a glimrende country, Copenhagen is a storsået city, and Hellerup is a fantastisk neighborhood.
+
+The fisherman calls out, "Today I have a pile of herring and a mound of herring! Delicious!"
+
+>ask fisherman about W
+The fisker shifts from foot to foot. "Reckon I don't know much about that."
+
+>pay fisherman
+What do you want to pay the fisherman?
+
+>i
+You are carrying:
+  a backpack (open)
+    a pair of Central European panties
+    bedsheets
+    a dwarf banana tree
+    a piece of cheese
+    a steak (uncooked)
+    a loaf of bread
+  a wallet
+    money totalling 2 kroner
+    1 Uncle Sam
+
+>pay fisherman 1 kroner
+You can't see any such thing.
+
+>take wallet
+You already have that.
+
+>take 1 kronr
+You can't see any such thing.
+
+>
+I beg your pardon?
+
+>take 1 kroner
+You can't see any such thing.
+
+>take money
+Taken.
+
+>i
+You are carrying:
+  money totalling 2 kroner
+  a backpack (open)
+    a pair of Central European panties
+    bedsheets
+    a dwarf banana tree
+    a piece of cheese
+    a steak (uncooked)
+    a loaf of bread
+  a wallet
+    1 Uncle Sam
+
+>take money
+You already have that.
+
+The fisherman calls out, "Today I have a pile of herring and a mound of herring! Fresh!"
+
+>take Uncle Sam
+(putting the wallet into the backpack to make room)
+Taken.
+
+The fisherman calls out, "Today I have a pile of herring and a mound of herring! Come and get it!"
+
+>Buy Fistful of Herring
+That doesn't cost any money.
+That seems to belong to the fisherman.
+
+
+>l fistful of herring
+Must be tucked away for a rainy day.
+
+>l mound of herring
+Moist and fresh.
+
+It costs 2 kroner.
+
+The fisherman calls out, "Today I have a pile of herring and a mound of herring! Very tasty!"
+
+>l pile of herring
+Plump and juicy.
+
+It costs 1 kroner.
+
+>buy mound of Herring with Uncle Sam
+I only understood you as far as wanting to buy the mound of herring.
+
+>buy mound of herring
+You pay 2 kroner for the mound of herring, leaving yourself with 0 kroner.
+
+>thank fisherman
+I didn't understand that sentence.
+
+>l
+Hellerup Strandvejen
+The main street of Hellerup is bordered on its north side by brightly-painted row houses, such as the one containing your apartment. At the east end is a dock, and if you go west you can catch a train.
+
+You can see an apartment door, a fisherman and a wheelbarrow (in which is a pile of herring) here.
+
+The fisherman calls out, "Today I have a pile of herring! Come and get it!"
+
+>l wheelbarrow
+Rusty but serviceable. It contains a pile of herring.
+
+In the wheelbarrow is a pile of herring.
+
+>take pile of herring
+That costs money.
+
+The fisherman calls out, "Today I have a pile of herring! Fresh!"
+
+>steal pile of herring
+I didn't understand that sentence.
+
+>N
+
+Hellerup Apartment
+On the stove is a frying pan.
+
+You can also see a fridge (empty) and the bed here.
+
+>l
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+On the stove is a frying pan.
+
+You can also see a fridge (empty) and the bed here.
+
+>put fish in fridge
+You can't see any such thing.
+
+>put herring in fridge
+You put the mound of herring into the fridge.
+
+>put cheese in fridge
+(first taking the piece of cheese)
+You put the piece of cheese into the fridge.
+
+>put steak in fridge
+(first taking the steak (uncooked))
+You put the steak (uncooked) into the fridge.
+
+>i
+You are carrying:
+  1 Uncle Sam
+  a backpack (open)
+    a wallet
+    a pair of Central European panties
+    bedsheets
+    a dwarf banana tree
+    a loaf of bread
+
+>put panties in fridge
+(first taking the pair of Central European panties)
+You put the pair of Central European panties into the fridge.
+
+>s
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (in which is a pile of herring) here.
+
+The fisherman calls out, "Today I have a pile of herring! Come and get it!"
+
+>buy pile of herring
+You don't have any money.
+
+The fisherman calls out, "Today I have a pile of herring! Very tasty!"
+
+>w
+
+Train Platform
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. A staircase and an arrow-shaped sign in the northwest corner of the station pair up to beckon you downward.
+
+You can see a wall sign and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+>l platform
+You can't see any such thing.
+
+>l train
+This train is a large glass lozenge containing one big wrap-around sofa.
+
+In the C-Train are a wrap-around sofa and a lever.
+
+>l staircase
+You can't see any such thing.
+
+>l sign
+Which do you mean, the wall sign or the arrow-shaped sign?
+
+>arrow
+You can't see any such thing.
+
+>l arrow sign
+You can't see any such thing.
+
+>l sign
+Which do you mean, the wall sign or the arrow-shaped sign?
+
+>arrow-shaped sign
+The delightfully red arrow is painted with blue text: "THIS WAY FOR MONEY".
+
+>follow sign
+I didn't understand that sentence.
+
+>dirs
+From here you can:
+- go east to Hellerup Strandvejen
+- go down to Socialist Money Commissary
+- ride the C-Train to go to Copenhagen Metro Station.
+
+
+>down
+
+Socialist Money Commissary
+The inside of the commissary is a bit cramped, but the lighting is gentle and there is air-conditioning. 
+
+You can see a clerk, a one-krone note, a two-kroner note and a three-kroner note here.
+
+>l note
+Which do you mean, the one-krone note, the two-kroner note or the three-kroner note?
+
+>l one-krone note
+It bears the likeness of King Christian IV. He rekt Northern Germany during the Thirty Years War.
+
+It costs 1 kroner.
+
+>l two
+You can't see any such thing.
+
+>l two-
+You can't see any such thing.
+
+>l two-kroner
+Depicts Queen Magrethe II. Maybe one day you will meet her.
+
+It costs 2 kroner.
+
+>l three-kroner
+It's worth 3 kroner. T-h-r-e-e . . . k-r-o-n-e-r.
+
+It costs 3 kroner.
+
+>talk clerk
+I didn't understand that sentence.
+
+>ask clerk about one-krone
+The clerk demurres, giving no answer.
+
+>ask clerk about two-krone
+The clerk demurres, giving no answer.
+
+>ask clerk about three-krone
+The clerk demurres, giving no answer.
+
+>ask clerk about why their life is so meaningless
+The clerk demurres, giving no answer.
+
+>steal three-krone note
+I didn't understand that sentence.
+
+>take three-krone note
+Foolish American! Under Socialism, everyone has a job to do - and the clerk's job is to hand you that three-kroner note. For free!
+
+The clerk picks up the three-kroner note, and gives it to you.
+
+>take two-krone note
+Stupid American! Under Socialism, everyone has a job to do - and the clerk's job is to hand you that two-kroner note. For free!
+
+The clerk picks up the two-kroner note, and gives it to you.
+
+>take one-krone
+Idiotic American! Under Socialism, everyone has a job to do - and the clerk's job is to hand you that one-krone note. For free!
+
+The clerk picks up the one-krone note, and gives it to you.
+
+Unfortunately, the commissary is out of money for the day.
+
+>give clerk 1 Uncle Sam
+The clerk does not desire 1 Uncle Sam.
+
+Unfortunately, the commissary is out of money for the day.
+
+>l
+Socialist Money Commissary
+The inside of the commissary is a bit cramped, but the lighting is gentle and there is air-conditioning. 
+
+You can see a clerk here.
+
+Unfortunately, the commissary is out of money for the day.
+
+>give 1-krone note
+You can't see any such thing.
+
+>u
+
+Train Platform
+You can see a wall sign, a C-Train (in which are a wrap-around sofa and a lever) and an arrow-shaped sign here.
+
+>l
+Train Platform
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. In the northwest corner of the station stands the staircase that leads to the Commissary.
+
+You can see a wall sign, a C-Train (in which are a wrap-around sofa and a lever) and an arrow-shaped sign here.
+
+>dirs
+From here you can:
+- go east to Hellerup Strandvejen
+- go down to Socialist Money Commissary
+- ride the C-Train to go to Copenhagen Metro Station.
+
+
+>E
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (in which is a pile of herring) here.
+
+>buy pile of herring
+You pay 1 kroner for the pile of herring, leaving yourself with 5 kroner.
+
+>l wheel
+You can't see any such thing.
+
+>l wheelbarrow
+Rusty but serviceable. It contains nothing.
+
+The fisherman taps his foot.
+
+>ask fisherman about fish
+"All my herring is fresh from the bay," he says, waving his hand toward the Gentofte.
+
+>dirs
+From here you can:
+- go north to the Hellerup Apartment
+- go east to the Dock
+- go west to the Train Platform
+
+The fisherman grins cheerfully.
+
+>N
+
+Hellerup Apartment
+On the stove is a frying pan.
+
+You can also see a fridge (in which are a pair of Central European panties, a steak (uncooked), a piece of cheese and a mound of herring) and the bed here.
+
+>put pile of herring in fridge
+You put the pile of herring into the fridge.
+
+>S
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+The fisherman winks at you.
+
+>ask fisherman about winking
+The fisker shifts from foot to foot. "Reckon I don't know much about that."
+
+>dirs
+From here you can:
+- go north to the Hellerup Apartment
+- go east to the Dock
+- go west to the Train Platform
+
+>E
+
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate, atop which sits a bird.
+
+>l rowboat
+This rowboat is sad but serviceable.
+
+In the rowboat is the herring crate.
+
+>take rope
+That's hardly portable.
+
+>l crate
+It's got to be loaded with herring.
+
+On the herring crate is a wretched bird.
+
+>l bird
+The species is impossible to identify, but its plumage is wilted, its beak is crooked, and its eyes are dull.
+
+>ask bird about herring
+The bird squawks and looks at you dejectedly.
+
+>l
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate, atop which sits a bird.
+
+>dirs
+From here you can:
+- go west to Hellerup Strandvejen
+
+>w
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>dir
+I didn't understand that sentence.
+
+>dirs
+From here you can:
+- go north to the Hellerup Apartment
+- go east to the Dock
+- go west to the Train Platform
+
+>n
+
+Hellerup Apartment
+On the stove is a frying pan.
+
+You can also see a fridge (in which are a pile of herring, a pair of Central European panties, a steak (uncooked), a piece of cheese and a mound of herring) and the bed here.
+
+>take mound of herring
+Taken.
+
+>take pile of herring
+(putting 1 Uncle Sam into the backpack to make room)
+Taken.
+
+>S
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+The fisherman grins cheerfully.
+
+>E
+
+Dock
+
+>give bird banana
+(first taking the dwarf banana tree)
+(putting the mound of herring into the backpack to make room)
+The wretched bird turns its head away from the dwarf banana tree.
+
+>give bird bread
+(first taking the loaf of bread)
+(putting the pile of herring into the backpack to make room)
+The wretched bird turns its head away from the loaf of bread.
+
+>give bird mound of herring
+(first taking the mound of herring)
+(putting the dwarf banana tree into the backpack to make room)
+The wretched bird regards you warily, then opens its beak and snaps up the mound of herring. It swallows in one gulp.
+
+You see a flash of brilliance in its black, beady eyes. Then it caws, and flies off in the direction of Copenhagen.
+
+You feel strangely proud.
+
+[Your score has just gone up by one point.]
+
+>l
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate.
+
+>take herring
+Which do you mean, the herring crate or the pile of herring?
+
+>open herring crate
+Nuts! It's barred and locked.
+
+>W
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>ask fisherman about key
+The fisker shifts from foot to foot. "Reckon I don't know much about that."
+
+The fisherman winks at you.
+
+>E
+
+Dock
+
+>l
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate.
+
+>take pile of herring
+Taken.
+
+>i
+You are carrying:
+  a pile of herring
+  a loaf of bread
+  a backpack (open)
+    a dwarf banana tree
+    1 Uncle Sam
+    a wallet
+      money totalling 5 kroner
+    bedsheets
+
+>take crate
+That's fixed in place.
+
+>l crate
+It's got to be loaded with herring.
+
+>W
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>dirs
+From here you can:
+- go north to the Hellerup Apartment
+- go east to the Dock
+- go west to the Train Platform
+
+>W
+
+Train Platform
+You can see a wall sign, a C-Train (in which are a wrap-around sofa and a lever) and an arrow-shaped sign here.
+
+>dirs
+From here you can:
+- go east to Hellerup Strandvejen
+- go down to Socialist Money Commissary
+- ride the C-Train to go to Copenhagen Metro Station.
+
+
+>ride
+What do you want to ride?
+
+>ride C-Train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>l sofa
+Made of plush leather for discerning Danish derrieres.
+
+>l lever
+The handle has indentations shaped to cuddle your fingers. A small speaker grille is embedded in the tippy-top.
+
+The lever is currently switched off.
+
+>switch lever on
+With a tug of the lever, you are transported to Copenhagen proper.
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+You step out of the train.
+
+>l tree
+(the fake tree)
+A huge plastic palm tree, fifteen feet tall and twenty feet around. It "grows" from an inch-thick disc of marble which is set into the floor of the station, disrupting the pattern of tiles around it.
+
+>take tree
+(the fake tree)
+That's fixed in place.
+
+>l door
+It's not even a finished door - just a plank of wood on hinges. A sign hangs from a nail in the middle.
+
+>l sign
+The hand-lettered sign reads, "My friend, you've gotten 2 points so far."
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>inside
+You examine the fake tree, but there's no way to get in.
+
+Perhaps if you boosted your imagination you'd think of something.
+
+>up
+
+IIT Campus
+The campus is pretty sleepy in the summer. A construction crew is working around the bell tower, but the only student you see is Ana.
+
+You can see Ana, a stone bench, a sawyer and a carpenter here.
+
+>l ana
+A Czech girl in a white dress. Starting next week, she's your TA for Introductory Programming. Starting last night, she's your lover.
+
+>l bench
+Effortlessly square.
+
+On the base, nearly invisible, is an unlabelled beige button. The button is rounder than round: it's Dane-Rounde.
+
+>l balloon
+You can't see any such thing.
+
+>l button
+This button is rounder than round: it's Dane-Rounde.
+
+The button is currently switched off.
+
+>l sawyer
+Short and squat.
+
+>l carpenter
+Tall and thin.
+
+>ask Ana about bench
+Ana tosses her hair and refuses to answer.
+
+>ask Ana about relationship
+Ana tosses her hair and refuses to answer.
+
+>ask Ana about love
+She stamps her foot. "Who are you to talk about love, American?"
+
+>pay Ana 1 Uncle Sam
+She slaps 1 Uncle Sam out of your hand.
+
+>give Ana Banana
+She smacks the dwarf banana tree out of your hand.
+
+>pick up banana
+(putting the loaf of bread into the backpack to make room)
+Taken.
+
+>pick up Uncle Sam
+(putting the pile of herring into the backpack to make room)
+Taken.
+
+>give Ana pile of Herring
+She slaps the pile of herring out of your hand.
+
+>take pile of herring
+(putting the dwarf banana tree into the backpack to make room)
+Taken.
+
+>i
+You are carrying:
+  a pile of herring
+  1 Uncle Sam
+  a backpack (open)
+    a dwarf banana tree
+    a loaf of bread
+    a wallet
+      money totalling 5 kroner
+    bedsheets
+
+>ask construction about love
+You can't see any such thing.
+
+>l
+IIT Campus
+The campus is pretty sleepy in the summer. A construction crew is working around the bell tower, but the only student you see is Ana.
+
+You can see Ana, a stone bench, a sawyer and a carpenter here.
+
+>ask construction crew about why Ana's panties are in a bunch
+You can't see any such thing.
+
+>ask sawyer about Ana
+You don't want to get in the way of their work.
+
+>ask Sawyer about saws
+You don't want to get in the way of their work.
+
+>ask Sawyer about Copenhagen
+You don't want to get in the way of their work.
+
+>Ask Ana about Copenhagen
+Ana tosses her hair and refuses to answer.
+
+>dirs
+From here you can:
+- go north to Copenhagen Metro Station
+- go down to Copenhagen Metro Station
+
+>N
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>C
+I didn't understand that sentence.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>W
+
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade, and flowers bloom here and there.
+
+You can see the friendly bird, a red flower, a white flower, a blue flower and a yellow flower here.
+
+>l tombs
+Your attention rests on a tomb of pale white marble with pinkish streaks.
+
+This seems like a superb place to relax.
+
+>l flowers
+You can't use multiple objects with that verb.
+
+>l flower
+Which do you mean, the red flower, the white flower, the blue flower or the yellow flower?
+
+>l red
+Sweet-smelling.
+
+>l white
+The color of fine linen.
+
+>l blue
+As blue as the sky.
+
+>l yellow
+The yellow petals crinkle at the edges.
+
+This seems like a perfect place to relax.
+
+>take red
+(putting 1 Uncle Sam into the backpack to make room)
+Taken.
+
+This seems like a terrific place to relax.
+
+>take white
+(putting the pile of herring into the backpack to make room)
+Taken.
+
+>take blue
+(putting the red flower into the backpack to make room)
+Taken.
+
+This seems like a perfect place to relax.
+
+>take yellow
+(putting the white flower into the backpack to make room)
+Taken.
+
+>l
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade.
+
+You can see the friendly bird here.
+
+>l bird
+This is the bird you fed earlier. It seems to have regained some energy after eating: its plumage has a healthy sheen.
+
+>i
+You are carrying:
+  a yellow flower
+  a blue flower
+  a backpack (open)
+    a white flower
+    a red flower
+    a pile of herring
+    1 Uncle Sam
+    a dwarf banana tree
+    a loaf of bread
+    a wallet
+      money totalling 5 kroner
+    bedsheets
+
+>close backpack
+You close the backpack.
+
+>ask bird about love
+The bird chirrups, and cocks its head at you.
+
+>E
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>SE
+(first opening the small door)
+
+The Path
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+>l promontory
+You can't see any such thing.
+
+>l ground
+You can't see any such thing.
+
+>l bush
+The leaves and branches are so tangled that it could probably support some weight.
+
+>l island
+You can't see any such thing.
+
+>dirs
+From here you can:
+- go northwest to Copenhagen Metro Station
+
+>take bush
+That's hardly portable.
+
+>NW
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>S
+
+IIT Campus
+You can see Ana, a stone bench, a sawyer and a carpenter here.
+
+>dirs
+From here you can:
+- go north to Copenhagen Metro Station
+- go down to Copenhagen Metro Station
+
+>N
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>NW
+
+Christiana Main Street
+This spacious street at the entrance of Christiana is stuffed with all manner of people.
+
+You can see a flood of tourists, a gathering of hippies, an infestation of musicians, a pusher and a pushcart (on which is a marijuana joint) here.
+
+>ask tourist about Christiana
+The pusher eyes your blue flower.
+
+>ask tourist about blue
+>
+I beg your pardon?
+
+>ask tourist about blue flower
+>give tourist blue
+The flood of tourists does not desire the blue flower.
+
+>give pusher blue
+Try making a purchase with the "buy" command instead, e.g. "buy potato".
+
+>ask pusher about merchandise
+He rolls his freaky eyes. "You lookin' to buy or not?" he says.
+
+>l pushcart
+A vital tool of the drug trade.
+
+On the pushcart is a marijuana joint.
+
+>push pushcart
+You probably shouldn't touch the pusher's stuff.
+
+>take marijuana
+That costs money.
+
+>ask pusher about marijuana
+He says, "This is quality grass. Might make you see stuff, heh heh."
+
+The pusher eyes your blue flower.
+
+>give pusher blue
+Try making a purchase with the "buy" command instead, e.g. "buy potato".
+
+>buy marijuana
+You pay 2 kroner for the marijuana joint, leaving yourself with 3 kroner.
+
+The pusher eyes your marijuana joint.
+
+>buy potato
+You can't see any such thing.
+
+>l
+Christiana Main Street
+This spacious street at the entrance of Christiana is stuffed with all manner of people.
+
+You can see a flood of tourists, a gathering of hippies, an infestation of musicians, a pusher and a pushcart here.
+
+>listen musician
+I only understood you as far as wanting to listen.
+
+>listen
+You hear pleasant strains of music: 6000 different footsteps arranged into a dance number.
+
+The pusher eyes your yellow flower.
+
+>give pusher flower
+Which do you mean, the yellow flower or the blue flower?
+
+>yellow
+Try making a purchase with the "buy" command instead, e.g. "buy potato".
+
+>i
+You are carrying:
+  a marijuana joint
+  a yellow flower
+  a blue flower
+  a backpack (closed)
+
+>SE
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>west
+
+Aarenhus Cemetery
+You can see the friendly bird here.
+
+This seems like a terrific place to relax.
+
+>l
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade.
+
+You can see the friendly bird here.
+
+>E
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>e
+You can't go that way.
+
+>l red
+You can't see any such thing.
+
+>i
+You are carrying:
+  a marijuana joint
+  a yellow flower
+  a blue flower
+  a backpack (closed)
+
+>w
+
+Aarenhus Cemetery
+You can see the friendly bird here.
+
+>l
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade.
+
+You can see the friendly bird here.
+
+This seems like a perfect place to relax.
+
+>e
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>l
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>n
+You can't go that way.
+
+>s
+
+IIT Campus
+You can see Ana, a stone bench, a sawyer and a carpenter here.
+
+>l
+IIT Campus
+The campus is pretty sleepy in the summer. A construction crew is working around the bell tower, but the only student you see is Ana.
+
+You can see Ana, a stone bench, a sawyer and a carpenter here.
+
+>n
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>nw
+
+Christiana Main Street
+You can see a flood of tourists, a gathering of hippies, an infestation of musicians, a pusher and a pushcart here.
+
+>l
+Christiana Main Street
+This spacious street at the entrance of Christiana is stuffed with all manner of people.
+
+You can see a flood of tourists, a gathering of hippies, an infestation of musicians, a pusher and a pushcart here.
+
+The pusher eyes your marijuana joint.
+
+>i
+You are carrying:
+  a marijuana joint
+  a yellow flower
+  a blue flower
+  a backpack (closed)
+
+The pusher eyes your yellow flower.
+
+>e
+You can't go that way.
+
+>se
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>SE
+
+The Path
+
+>l
+The Path
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+>NW
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>l
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>NW
+
+Christiana Main Street
+You can see a flood of tourists, a gathering of hippies, an infestation of musicians, a pusher and a pushcart here.
+
+>l
+Christiana Main Street
+This spacious street at the entrance of Christiana is stuffed with all manner of people.
+
+You can see a flood of tourists, a gathering of hippies, an infestation of musicians, a pusher and a pushcart here.
+
+>SE
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>Ride C-Train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>pull lever
+With a tug of the lever, you are transported to the suburb of Hellerup.
+
+Train Platform
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. In the northwest corner of the station stands the staircase that leads to the Commissary.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+You step out of the train.
+
+>
+I beg your pardon?
+
+>dirs
+From here you can:
+- go east to Hellerup Strandvejen
+- go down to Socialist Money Commissary
+- ride the C-Train to go to Copenhagen Metro Station.
+
+
+>E
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>N
+
+Hellerup Apartment
+On the stove is a frying pan.
+
+You can also see a fridge (in which are a pair of Central European panties, a steak (uncooked) and a piece of cheese) and the bed here.
+
+>take panties
+(putting the blue flower into the backpack to make room)
+The backpack is closed.
+
+>open bakcpack
+You can't see any such thing.
+
+>open pack
+You open the backpack, revealing a white flower, a red flower, a pile of herring, 1 Uncle Sam, a dwarf banana tree, a loaf of bread, a wallet and bedsheets.
+
+>take panties
+(putting the blue flower into the backpack to make room)
+You're carrying too many things already.
+
+>i
+You are carrying:
+  a marijuana joint
+  a yellow flower
+  a backpack (open)
+    a blue flower
+    a white flower
+    a red flower
+    a pile of herring
+    1 Uncle Sam
+    a dwarf banana tree
+    a loaf of bread
+    a wallet
+      money totalling 3 kroner
+    bedsheets
+
+>put mari in backpack
+You can't see any such thing.
+
+>put joint in pack
+You put the marijuana joint into the backpack.
+
+>l Mary Jane
+You can't see any such thing.
+
+>l devil's lettuce
+This is the premium shit right here.
+
+>l dank shit
+You can't see any such thing.
+
+>l dank
+You can't see any such thing.
+
+>l dro
+You can't see any such thing.
+
+>l chronic
+You can't see any such thing.
+
+>i
+You are carrying:
+  a yellow flower
+  a backpack (open)
+    a marijuana joint
+    a blue flower
+    a white flower
+    a red flower
+    a pile of herring
+    1 Uncle Sam
+    a dwarf banana tree
+    a loaf of bread
+    a wallet
+      money totalling 3 kroner
+    bedsheets
+
+>put flower in pack
+(the yellow flower in the backpack)
+You put the yellow flower into the backpack.
+
+>take all
+frying pan: Taken.
+pair of Central European panties: Taken.
+steak (uncooked): (putting the frying pan into the backpack to make room)
+Taken.
+piece of cheese: (putting the pair of Central European panties into the backpack to make room)
+Taken.
+
+>i
+You are carrying:
+  a piece of cheese
+  a steak (uncooked)
+  a backpack (open)
+    a pair of Central European panties
+    a frying pan
+    a yellow flower
+    a marijuana joint
+    a blue flower
+    a white flower
+    a red flower
+    a pile of herring
+    1 Uncle Sam
+    a dwarf banana tree
+    a loaf of bread
+    a wallet
+      money totalling 3 kroner
+    bedsheets
+
+>S
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>ask fisherman about Christiana
+The fisker shifts from foot to foot. "Reckon I don't know much about that."
+
+>W
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>l
+Train Platform
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. In the northwest corner of the station stands the staircase that leads to the Commissary.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>dir
+I didn't understand that sentence.
+
+>dirs
+From here you can:
+- go east to Hellerup Strandvejen
+- go down to Socialist Money Commissary
+- ride the C-Train to go to Copenhagen Metro Station.
+
+
+>Enter train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>pull lever
+With a tug of the lever, you are transported to Copenhagen proper.
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+You step out of the train.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>inside
+You examine the fake tree, but there's no way to get in.
+
+Perhaps if you boosted your imagination you'd think of something.
+
+>shmoke joint
+I didn't understand that sentence.
+
+>smoke joint
+(first taking the marijuana joint)
+(putting the steak (uncooked) into the backpack to make room)
+You hit it and don't quit it. Your War-on-Drugs work ethic erases that joint from existence.
+
+Now you're baked.
+
+You're totally baked.
+
+>l tree
+(the fake tree)
+A huge plastic palm tree, fifteen feet tall and twenty feet around. It "grows" from an inch-thick disc of marble which is set into the floor of the station, disrupting the pattern of tiles around it.
+
+You're super baked.
+
+>l
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+Wow. You're completely baked.
+
+>inside
+You walk up to the fake tree. Your instincts propel you onward, and you walk into the tree.
+
+You're inside the tree, Ryan.
+
+You're really, really baked.
+
+>l
+Belly of the Tree
+It's gloomy in here.
+
+Damn. You're super baked.
+
+>dirs
+From here you can:
+- go outside to Copenhagen Metro Station
+
+You're completely baked.
+
+>climb tree
+(the fake tree)
+Little is to be achieved by that.
+
+Man. You're really, really baked.
+
+>take tree
+(the fake tree)
+That's fixed in place.
+
+You're totally baked.
+
+>l
+Belly of the Tree
+It's gloomy in here.
+
+You're completely baked.
+
+>i
+You are carrying:
+  a piece of cheese
+  a backpack (open)
+    a steak (uncooked)
+    a pair of Central European panties
+    a frying pan
+    a yellow flower
+    a blue flower
+    a white flower
+    a red flower
+    a pile of herring
+    1 Uncle Sam
+    a dwarf banana tree
+    a loaf of bread
+    a wallet
+      money totalling 3 kroner
+    bedsheets
+
+You're super baked.
+
+>drop banana
+You haven't got that.
+
+Damn. You're really, really baked.
+
+>take banana
+Taken.
+
+You're super baked.
+
+>drop banana
+Dropped.
+
+Man. You're really, really baked.
+
+>l
+Belly of the Tree
+It's gloomy in here.
+
+You can see a dwarf banana tree here.
+
+You're totally baked.
+
+>OUT
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+You're super baked.
+
+>
+I beg your pardon?
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+Damn. You're really, really baked.
+
+>S
+
+IIT Campus
+You can see Ana, a stone bench, a sawyer and a carpenter here.
+
+You're completely baked.
+
+>i
+You are carrying:
+  a piece of cheese
+  a backpack (open)
+    a steak (uncooked)
+    a pair of Central European panties
+    a frying pan
+    a yellow flower
+    a blue flower
+    a white flower
+    a red flower
+    a pile of herring
+    1 Uncle Sam
+    a loaf of bread
+    a wallet
+      money totalling 3 kroner
+    bedsheets
+
+You're super baked.
+
+>give Ana Steak
+She smacks the steak (uncooked) out of your hand.
+
+You're really, really baked.
+
+>take steak
+Taken.
+
+You're super baked.
+
+Your high has worn off.
+
+>give Ana panties
+(first taking the pair of Central European panties)
+(putting the piece of cheese into the backpack to make room)
+Ana snatches the panties out of your hand, and throws them to the ground.
+
+>take panties
+Taken.
+
+>i
+You are carrying:
+  a pair of Central European panties
+  a steak (uncooked)
+  a backpack (open)
+    a piece of cheese
+    a frying pan
+    a yellow flower
+    a blue flower
+    a white flower
+    a red flower
+    a pile of herring
+    1 Uncle Sam
+    a loaf of bread
+    a wallet
+      money totalling 3 kroner
+    bedsheets
+
+>give flower
+Which do you mean, the yellow flower, the blue flower, the white flower or the red flower?
+
+>give white
+Which do you mean, the white flower or the white dress?
+
+>give Ana white Flower
+(first taking the white flower)
+(putting the steak (uncooked) into the backpack to make room)
+Ana sighs and kisses your cheek.
+
+
+She strolls over to the bench, and sits down to gaze at the flower.
+
+[Your score has just gone up by one point.]
+
+>Ask Ana about Love
+"We'll see what happens, no?" She blows you a kiss.
+
+>Ask Ana about Copenhagen
+"This city is so enchanting. I much prefer it to Prague."
+
+>Ask Ana about Prague
+Ana chuckles. "My sweet Angeles-American", she says, "your guess is as good as mine."
+
+>Ask Ana about America
+Ana chuckles. "My scrumptious piglet", she says, "your guess is as good as mine."
+
+>Ask Ana about ses
+Ana chuckles. "My lovable exotic treat", she says, "your guess is as good as mine."
+
+>Ask Ana about sex
+She laughs. "We probably shouldn't . . . but we probably will."
+
+>Seduce Ana
+I didn't understand that sentence.
+
+>i
+You are carrying:
+  a pair of Central European panties
+  a backpack (open)
+    a steak (uncooked)
+    a piece of cheese
+    a frying pan
+    a yellow flower
+    a blue flower
+    a red flower
+    a pile of herring
+    1 Uncle Sam
+    a loaf of bread
+    a wallet
+      money totalling 3 kroner
+    bedsheets
+
+>give Ana cheese
+She giggles, but refuses your offer of the piece of cheese.
+
+>Give Ana steak
+She giggles, but refuses your offer of the steak (uncooked).
+
+>l
+IIT Campus
+The campus is pretty sleepy in the summer. A construction crew is working around the bell tower, but no students are to be seen.
+
+You can see a stone bench (on which is Ana), a sawyer and a carpenter here.
+
+>Ask Ana about money
+Ana chuckles. "My darling Angeles-American", she says, "your guess is as good as mine."
+
+>Give Ana Yellow Flower
+(first taking the yellow flower)
+Ana giggles.
+
+>Give Ana Blue Flower
+(first taking the blue flower)
+Ana grins.
+
+>Give Ana Red Flower
+(first taking the red flower)
+Ana blushes.
+
+>Ask Ana about sex
+She laughs. "We probably shouldn't . . . but we probably will."
+
+>i
+You are carrying:
+  a pair of Central European panties
+  a backpack (open)
+    a steak (uncooked)
+    a piece of cheese
+    a frying pan
+    a pile of herring
+    1 Uncle Sam
+    a loaf of bread
+    a wallet
+      money totalling 3 kroner
+    bedsheets
+
+>give Ana panties
+She blushes, then stuffs them into her pocket. "Thank you," she says softly.
+
+[Your score has just gone up by one point.]
+
+>Ask Ana about food
+Ana chuckles. "My scrumptious exotic treat", she says, "your guess is as good as mine."
+
+>l Ana
+A Czech girl in a white dress. Starting next week, she's your TA for Introductory Programming. Starting last night, she's your lover.
+
+>take white dress
+That seems to belong to Ana.
+
+>Ask Ana about love
+"We'll see what happens, no?" She blows you a kiss.
+
+>dirs
+From here you can:
+- go north to Copenhagen Metro Station
+- go down to Copenhagen Metro Station
+
+>N
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>SE
+
+The Path
+
+>l
+The Path
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+>NW
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>W
+
+Aarenhus Cemetery
+You can see the friendly bird here.
+
+This seems like a excellent place to relax.
+
+>pet bird
+I didn't understand that sentence.
+
+>touch bird
+Mind your manners, ignorant American!
+
+>lk
+I didn't understand that sentence.
+
+>l
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade.
+
+You can see the friendly bird here.
+
+>Dig Tomb
+I didn't understand that sentence.
+
+>i
+You are carrying:
+  a backpack (open)
+    a steak (uncooked)
+    a piece of cheese
+    a frying pan
+    a pile of herring
+    1 Uncle Sam
+    a loaf of bread
+    a wallet
+      money totalling 3 kroner
+    bedsheets
+
+This seems like a perfect place to relax.
+
+>feed pile of herring to bird
+(first taking the pile of herring)
+The friendly bird nuzzles your hand, then spears your offering with its beak. With a jerk of its head, the pile of herring disappears down the bird's gullet.
+
+The friendly bird shrieks in triumph. It ascends into the sky, until it is so far away that you can only perceive a black dot.
+
+There is a flash of light so brilliant that you have to avert your eyes. When you look up again, the black dot has disappeared . . .
+
+[Your score has just gone up by two points.]
+
+>i
+You are carrying:
+  a backpack (open)
+    a steak (uncooked)
+    a piece of cheese
+    a frying pan
+    1 Uncle Sam
+    a loaf of bread
+    a wallet
+      money totalling 3 kroner
+    bedsheets
+
+>l
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade.
+
+>E
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>S
+
+IIT Campus
+You can see a stone bench (on which is Ana), a sawyer and a carpenter here.
+
+>D
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+>NW
+
+Christiana Main Street
+You can see a flood of tourists, a gathering of hippies, an infestation of musicians, a pusher and a pushcart (on which is a marijuana joint) here.
+
+The pusher eyes your backpack.
+
+>i
+You are carrying:
+  a backpack (open)
+    a steak (uncooked)
+    a piece of cheese
+    a frying pan
+    1 Uncle Sam
+    a loaf of bread
+    a wallet
+      money totalling 3 kroner
+    bedsheets
+
+>give steak to hippie
+The gathering of hippies does not desire the steak (uncooked).
+
+>buy joint
+You pay 2 kroner for the marijuana joint, leaving yourself with 1 kroner.
+
+>SE
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+>sit softa
+I didn't understand that sentence.
+
+>sit sofa
+I didn't understand that sentence.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>inside
+You examine the fake tree, but there's no way to get in.
+
+Perhaps if you boosted your imagination you'd think of something.
+
+>ride
+What do you want to ride?
+
+>ride C-train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>sit sofa
+I didn't understand that sentence.
+
+>sit on sofa
+You get onto the wrap-around sofa.
+
+>l sofa
+Made of plush leather for discerning Danish derrieres.
+
+>push lever
+"You must pull me!" the lever says jubilantly.
+
+>l
+Copenhagen Metro Station (on the wrap-around sofa) (in the C-Train)
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see the fake tree here.
+
+In the C-Train you can see a lever.
+
+>pull lever
+With a tug of the lever, you are transported to the suburb of Hellerup.
+
+Train Platform
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. In the northwest corner of the station stands the staircase that leads to the Commissary.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+You step out of the train.
+
+>l arrow-shaped sign
+The delightfully red arrow is painted with blue text: "THIS WAY FOR MONEY".
+
+>l wall sign
+It reads, "Get into the train at your leisure."
+
+>E
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>W
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>D
+
+Socialist Money Commissary
+You can see a clerk here.
+
+Unfortunately, the commissary is out of money for the day.
+
+>i
+You are carrying:
+  a marijuana joint
+  a backpack (open)
+    a steak (uncooked)
+    a piece of cheese
+    a frying pan
+    1 Uncle Sam
+    a loaf of bread
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+Unfortunately, the commissary is out of money for the day.
+
+>u
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>ride C-train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>pull lever
+With a tug of the lever, you are transported to Copenhagen proper.
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+You step out of the train.
+
+>NW
+
+Christiana Main Street
+You can see a flood of tourists, a gathering of hippies, an infestation of musicians, a pusher and a pushcart here.
+
+>l
+Christiana Main Street
+This spacious street at the entrance of Christiana is stuffed with all manner of people.
+
+You can see a flood of tourists, a gathering of hippies, an infestation of musicians, a pusher and a pushcart here.
+
+>ask pusher about marijuana
+He says, "This is quality grass. Might make you see stuff, heh heh."
+
+>ask pusher about devil's lettuce
+He rolls his freaky eyes. "You lookin' to buy or not?" he says.
+
+The pusher eyes your marijuana joint.
+
+>ask pusher about love
+He rolls his freaky eyes. "You lookin' to buy or not?" he says.
+
+>ask pusher about copenhagen
+He rolls his freaky eyes. "You lookin' to buy or not?" he says.
+
+>ask pusher about Christiana
+The pusher smiles a little. "I wouldn't trade this place for anything . . . even when a drongo like you asks a question like that."
+
+>ask pusher about drongo
+He rolls his freaky eyes. "You lookin' to buy or not?" he says.
+
+>ask pusher about australia
+He rolls his freaky eyes. "You lookin' to buy or not?" he says.
+
+The pusher eyes your marijuana joint.
+
+>i
+You are carrying:
+  a marijuana joint
+  a backpack (open)
+    a steak (uncooked)
+    a piece of cheese
+    a frying pan
+    1 Uncle Sam
+    a loaf of bread
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>ask pusher about tree
+He rolls his freaky eyes. "You lookin' to buy or not?" he says.
+
+The pusher eyes your backpack.
+
+>ask pusher about joint
+He says, "This is quality grass. Might make you see stuff, heh heh."
+
+>l
+Christiana Main Street
+This spacious street at the entrance of Christiana is stuffed with all manner of people.
+
+You can see a flood of tourists, a gathering of hippies, an infestation of musicians, a pusher and a pushcart here.
+
+The pusher eyes your marijuana joint.
+
+>l pushcart
+A vital tool of the drug trade.
+
+>ask pusher about drugs
+He rolls his freaky eyes. "You lookin' to buy or not?" he says.
+
+>ask pusher about sales
+He rolls his freaky eyes. "You lookin' to buy or not?" he says.
+
+>ask pusher about food
+He rolls his freaky eyes. "You lookin' to buy or not?" he says.
+
+>i
+You are carrying:
+  a marijuana joint
+  a backpack (open)
+    a steak (uncooked)
+    a piece of cheese
+    a frying pan
+    1 Uncle Sam
+    a loaf of bread
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>pay pusher 1 Uncle Sam
+Try making a purchase with the "buy" command instead, e.g. "buy potato".
+
+>buy joint
+That doesn't cost any money.
+You already have that.
+
+
+>l pusher
+His eyes are freaky, but your friends say he's honest.
+
+
+>SE
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>S
+
+IIT Campus
+You can see a stone bench (on which is Ana), a sawyer and a carpenter here.
+
+>l
+IIT Campus
+The campus is pretty sleepy in the summer. A construction crew is working around the bell tower, but no students are to be seen.
+
+You can see a stone bench (on which is Ana), a sawyer and a carpenter here.
+
+>ask ana about pusher
+Ana chuckles. "My lovable piglet", she says, "your guess is as good as mine."
+
+>ask ana about hunger
+Ana chuckles. "My darling exotic treat", she says, "your guess is as good as mine."
+
+>ask ana about food
+Ana chuckles. "My scrumptious piglet", she says, "your guess is as good as mine."
+
+>i
+You are carrying:
+  a marijuana joint
+  a backpack (open)
+    a steak (uncooked)
+    a piece of cheese
+    a frying pan
+    1 Uncle Sam
+    a loaf of bread
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>ask ana about marijuana
+Ana chuckles. "My darling Angeles-American", she says, "your guess is as good as mine."
+
+>ask Ana about bedsheets
+Ana chuckles. "My sweet exotic treat", she says, "your guess is as good as mine."
+
+>Give Ana bedsheets
+She giggles, but refuses your offer of bedsheets.
+
+>give Ana 1 Uncle Sam
+She giggles, but refuses your offer of 1 Uncle Sam.
+
+>Give Ana 1 Krone
+You can't see any such thing.
+
+>Give Ana money
+She giggles, but refuses your offer of money totalling 1 krone.
+
+>cook steak
+Your only place to cook is your apartment stove.
+
+>D
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>enter C-train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>pull lever
+With a tug of the lever, you are transported to the suburb of Hellerup.
+
+Train Platform
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. In the northwest corner of the station stands the staircase that leads to the Commissary.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+You step out of the train.
+
+>E
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>cook steak
+Your only place to cook is your apartment stove.
+
+The fisherman taps his foot.
+
+>N
+
+Hellerup Apartment
+You can see a fridge (empty) and the bed here.
+
+>cook steak
+You cook the steak, filling the air with delicious smells.
+
+>i
+You are carrying:
+  a marijuana joint
+  a backpack (open)
+    a steak
+    a piece of cheese
+    a frying pan
+    1 Uncle Sam
+    a loaf of bread
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>S
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>l
+Hellerup Strandvejen
+The main street of Hellerup is bordered on its north side by brightly-painted row houses, such as the one containing your apartment. At the east end is a dock, and if you go west you can catch a train.
+
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>E
+
+Dock
+
+>l
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate.
+
+>open crate
+Nuts! It's barred and locked.
+
+>attack crate with pan
+I only understood you as far as wanting to attack the herring crate.
+
+>attack crate
+Violence isn't the answer to this one.
+
+>i
+You are carrying:
+  a marijuana joint
+  a backpack (open)
+    a steak
+    a piece of cheese
+    a frying pan
+    1 Uncle Sam
+    a loaf of bread
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>W
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+The fisherman winks at you.
+
+>buy herring
+That doesn't cost any money.
+That seems to belong to the fisherman.
+
+
+>W
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>D
+
+Socialist Money Commissary
+You can see a clerk here.
+
+Unfortunately, the commissary is out of money for the day.
+
+>ask clerk about Ana
+The clerk demurres, giving no answer.
+
+Unfortunately, the commissary is out of money for the day.
+
+>Ask clerk about marijuana
+The clerk demurres, giving no answer.
+
+Unfortunately, the commissary is out of money for the day.
+
+>u
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>enter C-train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>pull lever
+With a tug of the lever, you are transported to Copenhagen proper.
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+You step out of the train.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>up
+
+IIT Campus
+You can see a stone bench (on which is Ana), a sawyer and a carpenter here.
+
+>i
+You are carrying:
+  a marijuana joint
+  a backpack (open)
+    a steak
+    a piece of cheese
+    a frying pan
+    1 Uncle Sam
+    a loaf of bread
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>give Ana Steak
+She giggles, but refuses your offer of the steak.
+
+>D
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>SE
+
+The Path
+On the gnarled bush is the bald eagle.
+
+>l
+The Path
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+On the gnarled bush is the bald eagle.
+
+>i
+You are carrying:
+  a marijuana joint
+  a backpack (open)
+    a steak
+    a piece of cheese
+    a frying pan
+    1 Uncle Sam
+    a loaf of bread
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>feed eagle steak
+(first taking the steak)
+The bald eagle is is free from all desire.
+
+>l steak
+A gift from your landlady: she's rented to Americans before.
+
+>l eagle
+Its plumage feathers are a rich brown, edged with a color that can only be called the Gold Standard. Its head is the same shade as the White House itself.
+
+>l
+The Path
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+On the gnarled bush is the bald eagle.
+
+>seduce eagle
+I didn't understand that sentence.
+
+>kiss eagle
+Your seductive skills are no use here.
+
+>touch eagle
+Mind your manners, troublesome American!
+
+>feed cheese
+What do you want to feed the piece of cheese to?
+
+>feed cheese to eagle
+(first taking the piece of cheese)
+(putting the marijuana joint into the backpack to make room)
+The bald eagle is is free from all desire.
+
+>feed bread to eagle
+(first taking the loaf of bread)
+(putting the steak into the backpack to make room)
+The bald eagle is is free from all desire.
+
+>i
+You are carrying:
+  a loaf of bread
+  a piece of cheese
+  a backpack (open)
+    a steak
+    a marijuana joint
+    a frying pan
+    1 Uncle Sam
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>feed steak to eagle
+(first taking the steak)
+(putting the piece of cheese into the backpack to make room)
+The bald eagle is is free from all desire.
+
+>i
+You are carrying:
+  a steak
+  a loaf of bread
+  a backpack (open)
+    a piece of cheese
+    a marijuana joint
+    a frying pan
+    1 Uncle Sam
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>give 1 Uncle Sam to Eagle
+(first taking 1 Uncle Sam)
+(putting the loaf of bread into the backpack to make room)
+The bald eagle is is free from all desire.
+
+>show 1 Uncle Sam to Eagle
+The bald eagle is unimpressed.
+
+>i
+You are carrying:
+  1 Uncle Sam
+  a steak
+  a backpack (open)
+    a loaf of bread
+    a piece of cheese
+    a marijuana joint
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>attack eagle
+Violence isn't the answer to this one.
+
+>ask eagle about America
+The bald eagle nobly looks you in the eye, but does not speak.
+
+>ask eagle about Ana
+The bald eagle nobly looks you in the eye, but does not speak.
+
+>ask eagle about island
+The bald eagle nobly looks you in the eye, but does not speak.
+
+>l
+The Path
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+On the gnarled bush is the bald eagle.
+
+>ride eagle
+[Sound effect number 4 here.]
+The eagle shrieks, and dives off the promontory with you on its back. As you cling for dear life, it swoops down to skim the water, then soars out above the bay.
+
+The view out here is breathtaking. Twisting your head around, you can look back and see all of Copenhagen laid out like breakfast.
+
+
+Island of Technique
+This little island is no tropical paradise: it's foggy, muddy, and riddled with trees.
+
+You can see the bald eagle and a monk here.
+
+>credits
+Written, designed, and programmed by:
+Maxwell Joslyn
+
+Sound effects by:
+Larry Drui
+
+Beta-testing and valuable feedback by:
+Eric Cleveland, Sophia Virk, Patrick Lynch, Wolfi Henderson, Brian Caddell, Adam Gutierrez-Luft, Zach Sauers, And The Birthright Crew (Samara, Nicole, Emmett, Arthur, Shaked, And All The Rest)
+>l eagle
+Its plumage feathers are a rich brown, edged with a color that can only be called the Gold Standard. Its head is the same shade as the White House itself.
+
+>l monk
+He stands solemnly, with his arms nearly enveloped by the sleeves of his robe. In one hand he carries a small wooden box.
+
+>l box
+Plainer than a raw herring.
+
+>ask monk about box
+"The contents of this wooden box are your pathway toward the ultimate technique."
+
+>ask monk about technique
+"The last possible technique? Yes, I know of it. The contents of this wooden box are your pathway toward the technique."
+
+>i
+You are carrying:
+  1 Uncle Sam
+  a steak
+  a backpack (open)
+    a loaf of bread
+    a piece of cheese
+    a marijuana joint
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>give 1 Uncle Sam to Monk
+The monk does not desire 1 Uncle Sam.
+
+>give money to monk
+Try making a purchase with the "buy" command instead, e.g. "buy potato".
+
+>buy box
+That doesn't cost any money.
+The monk holds the wooden box out of your reach. Do you ask him for it?
+ask monk for box
+Please answer yes or no.> Y
+
+The monk hands you the wooden box.
+
+As you take it in your hands, you feel a great weightiness upon your soul.
+
+
+The ineffable mystery pulses slowly.
+
+[Your score has just gone up by one point.]
+
+>open box
+You open the wooden box, revealing the ineffable mystery.
+
+The ineffable mystery pulses slowly.
+
+>ask monk about ineffable mystery
+When taken to the right place, the ineffable mystery will help you understand the ultimate technique".
+
+The ineffable mystery pulses slowly.
+
+>l
+Island of Technique
+This little island is no tropical paradise: it's foggy, muddy, and riddled with trees.
+
+You can see the bald eagle and a monk here.
+
+The ineffable mystery pulses slowly.
+
+>dirs
+From here you can ride the eagle to return to the mainland.
+
+The ineffable mystery pulses slowly.
+
+>ride
+What do you want to ride?
+
+>ride eagle
+[Sound effect number 4 here.]
+The eagle jetplanes into the heavens with you on its back. After another harrowing ride over the bay, it deposits you neatly on the promontory.
+
+The Path
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+On the gnarled bush is the bald eagle.
+
+The ineffable mystery pulses slowly.
+
+>l tree
+You can't see any such thing.
+
+>Nw
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+The ineffable mystery pulses rapidly.
+
+>l tree
+A huge plastic palm tree, fifteen feet tall and twenty feet around. It "grows" from an inch-thick disc of marble which is set into the floor of the station, disrupting the pattern of tiles around it.
+
+The ineffable mystery pulses rapidly.
+
+>smoke joint
+(first taking the marijuana joint)
+(putting the steak into the backpack to make room)
+You're carrying too many things already.
+
+The ineffable mystery pulses rapidly.
+
+>i
+You are carrying:
+  the wooden box (open)
+    the ineffable mystery
+  1 Uncle Sam
+  a backpack (open)
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a marijuana joint
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+The ineffable mystery pulses rapidly.
+
+>put Uncle Sam into bag
+You can't see any such thing.
+
+>put Uncle Sam into back
+You can't see any such thing.
+
+>put 1 Uncle Sam in pack
+You put 1 Uncle Sam into the backpack.
+
+The ineffable mystery pulses rapidly.
+
+>smoke joint
+(first taking the marijuana joint)
+You hit it and don't quit it. Your War-on-Drugs work ethic erases that joint from existence.
+
+Now you're baked.
+
+Man. You're completely baked.
+
+The ineffable mystery pulses rapidly.
+
+>enter tree
+You walk up to the fake tree, and boldly stride in.
+
+You're super baked.
+
+The ineffable mystery pulses like crazy.
+
+>l
+Belly of the Tree
+It's gloomy in here.
+
+You can see a dwarf banana tree here.
+
+Wow. You're really, really baked.
+
+The ineffable mystery pulses like crazy.
+
+>take banana
+Taken.
+
+You're totally baked.
+
+The ineffable mystery pulses like crazy.
+
+>l
+Belly of the Tree
+It's gloomy in here.
+
+Man. You're completely baked.
+
+The ineffable mystery pulses like crazy.
+
+>climb tree
+(the dwarf banana tree)
+Little is to be achieved by that.
+
+Wow. You're really, really baked.
+
+The ineffable mystery pulses like crazy.
+
+>fly
+I didn't understand that sentence.
+
+>become tree
+I didn't understand that sentence.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  the wooden box (open)
+    the ineffable mystery
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+Man. You're totally baked.
+
+The ineffable mystery pulses like crazy.
+
+>l ineffable mystery
+You gaze at the ineffable mystery.
+
+Suddenly
+
+in an instant
+
+you understand!
+
+The ultimate technique, the final technique, the last possible technique, is yours! Now all you have to do is use it."
+
+>use ineffable mystery
+I didn't understand that sentence.
+
+>take ineffable mystery
+You can't see any such thing.
+
+>use mystery
+I didn't understand that sentence.
+
+>use technique
+I didn't understand that sentence.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  the wooden box (open but empty)
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>close box
+You close the wooden box.
+
+>l
+Belly of the Tree
+It's gloomy in here.
+
+>eat Uncle Sam
+Ignorant American, have you truly mistaken 1 Uncle Sam for food?
+
+>fuck tree
+I didn't understand that sentence.
+
+>ascend
+I didn't understand that sentence.
+
+>fly
+I didn't understand that sentence.
+
+>l
+Belly of the Tree
+It's gloomy in here.
+
+>use technique
+I didn't understand that sentence.
+
+>exit tree
+I only understood you as far as wanting to exit.
+
+>out
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+>l tree
+(the dwarf banana tree)
+As friendly as a plant can get, and eminently pocketable. Its name is Benjamin.
+
+>l fake tree
+A huge plastic palm tree, fifteen feet tall and twenty feet around. It "grows" from an inch-thick disc of marble which is set into the floor of the station, disrupting the pattern of tiles around it.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>NW
+
+Christiana Main Street
+You can see a flood of tourists, a gathering of hippies, an infestation of musicians, a pusher and a pushcart here.
+
+The pusher eyes your dwarf banana tree.
+
+>SE
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+>S
+
+IIT Campus
+You can see a stone bench (on which is Ana), a sawyer and a carpenter here.
+
+Your high has worn off.
+
+>use technique on Ana
+I didn't understand that sentence.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  the wooden box (closed)
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>take Ana
+"Yes, take me . . . but not here. Later." She gives you a wink.
+
+>D
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+>l
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>w
+
+Aarenhus Cemetery
+
+>l
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade.
+
+>E
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>SE
+
+The Path
+On the gnarled bush is the bald eagle.
+
+>ride eagle
+[Sound effect number 4 here.]
+The eagle screams in the language of liberty, and carries you to the island.
+
+
+Island of Technique
+This little island is no tropical paradise: it's foggy, muddy, and riddled with trees.
+
+You can see the bald eagle and a monk here.
+
+>ask monk about technique
+"The last possible technique? Yes, I know of it. The contents of that wooden box are your pathway toward the technique."
+
+>l
+Island of Technique
+This little island is no tropical paradise: it's foggy, muddy, and riddled with trees.
+
+You can see the bald eagle and a monk here.
+
+>ride eagle
+[Sound effect number 4 here.]
+The eagle shrieks freedomishly, and carries you to the promontory.
+
+The Path
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+On the gnarled bush is the bald eagle.
+
+>NW
+
+Copenhagen Metro Station
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+>l
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see the fake tree and a C-Train (in which are a wrap-around sofa and a lever) here.
+
+>ride C-train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>pull lever
+With a tug of the lever, you are transported to the suburb of Hellerup.
+
+Train Platform
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. In the northwest corner of the station stands the staircase that leads to the Commissary.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+You step out of the train.
+
+>D
+
+Socialist Money Commissary
+You can see a clerk here.
+
+Unfortunately, the commissary is out of money for the day.
+
+>use technique
+I didn't understand that sentence.
+
+>ask clerk about technique
+The clerk demurres, giving no answer.
+
+Unfortunately, the commissary is out of money for the day.
+
+>U
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>
+I beg your pardon?
+
+>E
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+The fisherman taps his foot.
+
+>N
+
+Hellerup Apartment
+You can see a fridge (empty) and the bed here.
+
+>l
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+You can see a fridge (empty) and the bed here.
+
+>S
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>W
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>ride C-Train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>pull lever
+With a tug of the lever, you are transported to Copenhagen proper.
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+You step out of the train.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>inside
+You examine the fake tree, but there's no way to get in.
+
+Perhaps if you boosted your imagination you'd think of something.
+
+>NW
+
+Christiana Main Street
+You can see a flood of tourists, a gathering of hippies, an infestation of musicians, a pusher and a pushcart (on which is a marijuana joint) here.
+
+>ask pusher about technique
+He rolls his freaky eyes. "You lookin' to buy or not?" he says.
+
+>S
+You can't go that way.
+
+>SE
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>S
+
+IIT Campus
+You can see a stone bench (on which is Ana), a sawyer and a carpenter here.
+
+>use technique on Ana
+I didn't understand that sentence.
+
+>Ask Ana about technique
+Ana chuckles. "My darling Angeles-American", she says, "your guess is as good as mine."
+
+>i
+You are carrying:
+  a dwarf banana tree
+  the wooden box (closed)
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>give Ana bedsheets
+She giggles, but refuses your offer of bedsheets.
+
+>open box
+You open the wooden box.
+
+>l box
+Plainer than a raw herring.
+
+>give ana box
+She giggles, but refuses your offer of the wooden box.
+
+>give ana sx
+You can't see any such thing.
+
+>give ana sex
+You can't see any such thing.
+
+>Love Ana
+I didn't understand that sentence.
+
+>Ask Ana about Sex
+She laughs. "We probably shouldn't . . . but we probably will."
+
+>Ask Ana about Love
+"We'll see what happens, no?" She blows you a kiss.
+
+>Give Ana Technique
+You can't see any such thing.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  the wooden box (open but empty)
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>give ana bread
+She giggles, but refuses your offer of the loaf of bread.
+
+>carry Ana
+"Yes, take me . . . but not here. Later." She gives you a wink.
+
+>Sit next to Ana
+I didn't understand that sentence.
+
+>sit on bench
+You get onto the stone bench.
+
+On the stone bench you can see Ana.
+
+>l Ana
+A Czech girl in a white dress. Starting next week, she's your TA for Introductory Programming. Starting last night, she's your lover.
+
+>take white dress
+That seems to belong to Ana.
+
+>ask ana to move in
+I didn't understand that sentence.
+
+>ask ana about babies
+Ana chuckles. "My scrumptious exotic treat", she says, "your guess is as good as mine."
+
+>i
+You are carrying:
+  a dwarf banana tree
+  the wooden box (open but empty)
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>stand
+You get off the stone bench.
+
+IIT Campus
+You can see a stone bench (on which is Ana), a sawyer and a carpenter here.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  the wooden box (open but empty)
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>give carpenter box
+The carpenter does not desire the wooden box.
+
+>ask carpenter about Copenhagen
+You don't want to get in the way of their work.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  the wooden box (open but empty)
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>l
+IIT Campus
+The campus is pretty sleepy in the summer. A construction crew is working around the bell tower, but no students are to be seen.
+
+You can see a stone bench (on which is Ana), a sawyer and a carpenter here.
+
+>N
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>use technique on tree
+I didn't understand that sentence.
+
+>Use The Technique
+I didn't understand that sentence.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  the wooden box (open but empty)
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>destroy box
+Violence isn't the answer to this one.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>se
+
+The Path
+On the gnarled bush is the bald eagle.
+
+>ride eagle
+[Sound effect number 4 here.]
+The eagle screams in the language of liberty, and carries you to the island.
+
+
+Island of Technique
+This little island is no tropical paradise: it's foggy, muddy, and riddled with trees.
+
+You can see the bald eagle and a monk here.
+
+>ask monk about box
+"The contents of that wooden box are your pathway toward the ultimate technique."
+
+>ask monk about Ana
+"I cannot help you with that," says the monk.
+
+>ask monk about The Technique
+"The last possible technique? Yes, I know of it. The contents of that wooden box are your pathway toward the technique."
+
+>ask monk about pathway
+"I cannot help you with that," says the monk.
+
+>ask monk about fake tree
+"I cannot help you with that," says the monk.
+
+>ask monk about love
+"I cannot help you with that," says the monk.
+
+>ask monk about cooking
+"I cannot help you with that," says the monk.
+
+>ask monk about ultimate technique
+"The last possible technique? Yes, I know of it. The contents of that wooden box are your pathway toward the technique."
+
+>ask monk about using technique
+"I cannot help you with that," says the monk.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  the wooden box (open but empty)
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>give monk bread
+The monk does not desire the loaf of bread.
+
+>give monk bedsheets
+The monk does not desire bedsheets.
+
+>give monk banana
+The monk does not desire the dwarf banana tree.
+
+>ask monk about Copenhagen
+"This is a fine place," says the monk. "The beer is cheap, and the fish are savory."
+
+>Ask Monk About Christiana
+"I cannot help you with that," says the monk.
+
+>Ask monk about seduction
+"I cannot help you with that," says the monk.
+
+>Ask Monk about Ryan
+"I cannot help you with that," says the monk.
+
+>Ask Monk about marijuana
+"Such a substance as this will certainly help you comprehend the ultimate technique."
+
+>give monk joint
+You can't see any such thing.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  the wooden box (open but empty)
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>ask monk about food
+"I cannot help you with that," says the monk.
+
+>ask monk about herring
+"I cannot help you with that," says the monk.
+
+>ask monk about beer
+"I cannot help you with that," says the monk.
+
+>ask monk about fish
+"I cannot help you with that," says the monk.
+
+>ask monk about how to use technique
+"I cannot help you with that," says the monk.
+
+>l monk
+He stands solemnly, with his arms nearly enveloped by the sleeves of his robe.
+
+>ask monk about robe
+"I cannot help you with that," says the monk.
+
+>touch eagle
+Mind your manners, idiotic American!
+
+>touch monk
+Mind your manners, stupid American!
+
+>i
+You are carrying:
+  a dwarf banana tree
+  the wooden box (open but empty)
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>
+I beg your pardon?
+
+>Ask Monk about pusher
+"I cannot help you with that," says the monk.
+
+>ask monk about sawyer
+"I cannot help you with that," says the monk.
+
+>ask monk about tree
+"I cannot help you with that," says the monk.
+
+>ask monk about island
+"This island is my home. A friendly fisker brings me fresh herring to eat, and I sleep in the fork of a tree. Who could ask for more?"
+
+>enter tree
+That's not something you can enter.
+
+>l tree
+As friendly as a plant can get, and eminently pocketable. Its name is Benjamin.
+
+>l fork
+You can't see any such thing.
+
+>l herring
+You can't see any such thing.
+
+>ride eagle
+[Sound effect number 4 here.]
+The eagle shrieks freedomishly, and carries you to the promontory.
+
+The Path
+This odd little path runs out of the metro station and terminates at a promontory overlooking the bay. The ground is grassy, but the only larger vegetation is a gnarled bush.
+
+Out in the bay is a small island.
+
+On the gnarled bush is the bald eagle.
+
+>NW
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>enter C-train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>pull lever
+With a tug of the lever, you are transported to the suburb of Hellerup.
+
+Train Platform
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. In the northwest corner of the station stands the staircase that leads to the Commissary.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+You step out of the train.
+
+>E
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>ask fisherman about monk
+The fisherman looks uncomfortable. "I, uh, I've never heard of such a thing . . . wouldn't you like to buy some fish?"
+
+>ask fisherman about technique
+The fisker shifts from foot to foot. "Reckon I don't know much about that."
+
+>ask fisherman about box
+The fisker shifts from foot to foot. "Reckon I don't know much about that."
+
+>give box to fisherman
+Try making a purchase with the "buy" command instead, e.g. "buy potato".
+
+>Ask fisherman about island
+The fisherman looks uncomfortable. "I, uh, I've never heard of such a thing . . . wouldn't you like to buy some fish?"
+
+The fisherman grins cheerfully.
+
+>E
+
+Dock
+
+>open box
+That's already open.
+
+>open crate
+Nuts! It's barred and locked.
+
+>open crate with technique
+You can't see any such thing.
+
+>Open Crate with Ultimate Technique
+You can't see any such thing.
+
+>l crate
+It's got to be loaded with herring.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  the wooden box (open but empty)
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>lift box
+I didn't understand that sentence.
+
+>eat crate
+Foolish American, have you truly mistaken the herring crate for food?
+
+>carry box
+The monk holds the wooden box out of your reach. Do you ask him for it?
+
+Please answer yes or no.> Y
+
+You can't reach into the Island of Technique.
+
+>
+I beg your pardon?
+
+>
+I beg your pardon?
+
+>l
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate.
+
+>carry crate
+That's fixed in place.
+
+>punch crate
+Violence isn't the answer to this one.
+
+>open crate
+Nuts! It's barred and locked.
+
+>fuck crate
+I didn't understand that sentence.
+
+>l crate
+It's got to be loaded with herring.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  the wooden box (open but empty)
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>place box on crate
+I didn't understand that sentence.
+
+>put box on crate
+You put the wooden box on the herring crate.
+
+>open crate
+Nuts! It's barred and locked.
+
+>take box
+The monk holds the wooden box out of your reach. Do you ask him for it?
+Y
+You can't reach into the Island of Technique.
+
+>grab box
+The monk holds the wooden box out of your reach. Do you ask him for it?
+N
+>i
+You are carrying:
+  a dwarf banana tree
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>take box
+The monk holds the wooden box out of your reach. Do you ask him for it?
+no
+>take box
+The monk holds the wooden box out of your reach. Do you ask him for it?
+no
+>n
+You can't go that way.
+
+>n
+You can't go that way.
+
+>n
+You can't go that way.
+
+>take box
+The monk holds the wooden box out of your reach. Do you ask him for it?
+y
+You can't reach into the Island of Technique.
+
+>l crate
+It's got to be loaded with herring.
+
+On the herring crate is the wooden box (empty).
+
+>l
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate.
+
+>untie rope
+I didn't understand that sentence.
+
+>hel
+I didn't understand that sentence.
+
+>help
+This is a classic text-adventure game. You play by typing in what you want to do. If this is your first text adventure, I wish you luck, and leave you with these tips:
+
+1) Take the time to "look" at everything, e.g. "look (at) cheese" or "examine rug". You'll experience more jokes and puzzles if you scrutinize the game world.
+2) "Take" intriguing or suspicious objects with you for later. Your backpack will hold as many things as you like.
+3) Refer to this table for some useful commands:
+look      - l   - On its own, describes your immediate surroundings ("l"). For detailed descriptions, specify a direct object ("look backpack").
+take      - N/A - Picks something up.
+inventory - i   - Shows what you're carrying.
+dirs      - N/A - Lists the directions you can go from here.
+wait      - z   - Waits for one turn.
+undo      - N/A - Undoes a mistaken action. I won't punish you for making a typo!
+credits   - N/A - Shows a list of people involved with making the game!
+
+>take crate
+That's fixed in place.
+
+>use crate
+I didn't understand that sentence.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>take herring
+That's fixed in place.
+
+>take beer
+You can't see any such thing.
+
+>l rowboat
+This rowboat is sad but serviceable.
+
+In the rowboat is the herring crate.
+
+>l rope
+Soaked and salty, but somehow still strong.
+
+>l
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate.
+
+>enter rowboat
+The rowboat is much too slippery for a landlubber like you to get in.
+
+>swim
+I didn't understand that sentence.
+
+>take rope
+That's hardly portable.
+
+>use technique on boat
+I didn't understand that sentence.
+
+>use The Technique on Boat
+I didn't understand that sentence.
+
+>W
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>W
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>E
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>W
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>E
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>N
+
+Hellerup Apartment
+You can see a fridge (empty) and the bed here.
+
+>S
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>E
+
+Dock
+
+>Use The Last Possible Technique on crate
+I didn't understand that sentence.
+
+>Technique on crate
+I didn't understand that sentence.
+
+>Technique
+I didn't understand that sentence.
+
+>The Ultimate Technique
+From outside of time and space, infinite power is awakened.
+
+With no warning, the ultimate technique destroys not only your body, but also your spirit. Your last thought is, "If only I had collected all of the points!"
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+> UNDO
+Dock
+[Previous turn undone.]
+
+>l
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate.
+
+>Use The Ultimate Technique
+From outside of time and space, infinite power is awakened.
+
+With no warning, the ultimate technique destroys not only your body, but also your spirit. Your last thought is, "If only I had collected all of the points!"
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+> UNDO
+Dock
+[Previous turn undone.]
+
+>l
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate.
+
+>     
+I beg your pardon?
+
+>l
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>W
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>ask Fisherman about crate
+"All my herring is fresh from the bay," he says, waving his hand toward the Gentofte.
+
+>enter C-Train
+You can't see any such thing.
+
+>N
+
+Hellerup Apartment
+You can see a fridge (empty) and the bed here.
+
+>l
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+You can see a fridge (empty) and the bed here.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  a backpack (open)
+    1 Uncle Sam
+    a steak
+    a loaf of bread
+    a piece of cheese
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>cook steak
+You cook the steak, filling the air with tasty smells.
+
+>eat steak
+Are you sure? You might need that later. [y/n] Y
+
+(first taking the steak)
+You eat the steak. Not bad.
+
+>Eat Bread
+(first taking the loaf of bread)
+You eat the loaf of bread. Not bad.
+
+>Each Cheese
+I didn't understand that sentence.
+
+>Eat cheese
+(first taking the piece of cheese)
+God, that was foul.
+
+>Eat pan
+Ignorant American, have you truly mistaken the frying pan for food?
+
+>i
+You are carrying:
+  a dwarf banana tree
+  a backpack (open)
+    1 Uncle Sam
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>Eat banana
+Foolish American, have you truly mistaken the dwarf banana tree for food?
+
+>l
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+You can see a fridge (empty) and the bed here.
+
+>light stove
+This dangerous act would achieve little.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  a backpack (open)
+    1 Uncle Sam
+    a frying pan
+    a wallet
+      money totalling 1 krone
+    bedsheets
+
+>l shelves
+Each of the shelves is thin enough to shave with.
+
+>shave
+I didn't understand that sentence.
+
+>l window
+Out the window you can see the Bay of Gentofte. Some way out in the water is a small island. From here it looks quite pleasant, but you know that it's actually kind of a shithole.
+
+>l stove
+A two-burner electric stove.
+
+>l NW
+You see nothing unexpected in that direction.
+
+>make bed
+I didn't understand that sentence.
+
+>put bedsheets on bed
+(first taking bedsheets)
+You put bedsheets on the bed.
+
+>tidy
+I didn't understand that sentence.
+
+>S
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>W
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>ride C-Train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>pull lever
+With a tug of the lever, you are transported to Copenhagen proper.
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+You step out of the train.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>W
+
+Aarenhus Cemetery
+This seems like a excellent place to relax.
+
+>l
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade.
+
+>wait
+Time passes.
+
+This seems like a excellent place to relax.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+This seems like a terrific place to relax.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+>help
+This is a classic text-adventure game. You play by typing in what you want to do. If this is your first text adventure, I wish you luck, and leave you with these tips:
+
+1) Take the time to "look" at everything, e.g. "look (at) cheese" or "examine rug". You'll experience more jokes and puzzles if you scrutinize the game world.
+2) "Take" intriguing or suspicious objects with you for later. Your backpack will hold as many things as you like.
+3) Refer to this table for some useful commands:
+look      - l   - On its own, describes your immediate surroundings ("l"). For detailed descriptions, specify a direct object ("look backpack").
+take      - N/A - Picks something up.
+inventory - i   - Shows what you're carrying.
+dirs      - N/A - Lists the directions you can go from here.
+wait      - z   - Waits for one turn.
+undo      - N/A - Undoes a mistaken action. I won't punish you for making a typo!
+credits   - N/A - Shows a list of people involved with making the game!
+
+>l
+Aarenhus Cemetery
+Dark paths run here and there among the marble tombs. Some trees provide relaxing shade.
+
+>l tomb
+Your attention rests on a tomb of blue-gray marble with pinkish streaks.
+
+>l tree
+(the dwarf banana tree)
+As friendly as a plant can get, and eminently pocketable. Its name is Benjamin.
+
+This seems like a perfect place to relax.
+
+>relax
+You take a deep breath of Danish air, and let it out slowly.
+
+[Your score has just gone up by one point.]
+
+>E
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>W
+
+Aarenhus Cemetery
+
+>relax
+You breathe in and out. Now you're calmer than ever.
+
+>relax
+You breathe in and out. Now you're calmer than ever.
+
+>relax
+You breathe in and out. Now you're calmer than ever.
+
+>wait
+Time passes.
+
+>relax
+You breathe in and out. Now you're calmer than ever.
+
+>E
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>S
+
+IIT Campus
+You can see a stone bench (on which is Ana), a sawyer and a carpenter here.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  a backpack (open)
+    1 Uncle Sam
+    a frying pan
+    a wallet
+      money totalling 1 krone
+
+>l sawyer
+Short and squat.
+
+>l carpenter
+Tall and thin.
+
+>l
+IIT Campus
+The campus is pretty sleepy in the summer. A construction crew is working around the bell tower, but no students are to be seen.
+
+You can see a stone bench (on which is Ana), a sawyer and a carpenter here.
+
+>l tower
+You can't see any such thing.
+
+>l bell tower
+You can't see any such thing.
+
+>ring bell
+I didn't understand that sentence.
+
+>enter bell tower
+You can't see any such thing.
+
+>sit bench
+I didn't understand that sentence.
+
+>sit stone bench
+I didn't understand that sentence.
+
+>sit on bench
+You get onto the stone bench.
+
+On the stone bench you can see Ana.
+
+>relax
+You can kill time with "wait", but if you want to truly relax, you're in the wrong place.
+
+>wait
+Time passes.
+
+>l
+IIT Campus (on the stone bench)
+The campus is pretty sleepy in the summer. A construction crew is working around the bell tower, but no students are to be seen.
+
+You can see a sawyer and a carpenter here.
+
+On the stone bench you can see Ana.
+
+>compliment sawyer
+I didn't understand that sentence.
+
+>l bench
+Effortlessly square.
+
+On the base, nearly invisible, is an unlabelled beige button. The button is rounder than round: it's Dane-Rounde.
+
+On the stone bench is Ana.
+
+>push button
+From somewhere nearby, a voice yells, "F!"
+>F
+I didn't understand that sentence.
+
+>F!
+I didn't understand that sentence.
+
+>stand up
+You get off the stone bench.
+
+IIT Campus
+You can see a stone bench (on which is Ana), a sawyer and a carpenter here.
+
+>l sawyer
+Short and squat.
+
+>l carpenter
+Tall and thin.
+
+>D
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>l
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>l tree
+(the dwarf banana tree)
+As friendly as a plant can get, and eminently pocketable. Its name is Benjamin.
+
+>l fake tree
+A huge plastic palm tree, fifteen feet tall and twenty feet around. It "grows" from an inch-thick disc of marble which is set into the floor of the station, disrupting the pattern of tiles around it.
+
+>dirs
+From here you can:
+- go northwest to Christiana Main Street
+- go south to the IIT Campus
+- go southeast to The Path
+- go west to Aarenhus Cemetery
+- go up to the IIT Campus
+- go inside to the Belly of the Tree
+- ride the C-Train to go to the Hellerup Train Platform.
+
+
+>S
+
+IIT Campus
+You can see a stone bench (on which is Ana), a sawyer and a carpenter here.
+
+>push button
+From somewhere nearby, a voice yells, "E!"
+>push button
+From somewhere nearby, a voice yells, "E!"
+>push button
+From somewhere nearby, a voice yells, "D!"
+>push button
+From somewhere nearby, a voice yells, "B!"
+>push button
+From somewhere nearby, a voice yells, "I!"
+>push button
+From somewhere nearby, a voice yells, "R!"
+>push button
+From somewhere nearby, a voice yells, "D!"
+[Your score has just gone up by one point.]
+
+>D
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>WE
+I didn't understand that sentence.
+
+>SE
+
+The Path
+On the gnarled bush is the bald eagle.
+
+>NW
+
+Copenhagen Metro Station
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>push lever
+You'll have to get in the train to do that.
+
+>coolk
+I didn't understand that sentence.
+
+>cook
+What do you want to cook?
+
+>steak
+You can't see any such thing.
+
+>l
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>ls
+I didn't understand that sentence.
+
+>l
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  a backpack (open)
+    1 Uncle Sam
+    a frying pan
+    a wallet
+      money totalling 1 krone
+
+>ride train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>pul
+I didn't understand that sentence.
+
+>pull
+(the lever)
+With a tug of the lever, you are transported to the suburb of Hellerup.
+
+Train Platform
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. In the northwest corner of the station stands the staircase that leads to the Commissary.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+You step out of the train.
+
+>e
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+The fisherman taps his foot.
+
+>n
+
+Hellerup Apartment
+You can see a fridge (empty) and the bed (on which is bedsheets) here.
+
+>cook sheetes
+You can't see any such thing.
+
+>cook sheets
+Idiotic American, have you truly mistaken bedsheets for food?
+
+>x sheets
+Extremely rumpled from excessive romping.
+
+>l
+Hellerup Apartment
+Your apartment is a cheery little cube. On the east wall is a round window. A woven rug adorns the floor in the middle of the room. Along the west wall are a fridge and some shelves. A bed lies in the northwest corner, and a stove lies in the northeast.
+
+You can see a fridge (empty) and the bed (on which is bedsheets) here.
+
+>i
+You are carrying:
+  a dwarf banana tree
+  a backpack (open)
+    1 Uncle Sam
+    a frying pan
+    a wallet
+      money totalling 1 krone
+
+>cook tre
+You can't see any such thing.
+
+>cook tree
+Troublesome American, have you truly mistaken the dwarf banana tree for food?
+
+>n
+You can't go that way.
+
+>s
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>w
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>l
+Train Platform
+The open-air train platform has a line that runs to Copenhagen. There are no tickets: it is free to ride. In the northwest corner of the station stands the staircase that leads to the Commissary.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>w
+You can't go that way.
+
+>e
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>n
+
+Hellerup Apartment
+You can see a fridge (empty) and the bed (on which is bedsheets) here.
+
+>s
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>e
+
+Dock
+
+>l
+Dock
+This is a shabby little dock used for the fishing trade. At the end of the dock, a little rowboat, moored with a rope, bobs up and down. In the rowboat is a large crate.
+
+>take bx
+You can't see any such thing.
+
+>take box
+The monk holds the wooden box out of your reach. Do you ask him for it?
+y
+You can't reach into the Island of Technique.
+
+>w
+
+Hellerup Strandvejen
+You can see an apartment door, a fisherman and a wheelbarrow (empty) here.
+
+>w
+
+Train Platform
+You can see a C-Train (in which are a wrap-around sofa and a lever), a wall sign and an arrow-shaped sign here.
+
+>ride
+What do you want to ride?
+
+>train
+You get into the C-Train.
+
+In the C-Train you can see a wrap-around sofa and a lever.
+
+>pull
+(the lever)
+With a tug of the lever, you are transported to Copenhagen proper.
+
+Copenhagen Metro Station
+This is the main metro station in Copenhagen. Its creator won the Best Dane of the Year Award.
+
+A flight of stairs which lead upward and southward to IIT Campus, where you begin your classes next week. Christiana lies northwest of here: don't go there at night! If you're feeling contemplative, the Danes have built an efficient route running west to the Aarenhus Cemetery.
+
+A small door stands in the southeast corner of the station near a fake tree.
+
+You can see a C-Train (in which are a wrap-around sofa and a lever) and the fake tree here.
+
+You step out of the train.
+
+>se
+
+The Path
+On the gnarled bush is the bald eagle.
+
+>ride
+What do you want to ride?
+
+>eagle
+[Sound effect number 4 here.]
+The eagle screams in the language of liberty, and carries you to the island.
+
+
+Island of Technique
+This little island is no tropical paradise: it's foggy, muddy, and riddled with trees.
+
+You can see the bald eagle and a monk here.
+
+>take box
+You can't see any such thing.
+
+>testing
+I didn't understand that sentence.
+
+>debug
+I didn't understand that sentence.
+
+>test
