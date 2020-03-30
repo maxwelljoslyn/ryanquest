@@ -6,21 +6,19 @@ The maximum score is 10.
 
 The story genre is "Surreal".
 
-The story description is "As game-design student Ryan Wright, you must navigate the curious city of Copenhagen while avoiding its perils and becoming its Casanova."
+The story description is "As game-design student Ryan Wright, you must navigate the curious city of Copenhagen."
 
 The story headline is "A Thoroughly Accurate Simulation".
 
 The story creation year is 2018.
 
-Release along with the introductory postcard and cover art ("A photo of the protagonist.").
+The release number is 3.
 
-The release number is 2.
-
-Release along with an interpreter.
+Release along with cover art ("A photo of the protagonist."), source text, and an interpreter. [Release along with a "Juicy" website.]
 
 Book 1 - Procedure
 
-Figure of Ryan is the file "Medium Cover.png".
+Figure of Ryan is the file "medium-cover.png".
 
 Sound of eagle is the file "Short-Screech.ogg".
 
@@ -637,6 +635,8 @@ The description of the round window is "Out the window you can see the Bay of Ge
 
 The distant island is a backdrop. The distant island is in Hellerup Apartment, Hellerup Strandvejen, The Dock, and The Path.
 
+The description of the distant island is "You gaze toward the island, but you can't see much at all from here."
+
 Instead of examining the distant island:
 	if the location is the Apartment:
 		try examining the round window;
@@ -748,7 +748,7 @@ After taking the panties for the first time:
 The description of the bedsheets is "Extremely rumpled from excessive romping." Understand "sheets" or "bedclothes" as bedsheets.
 
 Before wearing the bedsheets:
-	say "You drape the bedsheets over your head and shout 'Boo!' like a ghost, but soon you tire of this game, and toss the sheets back on the bed." instead.
+	say "You drape the bedsheets over your head and shout 'Boo!' like a ghost, but soon you tire of this game." instead.
 
 
 Part 2 - Outdoors in Hellerup
@@ -913,8 +913,6 @@ After switching on the lever:
 Some downward stairs are scenery in the platform. The description of the downward stairs is "This must be the way to the Commissary."
 
 Chapter 4 - The Socialist Money Commissary
-[fix: not enough money in the game, easy to get stuck. have the bills reset every so often.]
-[fix: change out of money message to instead be "come back soon", so that playes will eturn looking for more money.]
 
 To say arrow text:
 	let the word be "This way for money" in upper case;
@@ -959,7 +957,7 @@ Instead of the player taking a note (called the cashola) in the commissary:
 	[if the player was reduced to 0 kroner, the money got moved to Limbo, so here we will check for that and move it back]
 	if the money is not in the wallet, now the money is in the wallet;
 	increase the price of the money by the price of the cashola;
-	now the cashola is nowhere.
+	now the cashola is in limbo.
 
 Instead of asking the clerk for a note (called the cashola):
 	say "The clerk does as you ask: she [regarding the clerk][pick] up [the cashola], and gives it to you.";
@@ -980,10 +978,9 @@ Every turn when the player is in the commissary (this is the tell the player whe
 
 Every turn when the player is not in the commissary (this is the restock the commissary with money rule):
 	if the number of notes in the commissary is less than 3:
-		if a random chance of 1 in 4 succeeds:
-			let X be a random note in Limbo;
-			if X is a note:
-				now X is in the commissary.
+		let X be a random note in Limbo;
+		if X is a note:
+			now X is in the commissary.
 
 Test restock with "test p1 / n / get in train / pull lever / down / up / z / z / z / z / down".
 
@@ -1329,7 +1326,7 @@ Understand the command "smoke" as something new.
 
 Smoking is an action applying to one carried thing. Understand "smoke [something]" or "hit [something]" or "toke [something]" as smoking.
 
-Yourself can be sober or baked.
+A person can be sober or baked. A person is usually sober.
 
 When play begins:
 	now the player is sober.
@@ -1351,7 +1348,7 @@ Not-Baked begins when play begins. Not-Baked ends when the player is baked.
 
 Way-Baked begins when Not-Baked ends. Way-Baked ends when the time since Way-Baked began is 20 minutes. Way-Baked begins when the player is baked.
 
-When Way-Baked ends:
+When Way-Baked ends (this is the baked to sober rule):
 	say "Your high has worn off.";
 	now the player is sober;
 	now the fake tree is locked;
@@ -1363,7 +1360,7 @@ When Way-Baked ends:
 		say "Suddenly, the strange space within the tree squeezes shut. As the walls contract, you are forced out into the metro station. Before your eyes, the opening in the side of [the fake tree] shrinks and disappears.";
 		now the player is in the metro station.
 
-When Way-Baked begins:
+When Way-Baked begins (this is the sober to baked rule):
 	now the fake tree is unlocked;
 	now the fake tree is open;
 	now the description of the pusher is "Busily rolling another mondo joint.".
