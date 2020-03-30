@@ -7,7 +7,7 @@ The ".blorb" file within this file is the game program itself.
 * Downloading an Interpreter
 You will need to download an interpreter to play this game. The interpreter makes the game program run on your computer.
 
-On Mac or Linux, you can use the Zoom interpreter. On Windows, you can use the Windows Frotz interpreter. These are easily found by searching online.
+On Mac or Linux, try using the Zoom interpreter: (https://www.logicalshift.co.uk/unix/zoom/). On Windows, one option is the Gargoyle interpreter: (https://github.com/garglk/garglk). Other options can be found by searching "interactive fiction interpreter" online.
 * How to Play
 ** New Game
  1. Open the game in your interpreter.
@@ -41,7 +41,8 @@ You pick up the flowerpot.
 And so on. If you need a hand, try typing "help".
 * What to Keep in Mind when Playtesting
 - Basic commands
-  - Navigation: the commands "n", "s", "e", and so on will take you north, south, north-east, etc. You can also go "in" and "out" from some places, and "enter" some objects. Don't forget about "help". If those aren't enough, try "buy", "i" (short for "inventory"), "eat", "cook", and "feed".
+  - Don't forget about "help".
+  - Navigation: the commands "n", "s", "e", and so on will take you north, south, north-east, etc. You can also go "in" and "out" from some places, and "enter" some objects.  If those aren't enough, try "buy", "i" (short for "inventory"), "eat", "cook", and "feed".
 - It's OK if you get stuck or confused
   - If this happens, it means that game needs more work on communicating what the player is supposed to do! Please tell me what happened and why you felt that way, so I can figure out what to change.
 - Go for a high score
