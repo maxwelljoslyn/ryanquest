@@ -1,11 +1,25 @@
+# the really old folder name
+/ryan-quest.materials/Small Cover.png
+
 /transcripts/*.png
 /transcripts/*.zip
-/ryanquest.inform/Index/*
-/ryanquest.inform/Index/*/*.html
+
 /*.epub
+
+/ryanquest.inform/Index/**
+
 /ryanquest.inform/*.txt
 /ryanquest.inform/*.html
 /ryanquest.inform/*.iFiction
 /ryanquest.inform/*.blurb
 /ryanquest.inform/*.plist
 /ryanquest.inform/*.skein
+
+/ryanquest.materials/*.png
+!/ryanquest.materials/Cover.png
+/ryanquest.materials/Sounds/*.ogg
+!/ryanquest.materials/Sounds/Short-Screech.ogg
+/ryanquest.materials/Sounds/*.mp3
+/ryanquest.materials/playtest-builds/**
+/ryanquest.materials/*.pdf
+/ryanquest.materials/raw-materials-unused/*

@@ -1,0 +1,82 @@
+xbody {
+    color: black;
+    font-size: 100%;
+    margin: 0px auto 0px auto;
+    width: 1200px;
+    background: #faf0ee;
+}
+
+header {
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+    padding: 12px 0px 12px 0px;
+}
+
+logo a {
+    color: black;
+    float: left;
+    font-size: 200%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav {
+    text-align: right;
+}
+
+nav a {
+    color: black;
+    font-size: 180%;
+    font-weight: bold;
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 180%;
+}
+
+h2 {
+    font-size: 160%;
+}
+
+h3 {
+    font-size: 140%;
+}
+
+ol {list-style-type: upper-roman;}
+
+#article-title {
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+}
+
+#listing {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+
+#dnd {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#programming {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#literature {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+aside {
+    font-size: 80%;
+}
+
+/* header { */
+/*     display: flex; */
+/*     justify-content: flex-start; */
+/* } */
